@@ -13,6 +13,7 @@ export type Block =
   | { type: 'h2' | 'h3'; text: string }
   | { type: 'ul'; items: string[] }
   | { type: 'specs'; rows: [string, string][] }
+  | { type: 'children' } // grid of this page's sub-pages (src/data/subpages.json)
   | { type: 'prices' } // potentiometer price tables from src/data/potentiometer-prices.json
   | { type: 'figure'; pic: Pic }
   | { type: 'gallery'; items: Pic[]; wide?: boolean };
@@ -47,13 +48,7 @@ export const products: Product[] = [
       { type: 'p', text: 'Borche operates three manufacturing bases, with its headquarters in Guangzhou housing both R&D and manufacturing facilities. The Hangzhou plant and the Guangzhou intelligent manufacturing demonstration plant of two-platen machines contribute to a total premises of 215,000 square metres, driven by a dedicated team of over 800 employees.' },
       { type: 'p', text: 'HTS International is the Australian distributor for Borche. Borche is the manufacturer of the largest two-platen IMM in Asia. Its intelligent two-platen BU series, servo BS series, updated toggle Bi series, hybrid machines, and BM series multi-component IMM encompass over 100 models. The range spans clamping force from 50T to 6800T, with shot weights from 25g to 300kg.' },
       { type: 'h2', text: 'Machine series' },
-      { type: 'gallery', wide: true, items: [
-        { file: 'borch-imm-02', alt: 'Borche BS-III series servo injection moulding machine', caption: 'BS-III Series' },
-        { file: 'borch-imm-borche-bi-series', alt: 'Borche Bi series toggle injection moulding machine', caption: 'Bi Series' },
-        { file: 'borch-imm-03', alt: 'Borche BM series multi-component injection moulding machine', caption: 'BM Series' },
-        { file: 'borch-imm-01', alt: 'Borche BU series two-platen injection moulding machine', caption: 'BU Series' },
-        { file: 'borch-imm-20230412-bi-m', alt: 'Borche Bi-M series injection moulding machine', caption: 'Bi-M Series' },
-      ] },
+      { type: 'children' },
     ],
     note: 'Live page shows a photo per series. Needs supplier photos (BS-III, Bi, BM, BU, Bi-M). BM catalogue is "Coming soon" on the live site.',
   },
@@ -90,6 +85,8 @@ export const products: Product[] = [
         { file: 'wensui-robot', alt: 'Wensui take-out robot', caption: 'Robotic automation' },
         { file: 'wensui-mould-monitor', alt: 'Wensui mould monitor display', caption: 'Mould monitor' },
       ] },
+      { type: 'h2', text: 'Explore the range' },
+      { type: 'children' },
       { type: 'h2', text: 'The HTS and Wensui partnership' },
       { type: 'p', text: 'We don’t just sell machines; we build long-term, win-win partnerships. Combining Wensui’s manufacturing with HTS International’s understanding of the Australian market, we deliver:' },
       { type: 'ul', items: [
@@ -219,6 +216,8 @@ export const products: Product[] = [
         { file: 'halspumps-04', alt: 'HALS rotor pump', caption: 'Rotor Pump' },
         { file: 'halspumps-01', alt: 'HALS coolant pumps', caption: 'Coolant Pump' },
       ] },
+      { type: 'h2', text: 'More detail' },
+      { type: 'children' },
     ],
     note: 'Live page is four product photos with labels only. Needs supplier photos and, ideally, short descriptions from the client.',
   },
@@ -239,24 +238,7 @@ export const products: Product[] = [
       { type: 'p', text: 'Guiding principle: mastery through repetition. Through close collaboration, we build expertise and ensure success through our established partnership.' },
       { type: 'p', text: 'HTS International and CRG remain dedicated to delivering exceptional service and fostering innovation, in a partnership that streamlines your automation work.' },
       { type: 'h2', text: 'Product range' },
-      { type: 'gallery', items: [
-        { file: 'crg-eoat-quick-changers', alt: 'CRG quick changer couplings', caption: 'Quick changers' },
-        { file: 'crg-eoat-manual-tool-changer', alt: 'CRG manual tool quick-changer', caption: 'Manual tool quick-changer' },
-        { file: 'crg-eoat-frame-connectors-with-ss-profile', alt: 'CRG frame connectors with aluminium profile', caption: 'Frame connectors' },
-        { file: 'crg-eoat-sprue-gripper', alt: 'CRG sprue gripper', caption: 'Sprue gripper' },
-        { file: 'crg-eoat-needle-gripper', alt: 'CRG needle gripper', caption: 'Needle gripper' },
-        { file: 'crg-eoat-expansion-gripper', alt: 'CRG expansion gripper', caption: 'Expansion gripper' },
-        { file: 'crg-eoat-pneumatic-finger-gripper', alt: 'CRG pneumatic finger gripper', caption: 'Pneumatic gripper' },
-        { file: 'crg-eoat-spring-loaded-elbow-arm', alt: 'CRG spring-loaded elbow arm', caption: 'Elbow arm' },
-        { file: 'crg-eoat-parallel-gripper', alt: 'CRG parallel gripper', caption: 'Parallel gripper' },
-        { file: 'crg-eoat-3-finger-pneumatic-gripper', alt: 'CRG three-finger pneumatic gripper', caption: '3 finger pneumatic' },
-        { file: 'crg-eoat-air-slide-table', alt: 'CRG air slide table', caption: 'Air slide table' },
-        { file: 'crg-eoat-vacuum-cups-fga', alt: 'CRG vacuum cup', caption: 'Vacuum cups' },
-        { file: 'crg-eoat-slide-off-air-nipper-bracket', alt: 'CRG slide-off air nipper with bracket', caption: 'Air nipper' },
-        { file: 'crg-eoat-gripper-for-engagement', alt: 'CRG gripper for engagement', caption: 'Gripper for engagement' },
-        { file: 'crg-eoat-hose', alt: 'CRG coloured pneumatic hose', caption: 'Hose' },
-      ] },
-      { type: 'p', text: 'Also available: automatic tool changers, EOAT components and locators.' },
+      { type: 'children' },
     ],
   },
   {
@@ -292,6 +274,8 @@ export const products: Product[] = [
       { type: 'h2', text: 'MACO Compact control system' },
       { type: 'p', text: 'This cost-effective, compact programmable logic controller offers integrated, high-performance machine control. It is expandable to meet diverse application needs and connects to plant-wide systems through Ethernet communications.' },
       { type: 'p', text: 'Using DSP technology, it achieves rapid response times, making it a versatile choice for precision control.' },
+      { type: 'h2', text: 'More detail' },
+      { type: 'children' },
     ],
   },
   {

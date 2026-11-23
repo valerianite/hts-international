@@ -62,6 +62,14 @@ Known problems with the source images:
 
 Catalogue PDFs: only the Safety Mats catalogue (5.6 MB) is hosted on Wix. The other 15 are on the client's OneDrive/SharePoint behind `utm.guru` short links and need to be supplied by the client. Cloudflare's per-file limit is 25 MiB.
 
+## Machine and component sub-pages (ported 2026-11-23)
+
+The old Wix site had 64 pages: each machine and component has its own page. 28 of them are rebuilt here with the **same URLs** (e.g. `/needle-grippers`, `/borche-bu-series-imm`, `/wensui/chillers`): 5 Borche series, 15 CRG components, 4 Wensui categories, 2 HALS pumps, 2 MACO. Content lives in `src/data/subpages.json` (heading, description, text blocks, photos) and is rendered by the single route `src/pages/[...slug].astro` (products and sub-pages share it, via `src/components/Blocks.astro`). Parent product pages list their sub-pages in a thumbnail grid (`type: 'children'` blocks in `products.ts`). Sub-pages show their parent's catalogues.
+
+Text was copied from the old pages with Australian spelling and the old "contact us / download" boilerplate removed; image labels were turned into captions. Photos were downloaded from the old site, converted to WebP, and recorded in `src/data/images.json`. Review the pages for wording the structuring script may have got wrong (run-in headings, bullet lists). Not ported: the supplier range the client removed (15 pages), the legal terms page, 4 duplicate/under-construction pages, and the hidden used-machines page (decision pending). `public/_redirects` sends the removed old URLs to the nearest live page (301). That file is server configuration and is not shown to visitors; it is the one place old URL names appear.
+
+Two thin Borche pages (BE all-electric, BH high-speed) exist on the old site but are not linked from anywhere and have no catalogue in the client's repo; not ported.
+
 ## Catalogue PDFs
 
 Catalogues come from the client's private repo (`blakehlive/HTS-Catalogues`, never linked to publicly because it also holds price lists and legal documents). Approved files are copied into `public/catalogues/` under stable, URL-safe names (e.g. `/catalogues/borche-bu-series.pdf`) and described in `src/data/catalogues.json` (label, supplier, product page, source path in the client's repo, size, page count and SHA-256). The Catalogues page and each product page read that file.

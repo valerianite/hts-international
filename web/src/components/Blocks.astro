@@ -1,0 +1,66 @@
+---
+import Pic from './Pic.astro';
+import prices from '../data/potentiometer-prices.json';
+import { childrenOf, goodCaption } from '../lib/subpages';
+
+const { blocks, parent } = Astro.props as { blocks: any[]; parent: string };
+const kids = childrenOf(parent);
+---
+{blocks.map((b) => {
+  if (b.type === 'p') return <p>{b.text}</p>;
+  if (b.type === 'h2') return <h2>{b.text}</h2>;
+  if (b.type === 'h3') return <h3>{b.text}</h3>;
+  if (b.type === 'ul') return <ul>{b.items.map((i: string) => <li>{i}</li>)}</ul>;
+  if (b.type === 'specs') return (
+    <div class="table-wrap">
+      <table class="specs"><tbody>{b.rows.map(([k, v]: [string, string]) => <tr><th scope="row">{k}</th><td>{v.split('\n').map((line, i) => <>{i > 0 && <br />}{line}</>)}</td></tr>)}</tbody></table>
+    </div>
+  );
+  if (b.type === 'prices') return (
+    <>
+      <p>{prices.note} {prices.warranty}</p>
+      {prices.tables.map((t) => (
+        <div class="table-wrap">
+          <table class="specs prices">
+            <caption>{t.title}</caption>
+            <thead><tr><th scope="col">Part number</th><th scope="col">Description</th><th scope="col" class="num">Price (AUD, ex GST)</th></tr></thead>
+            <tbody>{t.rows.map((r) => <tr><th scope="row">{r.part}</th><td>{r.description}</td><td class="num">${r.price}{r.shipping ? ' ^' : ''}</td></tr>)}</tbody>
+          </table>
+        </div>
+      ))}
+      <p class="small">^ {prices.shippingNote}</p>
+      <p><a class="btn btn-primary" href="/contact-us#quote">Request a quote</a></p>
+    </>
+  );
+  if (b.type === 'figure') return (
+    <figure class="figure">
+      <Pic name={b.pic.file} alt={b.pic.alt} sizes="(min-width: 900px) 620px, 100vw" />
+      {b.pic.caption && <figcaption>{b.pic.caption}</figcaption>}
+    </figure>
+  );
+  if (b.type === 'gallery') return (
+    <ul class={`gallery${b.wide ? ' wide' : ''}`}>
+      {b.items.map((it: any) => (
+        <li>
+          <figure>
+            <Pic name={it.file} alt={it.alt} sizes={b.wide ? '(min-width: 900px) 330px, 100vw' : '(min-width: 900px) 200px, 50vw'} />
+            {goodCaption(it.caption) && <figcaption>{it.caption}</figcaption>}
+          </figure>
+        </li>
+      ))}
+    </ul>
+  );
+  if (b.type === 'children') return (
+    <ul class="child-grid">
+      {kids.map((k) => (
+        <li>
+          <a class="tile sub" href={`/${k.slug}`}>
+            {k.pics[0] && <span class="thumb"><Pic name={k.pics[0].file} alt="" sizes="(min-width: 900px) 220px, 50vw" /></span>}
+            <span class="supplier">{k.heading}</span>
+            <span class="more">View →</span>
+          </a>
+        </li>
+      ))}
+    </ul>
+  );
+})}

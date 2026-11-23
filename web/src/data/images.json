@@ -1,5 +1,462 @@
 [
   {
+    "file": "3-finger-pneumatic-02.webp",
+    "wixId": "5c1fdb_0c7419a45ea247259fbcde26df6b6646~mv2.jpg",
+    "sourceType": "jpeg",
+    "hasAlpha": false,
+    "originalPx": [
+      900,
+      600
+    ],
+    "outputPx": [
+      640,
+      427
+    ],
+    "originalBytes": 148568,
+    "outputBytes": 7860,
+    "usedOn": [
+      "/3-finger-pneumatic"
+    ],
+    "alt": [
+      "CRG EOAT 3 FINGER PNEUMATIC GRIPPER"
+    ],
+    "displayedPx": [
+      272,
+      0
+    ],
+    "role": "product-photo"
+  },
+  {
+    "file": "air-nipper-01.webp",
+    "wixId": "5c1fdb_c24d1c584bfa4b279807432c8ec3a237~mv2.jpg",
+    "sourceType": "jpeg",
+    "hasAlpha": false,
+    "originalPx": [
+      900,
+      600
+    ],
+    "outputPx": [
+      838,
+      559
+    ],
+    "originalBytes": 17335,
+    "outputBytes": 9772,
+    "usedOn": [
+      "/air-nipper"
+    ],
+    "alt": [
+      "Slide off air nipper bracket"
+    ],
+    "displayedPx": [
+      419,
+      0
+    ],
+    "role": "product-photo"
+  },
+  {
+    "file": "air-nipper-02.webp",
+    "wixId": "5c1fdb_919a51963f914bd48e1707e876332859~mv2.jpg",
+    "sourceType": "jpeg",
+    "hasAlpha": false,
+    "originalPx": [
+      900,
+      600
+    ],
+    "outputPx": [
+      640,
+      427
+    ],
+    "originalBytes": 21164,
+    "outputBytes": 9952,
+    "usedOn": [
+      "/air-nipper"
+    ],
+    "alt": [
+      "GT NY05 Series Air Nipper"
+    ],
+    "displayedPx": [
+      221,
+      0
+    ],
+    "role": "product-photo"
+  },
+  {
+    "file": "air-nipper-03.webp",
+    "wixId": "5c1fdb_36e87701b91448499294710a67741578~mv2.jpg",
+    "sourceType": "jpeg",
+    "hasAlpha": false,
+    "originalPx": [
+      1024,
+      683
+    ],
+    "outputPx": [
+      640,
+      427
+    ],
+    "originalBytes": 25634,
+    "outputBytes": 5344,
+    "usedOn": [
+      "/air-nipper"
+    ],
+    "alt": [
+      "CRG Air Nipper Side"
+    ],
+    "displayedPx": [
+      221,
+      0
+    ],
+    "role": "product-photo"
+  },
+  {
+    "file": "air-nipper-04.webp",
+    "wixId": "5c1fdb_9642d2fa004c4c8b938ba47b2319d853~mv2.jpg",
+    "sourceType": "jpeg",
+    "hasAlpha": false,
+    "originalPx": [
+      900,
+      600
+    ],
+    "outputPx": [
+      640,
+      427
+    ],
+    "originalBytes": 11103,
+    "outputBytes": 4944,
+    "usedOn": [
+      "/air-nipper"
+    ],
+    "alt": [
+      "CRG Air Nipper"
+    ],
+    "displayedPx": [
+      221,
+      0
+    ],
+    "role": "product-photo"
+  },
+  {
+    "file": "air-nipper-05.webp",
+    "wixId": "5c1fdb_e1c5620a89c24be28936073358da87f5~mv2.jpg",
+    "sourceType": "jpeg",
+    "hasAlpha": false,
+    "originalPx": [
+      900,
+      600
+    ],
+    "outputPx": [
+      640,
+      427
+    ],
+    "originalBytes": 23256,
+    "outputBytes": 11132,
+    "usedOn": [
+      "/air-nipper"
+    ],
+    "alt": [
+      "CRG Air Nipper"
+    ],
+    "displayedPx": [
+      247,
+      0
+    ],
+    "role": "product-photo"
+  },
+  {
+    "file": "air-nipper-06.webp",
+    "wixId": "5c1fdb_0812f9fe93934cec8e978b43ddfcb8e0~mv2.jpg",
+    "sourceType": "jpeg",
+    "hasAlpha": false,
+    "originalPx": [
+      900,
+      600
+    ],
+    "outputPx": [
+      640,
+      427
+    ],
+    "originalBytes": 11838,
+    "outputBytes": 4464,
+    "usedOn": [
+      "/air-nipper"
+    ],
+    "alt": [
+      "CRG Air Nipper"
+    ],
+    "displayedPx": [
+      221,
+      0
+    ],
+    "role": "product-photo"
+  },
+  {
+    "file": "air-slide-table-02.webp",
+    "wixId": "5c1fdb_b798fef83eda4f60983d5bb9b319ca13~mv2.jpg",
+    "sourceType": "jpeg",
+    "hasAlpha": false,
+    "originalPx": [
+      900,
+      600
+    ],
+    "outputPx": [
+      838,
+      559
+    ],
+    "originalBytes": 17533,
+    "outputBytes": 11070,
+    "usedOn": [
+      "/air-slide-table"
+    ],
+    "alt": [
+      "Air-Slide-Table_CRG.jpg"
+    ],
+    "displayedPx": [
+      419,
+      0
+    ],
+    "role": "product-photo"
+  },
+  {
+    "file": "air-slide-table-03.webp",
+    "wixId": "5c1fdb_349277ad2c364a828ed4ec83f383fbd9~mv2.jpg",
+    "sourceType": "jpeg",
+    "hasAlpha": false,
+    "originalPx": [
+      900,
+      600
+    ],
+    "outputPx": [
+      640,
+      427
+    ],
+    "originalBytes": 38280,
+    "outputBytes": 15244,
+    "usedOn": [
+      "/air-slide-table"
+    ],
+    "alt": [],
+    "displayedPx": [
+      222,
+      0
+    ],
+    "role": "product-photo"
+  },
+  {
+    "file": "air-slide-table-04.webp",
+    "wixId": "5c1fdb_b1f690cda5084a729ea636153e5ab667~mv2.jpg",
+    "sourceType": "jpeg",
+    "hasAlpha": false,
+    "originalPx": [
+      900,
+      600
+    ],
+    "outputPx": [
+      640,
+      427
+    ],
+    "originalBytes": 19966,
+    "outputBytes": 10460,
+    "usedOn": [
+      "/air-slide-table"
+    ],
+    "alt": [
+      "GMXH-5_CRG.jpg"
+    ],
+    "displayedPx": [
+      221,
+      0
+    ],
+    "role": "product-photo"
+  },
+  {
+    "file": "air-slide-table-05.webp",
+    "wixId": "5c1fdb_56742e98f0db4cfbb7d386d296f3c45f~mv2.jpg",
+    "sourceType": "jpeg",
+    "hasAlpha": false,
+    "originalPx": [
+      900,
+      600
+    ],
+    "outputPx": [
+      640,
+      427
+    ],
+    "originalBytes": 20278,
+    "outputBytes": 8870,
+    "usedOn": [
+      "/air-slide-table"
+    ],
+    "alt": [
+      "GMXH-1_CRG.jpg"
+    ],
+    "displayedPx": [
+      221,
+      0
+    ],
+    "role": "product-photo"
+  },
+  {
+    "file": "bm-series-01.webp",
+    "wixId": "5c1fdb_101efbf7fbaa42a9bbcee12bde31c11d~mv2.png",
+    "sourceType": "png",
+    "hasAlpha": true,
+    "originalPx": [
+      4740,
+      1936
+    ],
+    "outputPx": [
+      1140,
+      466
+    ],
+    "originalBytes": 7046037,
+    "outputBytes": 72020,
+    "usedOn": [
+      "/bm-series"
+    ],
+    "alt": [
+      "Borche BM Series Injection Moulding Machine"
+    ],
+    "displayedPx": [
+      570,
+      0
+    ],
+    "role": "product-photo"
+  },
+  {
+    "file": "bm-series-02.webp",
+    "wixId": "5c1fdb_9d6482a61abe4374b0e7d15383cc6b97~mv2.png",
+    "sourceType": "png",
+    "hasAlpha": true,
+    "originalPx": [
+      2716,
+      1101
+    ],
+    "outputPx": [
+      920,
+      373
+    ],
+    "originalBytes": 1517778,
+    "outputBytes": 51200,
+    "usedOn": [
+      "/bm-series"
+    ],
+    "alt": [
+      "Borche MT Series Injection Moulding Machine"
+    ],
+    "displayedPx": [
+      460,
+      0
+    ],
+    "role": "product-photo"
+  },
+  {
+    "file": "bm-series-03.webp",
+    "wixId": "5c1fdb_2929bc21650b416099666bc9c823a7c5~mv2.png",
+    "sourceType": "png",
+    "hasAlpha": true,
+    "originalPx": [
+      2602,
+      1510
+    ],
+    "outputPx": [
+      920,
+      534
+    ],
+    "originalBytes": 1506802,
+    "outputBytes": 56816,
+    "usedOn": [
+      "/bm-series"
+    ],
+    "alt": [
+      "Borche MT Series Injection Moulding Machine"
+    ],
+    "displayedPx": [
+      460,
+      0
+    ],
+    "role": "product-photo"
+  },
+  {
+    "file": "bm-series-04.webp",
+    "wixId": "5c1fdb_98393c187a1c438f9e074c9c80a8230c~mv2.png",
+    "sourceType": "png",
+    "hasAlpha": true,
+    "originalPx": [
+      4060,
+      2110
+    ],
+    "outputPx": [
+      960,
+      499
+    ],
+    "originalBytes": 6007053,
+    "outputBytes": 77688,
+    "usedOn": [
+      "/bm-series"
+    ],
+    "alt": [
+      "Borche 3C Series Injection Moulding Machine"
+    ],
+    "displayedPx": [
+      480,
+      0
+    ],
+    "role": "product-photo"
+  },
+  {
+    "file": "bm-series-05.webp",
+    "wixId": "5c1fdb_845bf7bb1e894ce5b2f850ec4c3cd854~mv2.png",
+    "sourceType": "png",
+    "hasAlpha": true,
+    "originalPx": [
+      2738,
+      1230
+    ],
+    "outputPx": [
+      920,
+      413
+    ],
+    "originalBytes": 1601961,
+    "outputBytes": 53288,
+    "usedOn": [
+      "/bm-series"
+    ],
+    "alt": [
+      "Borche ML Series Injection Moulding Machine"
+    ],
+    "displayedPx": [
+      460,
+      0
+    ],
+    "role": "product-photo"
+  },
+  {
+    "file": "bm-series-06.webp",
+    "wixId": "5c1fdb_8f6bfeacc9eb4f09bc9c149e4b9b997f~mv2.jpg",
+    "sourceType": "jpeg",
+    "hasAlpha": false,
+    "originalPx": [
+      3154,
+      952
+    ],
+    "outputPx": [
+      960,
+      290
+    ],
+    "originalBytes": 137899,
+    "outputBytes": 18814,
+    "usedOn": [
+      "/bm-series"
+    ],
+    "alt": [
+      "Borche MK Series Injection Moulding Machine"
+    ],
+    "displayedPx": [
+      480,
+      0
+    ],
+    "role": "product-photo"
+  },
+  {
     "file": "borch-imm-01.webp",
     "wixId": "5c1fdb_4df60dca5f9c47869acdc2897e581b35~mv2.png",
     "sourceType": "png",
@@ -125,6 +582,262 @@
     "displayedPx": [
       775,
       295
+    ],
+    "role": "product-photo"
+  },
+  {
+    "file": "borche-bi-m-series-imm-01.webp",
+    "wixId": "5c1fdb_ff96028c3b9d46ad92a22ce029ccff85~mv2.jpg",
+    "sourceType": "jpeg",
+    "hasAlpha": false,
+    "originalPx": [
+      1403,
+      785
+    ],
+    "outputPx": [
+      1403,
+      785
+    ],
+    "originalBytes": 85489,
+    "outputBytes": 32652,
+    "usedOn": [
+      "/borche-bi-m-series-imm"
+    ],
+    "alt": [],
+    "displayedPx": [
+      973,
+      0
+    ],
+    "role": "product-photo"
+  },
+  {
+    "file": "borche-bi-m-series-imm-02.webp",
+    "wixId": "5c1fdb_4eb48192cc494b1fa92196f06a84c8da~mv2.png",
+    "sourceType": "png",
+    "hasAlpha": true,
+    "originalPx": [
+      1546,
+      850
+    ],
+    "outputPx": [
+      1546,
+      850
+    ],
+    "originalBytes": 880384,
+    "outputBytes": 68344,
+    "usedOn": [
+      "/borche-bi-m-series-imm"
+    ],
+    "alt": [],
+    "displayedPx": [
+      979,
+      0
+    ],
+    "role": "product-photo"
+  },
+  {
+    "file": "borche-bi-m-series-imm-03.webp",
+    "wixId": "5c1fdb_33c2d942eaa14cdfb7989ef930735418~mv2.png",
+    "sourceType": "png",
+    "hasAlpha": true,
+    "originalPx": [
+      1132,
+      681
+    ],
+    "outputPx": [
+      1132,
+      681
+    ],
+    "originalBytes": 455490,
+    "outputBytes": 75448,
+    "usedOn": [
+      "/borche-bi-m-series-imm"
+    ],
+    "alt": [],
+    "displayedPx": [
+      600,
+      0
+    ],
+    "role": "product-photo"
+  },
+  {
+    "file": "borche-bi-series-imm-01.webp",
+    "wixId": "5c1fdb_e3fbac299a9b4ff8a052ca3079ecbe37~mv2.png",
+    "sourceType": "png",
+    "hasAlpha": true,
+    "originalPx": [
+      3750,
+      1652
+    ],
+    "outputPx": [
+      1942,
+      856
+    ],
+    "originalBytes": 2939254,
+    "outputBytes": 102762,
+    "usedOn": [
+      "/borche-bi-series-imm"
+    ],
+    "alt": [],
+    "displayedPx": [
+      971,
+      0
+    ],
+    "role": "product-photo"
+  },
+  {
+    "file": "borche-bi-series-imm-02.webp",
+    "wixId": "5c1fdb_5e44d839926b4d1598fa85c14664b4d6~mv2.jpg",
+    "sourceType": "jpeg",
+    "hasAlpha": false,
+    "originalPx": [
+      1485,
+      895
+    ],
+    "outputPx": [
+      1485,
+      895
+    ],
+    "originalBytes": 191334,
+    "outputBytes": 83188,
+    "usedOn": [
+      "/borche-bi-series-imm"
+    ],
+    "alt": [],
+    "displayedPx": [
+      970,
+      0
+    ],
+    "role": "product-photo"
+  },
+  {
+    "file": "borche-bs-series-imm-01.webp",
+    "wixId": "5c1fdb_4bd1858e9c154237bb2c50e0921c5452~mv2.png",
+    "sourceType": "png",
+    "hasAlpha": true,
+    "originalPx": [
+      1400,
+      372
+    ],
+    "outputPx": [
+      1400,
+      372
+    ],
+    "originalBytes": 436445,
+    "outputBytes": 51826,
+    "usedOn": [
+      "/borche-bs-series-imm"
+    ],
+    "alt": [],
+    "displayedPx": [
+      975,
+      0
+    ],
+    "role": "product-photo"
+  },
+  {
+    "file": "borche-bs-series-imm-02.webp",
+    "wixId": "5c1fdb_f54145dbf4a34dfeacf3b3e7364dc212~mv2.jpg",
+    "sourceType": "jpeg",
+    "hasAlpha": false,
+    "originalPx": [
+      1112,
+      832
+    ],
+    "outputPx": [
+      970,
+      726
+    ],
+    "originalBytes": 85866,
+    "outputBytes": 26222,
+    "usedOn": [
+      "/borche-bs-series-imm"
+    ],
+    "alt": [
+      "BS3 power Graph.jpg"
+    ],
+    "displayedPx": [
+      485,
+      0
+    ],
+    "role": "product-photo"
+  },
+  {
+    "file": "borche-bs-series-imm-03.webp",
+    "wixId": "5c1fdb_65acf6fecde047c2b4f2a89a7cd59f1f~mv2.jpg",
+    "sourceType": "jpeg",
+    "hasAlpha": false,
+    "originalPx": [
+      1417,
+      868
+    ],
+    "outputPx": [
+      950,
+      582
+    ],
+    "originalBytes": 134183,
+    "outputBytes": 25130,
+    "usedOn": [
+      "/borche-bs-series-imm"
+    ],
+    "alt": [],
+    "displayedPx": [
+      475,
+      0
+    ],
+    "role": "product-photo"
+  },
+  {
+    "file": "borche-bu-series-imm-01.webp",
+    "wixId": "5c1fdb_e9987c5493aa457388cbd6dafeb9c2fd~mv2.png",
+    "sourceType": "png",
+    "hasAlpha": true,
+    "originalPx": [
+      1820,
+      599
+    ],
+    "outputPx": [
+      1820,
+      599
+    ],
+    "originalBytes": 699439,
+    "outputBytes": 87858,
+    "usedOn": [
+      "/borche-bu-series-imm"
+    ],
+    "alt": [
+      "Borche BU Series Two Platten Injection Moulding Machine In White and Grey"
+    ],
+    "displayedPx": [
+      975,
+      0
+    ],
+    "role": "product-photo"
+  },
+  {
+    "file": "borche-bu-series-imm-02.webp",
+    "wixId": "5c1fdb_14e78531ca6e49fa89e608cbf0e232d9~mv2.jpg",
+    "sourceType": "jpeg",
+    "hasAlpha": false,
+    "originalPx": [
+      780,
+      871
+    ],
+    "outputPx": [
+      780,
+      871
+    ],
+    "originalBytes": 124920,
+    "outputBytes": 58504,
+    "usedOn": [
+      "/borche-bu-series-imm"
+    ],
+    "alt": [
+      "Borche BU Series Injection Mdouling Machine Moving Platten End"
+    ],
+    "displayedPx": [
+      510,
+      0
     ],
     "role": "product-photo"
   },
@@ -591,6 +1304,1452 @@
     "displayedPx": [
       285,
       170
+    ],
+    "role": "product-photo"
+  },
+  {
+    "file": "elbow-arms-02.webp",
+    "wixId": "5c1fdb_46461441cc944e75af59bb4e71467fcf~mv2.jpg",
+    "sourceType": "jpeg",
+    "hasAlpha": false,
+    "originalPx": [
+      900,
+      600
+    ],
+    "outputPx": [
+      838,
+      559
+    ],
+    "originalBytes": 83277,
+    "outputBytes": 7660,
+    "usedOn": [
+      "/elbow-arms"
+    ],
+    "alt": [
+      "Spring-Loaded-Elbow-Arm_CRG.jpg"
+    ],
+    "displayedPx": [
+      419,
+      0
+    ],
+    "role": "product-photo"
+  },
+  {
+    "file": "elbow-arms-03.webp",
+    "wixId": "5c1fdb_ed0e6cf4d52d4639be08444fd280ebcb~mv2.jpg",
+    "sourceType": "jpeg",
+    "hasAlpha": false,
+    "originalPx": [
+      900,
+      600
+    ],
+    "outputPx": [
+      640,
+      427
+    ],
+    "originalBytes": 16750,
+    "outputBytes": 6722,
+    "usedOn": [
+      "/elbow-arms"
+    ],
+    "alt": [
+      "8.Y00238_CRG.jpg"
+    ],
+    "displayedPx": [
+      221,
+      0
+    ],
+    "role": "product-photo"
+  },
+  {
+    "file": "elbow-arms-04.webp",
+    "wixId": "5c1fdb_68f0b2830b68499aaa0e37ee329ef110~mv2.jpg",
+    "sourceType": "jpeg",
+    "hasAlpha": false,
+    "originalPx": [
+      900,
+      600
+    ],
+    "outputPx": [
+      640,
+      427
+    ],
+    "originalBytes": 10159,
+    "outputBytes": 3934,
+    "usedOn": [
+      "/elbow-arms"
+    ],
+    "alt": [
+      "Suspension-with-gripper-application_CRG.jpg"
+    ],
+    "displayedPx": [
+      221,
+      0
+    ],
+    "role": "product-photo"
+  },
+  {
+    "file": "elbow-arms-05.webp",
+    "wixId": "5c1fdb_68e5f23332dd4bcf953a5541c0584b20~mv2.jpg",
+    "sourceType": "jpeg",
+    "hasAlpha": false,
+    "originalPx": [
+      900,
+      600
+    ],
+    "outputPx": [
+      640,
+      427
+    ],
+    "originalBytes": 16502,
+    "outputBytes": 7350,
+    "usedOn": [
+      "/elbow-arms"
+    ],
+    "alt": [
+      "8.Y00243_CRG.jpg"
+    ],
+    "displayedPx": [
+      221,
+      0
+    ],
+    "role": "product-photo"
+  },
+  {
+    "file": "elbow-arms-06.webp",
+    "wixId": "5c1fdb_15443442800d4001b06ab63958a6af71~mv2.jpg",
+    "sourceType": "jpeg",
+    "hasAlpha": false,
+    "originalPx": [
+      900,
+      600
+    ],
+    "outputPx": [
+      640,
+      427
+    ],
+    "originalBytes": 16184,
+    "outputBytes": 6494,
+    "usedOn": [
+      "/elbow-arms"
+    ],
+    "alt": [
+      "8.Y00244_CRG.jpg"
+    ],
+    "displayedPx": [
+      221,
+      0
+    ],
+    "role": "product-photo"
+  },
+  {
+    "file": "eoat-compnents-01.webp",
+    "wixId": "5c1fdb_7b2e1cd75f574f93a06b39e78e1d38c9~mv2.jpg",
+    "sourceType": "jpeg",
+    "hasAlpha": false,
+    "originalPx": [
+      900,
+      600
+    ],
+    "outputPx": [
+      798,
+      532
+    ],
+    "originalBytes": 53777,
+    "outputBytes": 40158,
+    "usedOn": [
+      "/eoat-compnents"
+    ],
+    "alt": [
+      "Hose_CRG.jpg"
+    ],
+    "displayedPx": [
+      399,
+      0
+    ],
+    "role": "product-photo"
+  },
+  {
+    "file": "eoat-compnents-02.webp",
+    "wixId": "5c1fdb_a407b831af66471bb036269d0e7bd9be~mv2.jpg",
+    "sourceType": "jpeg",
+    "hasAlpha": false,
+    "originalPx": [
+      900,
+      600
+    ],
+    "outputPx": [
+      640,
+      427
+    ],
+    "originalBytes": 14321,
+    "outputBytes": 5864,
+    "usedOn": [
+      "/eoat-compnents"
+    ],
+    "alt": [
+      "Junction-box_CRG.jpg"
+    ],
+    "displayedPx": [
+      221,
+      0
+    ],
+    "role": "product-photo"
+  },
+  {
+    "file": "eoat-compnents-03.webp",
+    "wixId": "5c1fdb_243e36c5def94e9da91c4d37db30a274~mv2.jpg",
+    "sourceType": "jpeg",
+    "hasAlpha": false,
+    "originalPx": [
+      900,
+      600
+    ],
+    "outputPx": [
+      640,
+      427
+    ],
+    "originalBytes": 20151,
+    "outputBytes": 9024,
+    "usedOn": [
+      "/eoat-compnents"
+    ],
+    "alt": [
+      "Miniature-regulator_CRG.jpg"
+    ],
+    "displayedPx": [
+      221,
+      0
+    ],
+    "role": "product-photo"
+  },
+  {
+    "file": "eoat-compnents-04.webp",
+    "wixId": "5c1fdb_3b9e0310682d4ca3a01e8ee410f9e0e7~mv2.jpg",
+    "sourceType": "jpeg",
+    "hasAlpha": false,
+    "originalPx": [
+      900,
+      600
+    ],
+    "outputPx": [
+      640,
+      427
+    ],
+    "originalBytes": 19596,
+    "outputBytes": 9096,
+    "usedOn": [
+      "/eoat-compnents"
+    ],
+    "alt": [
+      "Pressure-Regulators_CRG.jpg"
+    ],
+    "displayedPx": [
+      221,
+      0
+    ],
+    "role": "product-photo"
+  },
+  {
+    "file": "eoat-compnents-05.webp",
+    "wixId": "5c1fdb_4e1352251ab94038ac46dbf89c76946c~mv2.jpg",
+    "sourceType": "jpeg",
+    "hasAlpha": false,
+    "originalPx": [
+      900,
+      600
+    ],
+    "outputPx": [
+      640,
+      427
+    ],
+    "originalBytes": 10844,
+    "outputBytes": 4110,
+    "usedOn": [
+      "/eoat-compnents"
+    ],
+    "alt": [
+      "Single-connector_CRG.jpg"
+    ],
+    "displayedPx": [
+      221,
+      0
+    ],
+    "role": "product-photo"
+  },
+  {
+    "file": "eoat-compnents-06.webp",
+    "wixId": "5c1fdb_831e8f29b42645b7a7303535c09bdbc4~mv2.jpg",
+    "sourceType": "jpeg",
+    "hasAlpha": false,
+    "originalPx": [
+      900,
+      600
+    ],
+    "outputPx": [
+      640,
+      427
+    ],
+    "originalBytes": 10948,
+    "outputBytes": 3566,
+    "usedOn": [
+      "/eoat-compnents"
+    ],
+    "alt": [
+      "Y-shape-hose-connector_CRG.jpg"
+    ],
+    "displayedPx": [
+      221,
+      0
+    ],
+    "role": "product-photo"
+  },
+  {
+    "file": "eoat-compnents-07.webp",
+    "wixId": "5c1fdb_1c0c85a2414949d5925e34619f879010~mv2.jpg",
+    "sourceType": "jpeg",
+    "hasAlpha": false,
+    "originalPx": [
+      900,
+      600
+    ],
+    "outputPx": [
+      640,
+      427
+    ],
+    "originalBytes": 14730,
+    "outputBytes": 5092,
+    "usedOn": [
+      "/eoat-compnents"
+    ],
+    "alt": [
+      "Straight-hose-fitting_CRG.jpg"
+    ],
+    "displayedPx": [
+      221,
+      0
+    ],
+    "role": "product-photo"
+  },
+  {
+    "file": "eoat-compnents-08.webp",
+    "wixId": "5c1fdb_251d11b0a13645f289274ab59ece374e~mv2.jpg",
+    "sourceType": "jpeg",
+    "hasAlpha": false,
+    "originalPx": [
+      900,
+      600
+    ],
+    "outputPx": [
+      640,
+      427
+    ],
+    "originalBytes": 10861,
+    "outputBytes": 4060,
+    "usedOn": [
+      "/eoat-compnents"
+    ],
+    "alt": [
+      "Straight-connector_CRG.jpg"
+    ],
+    "displayedPx": [
+      221,
+      0
+    ],
+    "role": "product-photo"
+  },
+  {
+    "file": "eoat-compnents-09.webp",
+    "wixId": "5c1fdb_e85450bafaa54c1d99129e9b79cf311a~mv2.jpg",
+    "sourceType": "jpeg",
+    "hasAlpha": false,
+    "originalPx": [
+      900,
+      600
+    ],
+    "outputPx": [
+      640,
+      427
+    ],
+    "originalBytes": 11730,
+    "outputBytes": 4824,
+    "usedOn": [
+      "/eoat-compnents"
+    ],
+    "alt": [
+      "Steel-pipe-cutter_CRG.jpg"
+    ],
+    "displayedPx": [
+      221,
+      0
+    ],
+    "role": "product-photo"
+  },
+  {
+    "file": "eoat-frame-connectors-01.webp",
+    "wixId": "5c1fdb_3baf18510b674c5a97b036c767f60ed2~mv2.jpg",
+    "sourceType": "jpeg",
+    "hasAlpha": false,
+    "originalPx": [
+      900,
+      600
+    ],
+    "outputPx": [
+      838,
+      559
+    ],
+    "originalBytes": 57182,
+    "outputBytes": 31520,
+    "usedOn": [
+      "/eoat-frame-connectors"
+    ],
+    "alt": [
+      "Frame-connectors-with-SS-profile_CRG.jpg"
+    ],
+    "displayedPx": [
+      419,
+      0
+    ],
+    "role": "product-photo"
+  },
+  {
+    "file": "eoat-frame-connectors-02.webp",
+    "wixId": "5c1fdb_e8ab69a4e941436685f28656b037d418~mv2.jpg",
+    "sourceType": "jpeg",
+    "hasAlpha": false,
+    "originalPx": [
+      900,
+      600
+    ],
+    "outputPx": [
+      640,
+      427
+    ],
+    "originalBytes": 31680,
+    "outputBytes": 7568,
+    "usedOn": [
+      "/eoat-frame-connectors"
+    ],
+    "alt": [
+      "Tube Cross Connector"
+    ],
+    "displayedPx": [
+      221,
+      0
+    ],
+    "role": "product-photo"
+  },
+  {
+    "file": "eoat-frame-connectors-03.webp",
+    "wixId": "5c1fdb_3fad66dc5c9142d7b55f138b39e651c8~mv2.jpg",
+    "sourceType": "jpeg",
+    "hasAlpha": false,
+    "originalPx": [
+      900,
+      600
+    ],
+    "outputPx": [
+      640,
+      427
+    ],
+    "originalBytes": 8848,
+    "outputBytes": 2534,
+    "usedOn": [
+      "/eoat-frame-connectors"
+    ],
+    "alt": [
+      "Angle Arm"
+    ],
+    "displayedPx": [
+      227,
+      0
+    ],
+    "role": "product-photo"
+  },
+  {
+    "file": "eoat-frame-connectors-04.webp",
+    "wixId": "5c1fdb_392feaa61778406581528ab4e8afaf7d~mv2.jpg",
+    "sourceType": "jpeg",
+    "hasAlpha": false,
+    "originalPx": [
+      900,
+      600
+    ],
+    "outputPx": [
+      640,
+      427
+    ],
+    "originalBytes": 26649,
+    "outputBytes": 10166,
+    "usedOn": [
+      "/eoat-frame-connectors"
+    ],
+    "alt": [
+      "Adjustable Angle Connector"
+    ],
+    "displayedPx": [
+      227,
+      0
+    ],
+    "role": "product-photo"
+  },
+  {
+    "file": "eoat-frame-connectors-05.webp",
+    "wixId": "5c1fdb_b9ceb279608f408fa007de3ce74210a8~mv2.jpg",
+    "sourceType": "jpeg",
+    "hasAlpha": false,
+    "originalPx": [
+      900,
+      600
+    ],
+    "outputPx": [
+      640,
+      427
+    ],
+    "originalBytes": 20227,
+    "outputBytes": 7114,
+    "usedOn": [
+      "/eoat-frame-connectors"
+    ],
+    "alt": [
+      "Bush Nut"
+    ],
+    "displayedPx": [
+      221,
+      0
+    ],
+    "role": "product-photo"
+  },
+  {
+    "file": "eoat-frame-connectors-06.webp",
+    "wixId": "5c1fdb_f71fa9bc3f7148a5a75c68af260fc15a~mv2.jpg",
+    "sourceType": "jpeg",
+    "hasAlpha": false,
+    "originalPx": [
+      900,
+      600
+    ],
+    "outputPx": [
+      640,
+      427
+    ],
+    "originalBytes": 16812,
+    "outputBytes": 7230,
+    "usedOn": [
+      "/eoat-frame-connectors"
+    ],
+    "alt": [
+      "Vacuum Cup Connector"
+    ],
+    "displayedPx": [
+      221,
+      0
+    ],
+    "role": "product-photo"
+  },
+  {
+    "file": "eoat-frame-connectors-07.webp",
+    "wixId": "5c1fdb_041a225f78134aa3b27ea357b9197ed4~mv2.jpg",
+    "sourceType": "jpeg",
+    "hasAlpha": false,
+    "originalPx": [
+      900,
+      600
+    ],
+    "outputPx": [
+      640,
+      427
+    ],
+    "originalBytes": 18511,
+    "outputBytes": 8166,
+    "usedOn": [
+      "/eoat-frame-connectors"
+    ],
+    "alt": [
+      "Cross Connector"
+    ],
+    "displayedPx": [
+      227,
+      0
+    ],
+    "role": "product-photo"
+  },
+  {
+    "file": "eoat-frame-connectors-08.webp",
+    "wixId": "5c1fdb_f8af7c5803cd4e6e87650eaf05fb7c00~mv2.jpg",
+    "sourceType": "jpeg",
+    "hasAlpha": false,
+    "originalPx": [
+      900,
+      600
+    ],
+    "outputPx": [
+      640,
+      427
+    ],
+    "originalBytes": 24426,
+    "outputBytes": 10562,
+    "usedOn": [
+      "/eoat-frame-connectors"
+    ],
+    "alt": [
+      "Connector Plate"
+    ],
+    "displayedPx": [
+      227,
+      0
+    ],
+    "role": "product-photo"
+  },
+  {
+    "file": "eoat-frame-connectors-09.webp",
+    "wixId": "5c1fdb_2ae7758cbb15414ebce1068a0f93072f~mv2.jpg",
+    "sourceType": "jpeg",
+    "hasAlpha": false,
+    "originalPx": [
+      900,
+      600
+    ],
+    "outputPx": [
+      640,
+      427
+    ],
+    "originalBytes": 17212,
+    "outputBytes": 6506,
+    "usedOn": [
+      "/eoat-frame-connectors"
+    ],
+    "alt": [
+      "Cross Joint Connector"
+    ],
+    "displayedPx": [
+      221,
+      0
+    ],
+    "role": "product-photo"
+  },
+  {
+    "file": "eoat-frame-connectors-10.webp",
+    "wixId": "5c1fdb_ebb44763a02f4771b29f12f92103347d~mv2.jpg",
+    "sourceType": "jpeg",
+    "hasAlpha": false,
+    "originalPx": [
+      900,
+      600
+    ],
+    "outputPx": [
+      640,
+      427
+    ],
+    "originalBytes": 14081,
+    "outputBytes": 5704,
+    "usedOn": [
+      "/eoat-frame-connectors"
+    ],
+    "alt": [
+      "Elbow Arm"
+    ],
+    "displayedPx": [
+      221,
+      0
+    ],
+    "role": "product-photo"
+  },
+  {
+    "file": "eoat-frame-connectors-11.webp",
+    "wixId": "5c1fdb_577249e5964b4228858cbd29bb90b9a5~mv2.jpg",
+    "sourceType": "jpeg",
+    "hasAlpha": false,
+    "originalPx": [
+      900,
+      600
+    ],
+    "outputPx": [
+      640,
+      427
+    ],
+    "originalBytes": 16677,
+    "outputBytes": 6774,
+    "usedOn": [
+      "/eoat-frame-connectors"
+    ],
+    "alt": [
+      "Side Manifold Block"
+    ],
+    "displayedPx": [
+      227,
+      0
+    ],
+    "role": "product-photo"
+  },
+  {
+    "file": "eoat-frame-connectors-12.webp",
+    "wixId": "5c1fdb_9cd4fe18b82a48ba9b84590a1a695d73~mv2.jpg",
+    "sourceType": "jpeg",
+    "hasAlpha": false,
+    "originalPx": [
+      900,
+      600
+    ],
+    "outputPx": [
+      640,
+      427
+    ],
+    "originalBytes": 19845,
+    "outputBytes": 8392,
+    "usedOn": [
+      "/eoat-frame-connectors"
+    ],
+    "alt": [
+      "Long Angle Clamp"
+    ],
+    "displayedPx": [
+      227,
+      0
+    ],
+    "role": "product-photo"
+  },
+  {
+    "file": "eoat-frame-connectors-13.webp",
+    "wixId": "5c1fdb_e54c80e5958040baa91117a74ef1b8db~mv2.jpg",
+    "sourceType": "jpeg",
+    "hasAlpha": false,
+    "originalPx": [
+      900,
+      600
+    ],
+    "outputPx": [
+      640,
+      427
+    ],
+    "originalBytes": 27297,
+    "outputBytes": 9990,
+    "usedOn": [
+      "/eoat-frame-connectors"
+    ],
+    "alt": [
+      "Vertical Fastener"
+    ],
+    "displayedPx": [
+      221,
+      0
+    ],
+    "role": "product-photo"
+  },
+  {
+    "file": "eoat-frame-connectors-14.webp",
+    "wixId": "5c1fdb_68be3a62ab68400d9482c52d029dd1e6~mv2.jpg",
+    "sourceType": "jpeg",
+    "hasAlpha": false,
+    "originalPx": [
+      900,
+      600
+    ],
+    "outputPx": [
+      640,
+      427
+    ],
+    "originalBytes": 25623,
+    "outputBytes": 11204,
+    "usedOn": [
+      "/eoat-frame-connectors"
+    ],
+    "alt": [
+      "Frame Profile"
+    ],
+    "displayedPx": [
+      221,
+      0
+    ],
+    "role": "product-photo"
+  },
+  {
+    "file": "eoat-frame-connectors-15.webp",
+    "wixId": "5c1fdb_f6beeb6ac84949909f82f1c7ebeba33a~mv2.jpg",
+    "sourceType": "jpeg",
+    "hasAlpha": false,
+    "originalPx": [
+      900,
+      600
+    ],
+    "outputPx": [
+      640,
+      427
+    ],
+    "originalBytes": 16479,
+    "outputBytes": 4886,
+    "usedOn": [
+      "/eoat-frame-connectors"
+    ],
+    "alt": [
+      "SUS Tube"
+    ],
+    "displayedPx": [
+      227,
+      0
+    ],
+    "role": "product-photo"
+  },
+  {
+    "file": "eoat-frame-connectors-16.webp",
+    "wixId": "5c1fdb_c236c82303a148c08b95673392c0adb1~mv2.jpg",
+    "sourceType": "jpeg",
+    "hasAlpha": false,
+    "originalPx": [
+      900,
+      600
+    ],
+    "outputPx": [
+      640,
+      427
+    ],
+    "originalBytes": 12746,
+    "outputBytes": 4232,
+    "usedOn": [
+      "/eoat-frame-connectors"
+    ],
+    "alt": [
+      "Carbon Fibre Tube"
+    ],
+    "displayedPx": [
+      227,
+      0
+    ],
+    "role": "product-photo"
+  },
+  {
+    "file": "eoat-frame-connectors-17.webp",
+    "wixId": "5c1fdb_5b6263c59f1a48b8994081a6c530137f~mv2.jpg",
+    "sourceType": "jpeg",
+    "hasAlpha": false,
+    "originalPx": [
+      900,
+      600
+    ],
+    "outputPx": [
+      640,
+      427
+    ],
+    "originalBytes": 26566,
+    "outputBytes": 13780,
+    "usedOn": [
+      "/eoat-frame-connectors"
+    ],
+    "alt": [
+      "T Nuts"
+    ],
+    "displayedPx": [
+      221,
+      0
+    ],
+    "role": "product-photo"
+  },
+  {
+    "file": "eoat-sprue-grippers-01.webp",
+    "wixId": "5c1fdb_b8200c325d614714adf7c995c237573e~mv2.jpg",
+    "sourceType": "jpeg",
+    "hasAlpha": false,
+    "originalPx": [
+      900,
+      600
+    ],
+    "outputPx": [
+      836,
+      557
+    ],
+    "originalBytes": 137406,
+    "outputBytes": 11608,
+    "usedOn": [
+      "/eoat-sprue-grippers"
+    ],
+    "alt": [
+      "Sprue-gripper_CRG.jpg"
+    ],
+    "displayedPx": [
+      418,
+      0
+    ],
+    "role": "product-photo"
+  },
+  {
+    "file": "eoat-sprue-grippers-02.webp",
+    "wixId": "5c1fdb_ed2aea37c8c44074b5a77f4d61ce17c6~mv2.jpg",
+    "sourceType": "jpeg",
+    "hasAlpha": false,
+    "originalPx": [
+      900,
+      600
+    ],
+    "outputPx": [
+      640,
+      427
+    ],
+    "originalBytes": 104348,
+    "outputBytes": 8412,
+    "usedOn": [
+      "/eoat-sprue-grippers"
+    ],
+    "alt": [
+      "GR32 Series"
+    ],
+    "displayedPx": [
+      220,
+      0
+    ],
+    "role": "product-photo"
+  },
+  {
+    "file": "eoat-sprue-grippers-03.webp",
+    "wixId": "5c1fdb_1e99624de5f349209048c185ee476789~mv2.jpg",
+    "sourceType": "jpeg",
+    "hasAlpha": false,
+    "originalPx": [
+      900,
+      600
+    ],
+    "outputPx": [
+      640,
+      427
+    ],
+    "originalBytes": 110356,
+    "outputBytes": 10024,
+    "usedOn": [
+      "/eoat-sprue-grippers"
+    ],
+    "alt": [
+      "GR20 Series"
+    ],
+    "displayedPx": [
+      226,
+      0
+    ],
+    "role": "product-photo"
+  },
+  {
+    "file": "eoat-sprue-grippers-04.webp",
+    "wixId": "5c1fdb_a5e566b41cd3424196ac98b5abbaa53e~mv2.jpg",
+    "sourceType": "jpeg",
+    "hasAlpha": false,
+    "originalPx": [
+      900,
+      600
+    ],
+    "outputPx": [
+      640,
+      427
+    ],
+    "originalBytes": 95394,
+    "outputBytes": 13006,
+    "usedOn": [
+      "/eoat-sprue-grippers"
+    ],
+    "alt": [
+      "GR12 Series"
+    ],
+    "displayedPx": [
+      226,
+      0
+    ],
+    "role": "product-photo"
+  },
+  {
+    "file": "eoat-sprue-grippers-05.webp",
+    "wixId": "5c1fdb_15d0c4845dfb4a5b9380f50622db5502~mv2.jpg",
+    "sourceType": "jpeg",
+    "hasAlpha": false,
+    "originalPx": [
+      900,
+      600
+    ],
+    "outputPx": [
+      640,
+      427
+    ],
+    "originalBytes": 120673,
+    "outputBytes": 10244,
+    "usedOn": [
+      "/eoat-sprue-grippers"
+    ],
+    "alt": [
+      "GRA20 Series"
+    ],
+    "displayedPx": [
+      213,
+      0
+    ],
+    "role": "product-photo"
+  },
+  {
+    "file": "eoat-sprue-grippers-06.webp",
+    "wixId": "5c1fdb_44a3980d139e4b54b15b04665077042f~mv2.jpg",
+    "sourceType": "jpeg",
+    "hasAlpha": false,
+    "originalPx": [
+      900,
+      600
+    ],
+    "outputPx": [
+      640,
+      427
+    ],
+    "originalBytes": 131812,
+    "outputBytes": 8030,
+    "usedOn": [
+      "/eoat-sprue-grippers"
+    ],
+    "alt": [
+      "GRS08 Series"
+    ],
+    "displayedPx": [
+      220,
+      0
+    ],
+    "role": "product-photo"
+  },
+  {
+    "file": "eoat-sprue-grippers-07.webp",
+    "wixId": "5c1fdb_334e284c6c6142009c71a19e740bcf6c~mv2.jpg",
+    "sourceType": "jpeg",
+    "hasAlpha": false,
+    "originalPx": [
+      900,
+      600
+    ],
+    "outputPx": [
+      640,
+      427
+    ],
+    "originalBytes": 107318,
+    "outputBytes": 8340,
+    "usedOn": [
+      "/eoat-sprue-grippers"
+    ],
+    "alt": [
+      "GRL12 Series"
+    ],
+    "displayedPx": [
+      226,
+      0
+    ],
+    "role": "product-photo"
+  },
+  {
+    "file": "eoat-sprue-grippers-08.webp",
+    "wixId": "5c1fdb_4a04dd239b0d4e8992c1cc0704320c16~mv2.jpg",
+    "sourceType": "jpeg",
+    "hasAlpha": false,
+    "originalPx": [
+      900,
+      600
+    ],
+    "outputPx": [
+      640,
+      427
+    ],
+    "originalBytes": 111556,
+    "outputBytes": 8582,
+    "usedOn": [
+      "/eoat-sprue-grippers"
+    ],
+    "alt": [
+      "GRM12 Series"
+    ],
+    "displayedPx": [
+      226,
+      0
+    ],
+    "role": "product-photo"
+  },
+  {
+    "file": "eoat-sprue-grippers-09.webp",
+    "wixId": "5c1fdb_69435d05126c456fb1fd6b481d25d056~mv2.jpg",
+    "sourceType": "jpeg",
+    "hasAlpha": false,
+    "originalPx": [
+      900,
+      600
+    ],
+    "outputPx": [
+      640,
+      427
+    ],
+    "originalBytes": 102709,
+    "outputBytes": 8140,
+    "usedOn": [
+      "/eoat-sprue-grippers"
+    ],
+    "alt": [
+      "GRX20 Series"
+    ],
+    "displayedPx": [
+      226,
+      0
+    ],
+    "role": "product-photo"
+  },
+  {
+    "file": "eoat-sprue-grippers-10.webp",
+    "wixId": "5c1fdb_f04c88d8ded84faeb957c88754603685~mv2.jpg",
+    "sourceType": "jpeg",
+    "hasAlpha": false,
+    "originalPx": [
+      900,
+      600
+    ],
+    "outputPx": [
+      640,
+      427
+    ],
+    "originalBytes": 116744,
+    "outputBytes": 9624,
+    "usedOn": [
+      "/eoat-sprue-grippers"
+    ],
+    "alt": [
+      "GR05 Series"
+    ],
+    "displayedPx": [
+      220,
+      0
+    ],
+    "role": "product-photo"
+  },
+  {
+    "file": "eoat-sprue-grippers-11.webp",
+    "wixId": "5c1fdb_3d8206f385cb4f70881b02ae887db3b7~mv2.jpg",
+    "sourceType": "jpeg",
+    "hasAlpha": false,
+    "originalPx": [
+      900,
+      600
+    ],
+    "outputPx": [
+      640,
+      427
+    ],
+    "originalBytes": 91384,
+    "outputBytes": 8064,
+    "usedOn": [
+      "/eoat-sprue-grippers"
+    ],
+    "alt": [
+      "GRT20 Series"
+    ],
+    "displayedPx": [
+      226,
+      0
+    ],
+    "role": "product-photo"
+  },
+  {
+    "file": "eoat-sprue-grippers-12.webp",
+    "wixId": "5c1fdb_85d64a3cec0a4cb3945f9e80889445ed~mv2.jpg",
+    "sourceType": "jpeg",
+    "hasAlpha": false,
+    "originalPx": [
+      900,
+      600
+    ],
+    "outputPx": [
+      640,
+      427
+    ],
+    "originalBytes": 105988,
+    "outputBytes": 9090,
+    "usedOn": [
+      "/eoat-sprue-grippers"
+    ],
+    "alt": [
+      "GR10 Series"
+    ],
+    "displayedPx": [
+      226,
+      0
+    ],
+    "role": "product-photo"
+  },
+  {
+    "file": "eoat-sprue-grippers-13.webp",
+    "wixId": "5c1fdb_18b1d43d0699436ca9e652fd89ffa6fe~mv2.jpg",
+    "sourceType": "jpeg",
+    "hasAlpha": false,
+    "originalPx": [
+      900,
+      600
+    ],
+    "outputPx": [
+      640,
+      427
+    ],
+    "originalBytes": 104374,
+    "outputBytes": 11222,
+    "usedOn": [
+      "/eoat-sprue-grippers"
+    ],
+    "alt": [
+      "GR20 Steel Jaw"
+    ],
+    "displayedPx": [
+      226,
+      0
+    ],
+    "role": "product-photo"
+  },
+  {
+    "file": "expansion-grippers-01.webp",
+    "wixId": "5c1fdb_21c6dcb566ec4377824ff1f36d5998aa~mv2.jpg",
+    "sourceType": "jpeg",
+    "hasAlpha": false,
+    "originalPx": [
+      900,
+      600
+    ],
+    "outputPx": [
+      752,
+      501
+    ],
+    "originalBytes": 11155,
+    "outputBytes": 5268,
+    "usedOn": [
+      "/expansion-grippers"
+    ],
+    "alt": [
+      "Y00058  Expansion Gripper"
+    ],
+    "displayedPx": [
+      376,
+      0
+    ],
+    "role": "product-photo"
+  },
+  {
+    "file": "expansion-grippers-02.webp",
+    "wixId": "5c1fdb_53571319a05c4ac6afd7c7ddf6a2e517~mv2.jpg",
+    "sourceType": "jpeg",
+    "hasAlpha": false,
+    "originalPx": [
+      900,
+      600
+    ],
+    "outputPx": [
+      640,
+      427
+    ],
+    "originalBytes": 5443,
+    "outputBytes": 1332,
+    "usedOn": [
+      "/expansion-grippers"
+    ],
+    "alt": [
+      "Transparent Silicone Gripper"
+    ],
+    "displayedPx": [
+      266,
+      0
+    ],
+    "role": "product-photo"
+  },
+  {
+    "file": "expansion-grippers-03.webp",
+    "wixId": "5c1fdb_776295e2bf434b1a92141c803d70dc4d~mv2.jpg",
+    "sourceType": "jpeg",
+    "hasAlpha": false,
+    "originalPx": [
+      900,
+      600
+    ],
+    "outputPx": [
+      640,
+      427
+    ],
+    "originalBytes": 12229,
+    "outputBytes": 4140,
+    "usedOn": [
+      "/expansion-grippers"
+    ],
+    "alt": [
+      "Blue Silicone Gripper"
+    ],
+    "displayedPx": [
+      266,
+      0
+    ],
+    "role": "product-photo"
+  },
+  {
+    "file": "greasepumps-02.webp",
+    "wixId": "5c1fdb_b3cf4a141c4641ef81410a00d36ba244~mv2.png",
+    "sourceType": "png",
+    "hasAlpha": false,
+    "originalPx": [
+      419,
+      193
+    ],
+    "outputPx": [
+      419,
+      193
+    ],
+    "originalBytes": 70824,
+    "outputBytes": 8288,
+    "usedOn": [
+      "/greasepumps"
+    ],
+    "alt": [],
+    "displayedPx": [
+      221,
+      0
+    ],
+    "role": "product-photo"
+  },
+  {
+    "file": "greasepumps-03.webp",
+    "wixId": "5c1fdb_dc00341e9e7e4259840f3bd4b8bc9dad~mv2.png",
+    "sourceType": "png",
+    "hasAlpha": false,
+    "originalPx": [
+      419,
+      252
+    ],
+    "outputPx": [
+      419,
+      252
+    ],
+    "originalBytes": 71745,
+    "outputBytes": 9298,
+    "usedOn": [
+      "/greasepumps"
+    ],
+    "alt": [],
+    "displayedPx": [
+      159,
+      0
+    ],
+    "role": "product-photo"
+  },
+  {
+    "file": "greasepumps-04.webp",
+    "wixId": "5c1fdb_a88471938f8f4e87b7db5b79af12a5ee~mv2.png",
+    "sourceType": "png",
+    "hasAlpha": false,
+    "originalPx": [
+      419,
+      262
+    ],
+    "outputPx": [
+      419,
+      262
+    ],
+    "originalBytes": 46147,
+    "outputBytes": 4044,
+    "usedOn": [
+      "/greasepumps"
+    ],
+    "alt": [],
+    "displayedPx": [
+      160,
+      0
+    ],
+    "role": "product-photo"
+  },
+  {
+    "file": "greasepumps-05.webp",
+    "wixId": "5c1fdb_e35e5baea6b64443b89ff1f23dcae3f1~mv2.png",
+    "sourceType": "png",
+    "hasAlpha": false,
+    "originalPx": [
+      419,
+      238
+    ],
+    "outputPx": [
+      419,
+      238
+    ],
+    "originalBytes": 86251,
+    "outputBytes": 9820,
+    "usedOn": [
+      "/greasepumps"
+    ],
+    "alt": [],
+    "displayedPx": [
+      221,
+      0
+    ],
+    "role": "product-photo"
+  },
+  {
+    "file": "greasepumps-07.webp",
+    "wixId": "5c1fdb_5253d1fda3cc461bbeff085fc6d90f2c~mv2.png",
+    "sourceType": "png",
+    "hasAlpha": false,
+    "originalPx": [
+      419,
+      328
+    ],
+    "outputPx": [
+      419,
+      328
+    ],
+    "originalBytes": 57215,
+    "outputBytes": 7288,
+    "usedOn": [
+      "/greasepumps"
+    ],
+    "alt": [
+      "1-hm.png"
+    ],
+    "displayedPx": [
+      159,
+      0
+    ],
+    "role": "product-photo"
+  },
+  {
+    "file": "greasepumps-08.webp",
+    "wixId": "5c1fdb_98036f2fbb1c47fb841cd881e53b94e8~mv2.png",
+    "sourceType": "png",
+    "hasAlpha": false,
+    "originalPx": [
+      419,
+      188
+    ],
+    "outputPx": [
+      419,
+      188
+    ],
+    "originalBytes": 67725,
+    "outputBytes": 6496,
+    "usedOn": [
+      "/greasepumps"
+    ],
+    "alt": [],
+    "displayedPx": [
+      244,
+      0
+    ],
+    "role": "product-photo"
+  },
+  {
+    "file": "greasepumps-09.webp",
+    "wixId": "5c1fdb_030069fbcc974012bc538d143644ea15~mv2.png",
+    "sourceType": "png",
+    "hasAlpha": false,
+    "originalPx": [
+      419,
+      231
+    ],
+    "outputPx": [
+      419,
+      231
+    ],
+    "originalBytes": 76850,
+    "outputBytes": 6952,
+    "usedOn": [
+      "/greasepumps"
+    ],
+    "alt": [],
+    "displayedPx": [
+      401,
+      0
     ],
     "role": "product-photo"
   },
@@ -1325,6 +3484,299 @@
     "note": "Screenshot of a spec table: rebuild as an HTML table (accessibility, SEO). Check whether it contains prices."
   },
   {
+    "file": "locating-tools-02.webp",
+    "wixId": "5c1fdb_8701b4bb556e4f14a0f8e3b7101d4fa3~mv2.jpg",
+    "sourceType": "jpeg",
+    "hasAlpha": false,
+    "originalPx": [
+      900,
+      600
+    ],
+    "outputPx": [
+      838,
+      559
+    ],
+    "originalBytes": 106842,
+    "outputBytes": 7776,
+    "usedOn": [
+      "/locating-tools"
+    ],
+    "alt": [
+      "EOAT Locators"
+    ],
+    "displayedPx": [
+      419,
+      0
+    ],
+    "role": "product-photo"
+  },
+  {
+    "file": "locating-tools-03.webp",
+    "wixId": "5c1fdb_66b22d579c2246349e6d0c609cf9d53b~mv2.jpg",
+    "sourceType": "jpeg",
+    "hasAlpha": false,
+    "originalPx": [
+      900,
+      600
+    ],
+    "outputPx": [
+      640,
+      427
+    ],
+    "originalBytes": 15256,
+    "outputBytes": 6754,
+    "usedOn": [
+      "/locating-tools"
+    ],
+    "alt": [
+      "Gripper-for-Engagement-new_CRG.jpg"
+    ],
+    "displayedPx": [
+      221,
+      0
+    ],
+    "role": "product-photo"
+  },
+  {
+    "file": "locating-tools-04.webp",
+    "wixId": "5c1fdb_4ba7bffe5894402da374e1b3a3b027bd~mv2.jpg",
+    "sourceType": "jpeg",
+    "hasAlpha": false,
+    "originalPx": [
+      900,
+      600
+    ],
+    "outputPx": [
+      640,
+      427
+    ],
+    "originalBytes": 12260,
+    "outputBytes": 5128,
+    "usedOn": [
+      "/locating-tools"
+    ],
+    "alt": [
+      "Mould Locator"
+    ],
+    "displayedPx": [
+      227,
+      0
+    ],
+    "role": "product-photo"
+  },
+  {
+    "file": "locating-tools-05.webp",
+    "wixId": "5c1fdb_5a1da100840e47eaadcce4c074fdc3b0~mv2.jpg",
+    "sourceType": "jpeg",
+    "hasAlpha": false,
+    "originalPx": [
+      900,
+      600
+    ],
+    "outputPx": [
+      640,
+      427
+    ],
+    "originalBytes": 10729,
+    "outputBytes": 4048,
+    "usedOn": [
+      "/locating-tools"
+    ],
+    "alt": [
+      "Gripper Locator With Switch"
+    ],
+    "displayedPx": [
+      230,
+      0
+    ],
+    "role": "product-photo"
+  },
+  {
+    "file": "locating-tools-06.webp",
+    "wixId": "5c1fdb_23ab827019de43aaa602af99d543c2bf~mv2.jpg",
+    "sourceType": "jpeg",
+    "hasAlpha": false,
+    "originalPx": [
+      900,
+      600
+    ],
+    "outputPx": [
+      640,
+      427
+    ],
+    "originalBytes": 8791,
+    "outputBytes": 3202,
+    "usedOn": [
+      "/locating-tools"
+    ],
+    "alt": [
+      "Mould  Positioner"
+    ],
+    "displayedPx": [
+      247,
+      0
+    ],
+    "role": "product-photo"
+  },
+  {
+    "file": "lubepumps-02.webp",
+    "wixId": "5c1fdb_7d297d3046a14a5fac025e2b9bb710bf~mv2.png",
+    "sourceType": "png",
+    "hasAlpha": false,
+    "originalPx": [
+      419,
+      273
+    ],
+    "outputPx": [
+      419,
+      273
+    ],
+    "originalBytes": 126475,
+    "outputBytes": 16032,
+    "usedOn": [
+      "/lubepumps"
+    ],
+    "alt": [],
+    "displayedPx": [
+      221,
+      0
+    ],
+    "role": "product-photo"
+  },
+  {
+    "file": "lubepumps-03.webp",
+    "wixId": "5c1fdb_e0a1a266b5744f55ad718e9868ba84ac~mv2.png",
+    "sourceType": "png",
+    "hasAlpha": false,
+    "originalPx": [
+      419,
+      273
+    ],
+    "outputPx": [
+      419,
+      273
+    ],
+    "originalBytes": 115910,
+    "outputBytes": 12924,
+    "usedOn": [
+      "/lubepumps"
+    ],
+    "alt": [
+      "2-303s-303m.png"
+    ],
+    "displayedPx": [
+      222,
+      0
+    ],
+    "role": "product-photo"
+  },
+  {
+    "file": "lubepumps-04.webp",
+    "wixId": "5c1fdb_d8659033b85c41d89dd47386ba0c787a~mv2.png",
+    "sourceType": "png",
+    "hasAlpha": false,
+    "originalPx": [
+      419,
+      273
+    ],
+    "outputPx": [
+      419,
+      273
+    ],
+    "originalBytes": 114718,
+    "outputBytes": 8192,
+    "usedOn": [
+      "/lubepumps"
+    ],
+    "alt": [],
+    "displayedPx": [
+      140,
+      0
+    ],
+    "role": "product-photo"
+  },
+  {
+    "file": "lubepumps-05.webp",
+    "wixId": "5c1fdb_8a325521a2144a27a9ce0ad3f195f9ef~mv2.png",
+    "sourceType": "png",
+    "hasAlpha": false,
+    "originalPx": [
+      419,
+      273
+    ],
+    "outputPx": [
+      419,
+      273
+    ],
+    "originalBytes": 111598,
+    "outputBytes": 9178,
+    "usedOn": [
+      "/lubepumps"
+    ],
+    "alt": [
+      "image.png"
+    ],
+    "displayedPx": [
+      156,
+      0
+    ],
+    "role": "product-photo"
+  },
+  {
+    "file": "lubepumps-06.webp",
+    "wixId": "5c1fdb_1ff6a098d76f49b5932acc1467ea3d6b~mv2.png",
+    "sourceType": "png",
+    "hasAlpha": false,
+    "originalPx": [
+      419,
+      273
+    ],
+    "outputPx": [
+      419,
+      273
+    ],
+    "originalBytes": 97443,
+    "outputBytes": 8854,
+    "usedOn": [
+      "/lubepumps"
+    ],
+    "alt": [
+      "image.png"
+    ],
+    "displayedPx": [
+      132,
+      0
+    ],
+    "role": "product-photo"
+  },
+  {
+    "file": "lubepumps-07.webp",
+    "wixId": "5c1fdb_a879456569274eeb928f128f3a915e8e~mv2.png",
+    "sourceType": "png",
+    "hasAlpha": false,
+    "originalPx": [
+      419,
+      273
+    ],
+    "outputPx": [
+      419,
+      273
+    ],
+    "originalBytes": 95228,
+    "outputBytes": 8174,
+    "usedOn": [
+      "/lubepumps"
+    ],
+    "alt": [
+      "image.png"
+    ],
+    "displayedPx": [
+      127,
+      0
+    ],
+    "role": "product-photo"
+  },
+  {
     "file": "macosystemretrofit-maco-compact-control-system.webp",
     "wixId": "5c1fdb_d9338654ebbf4e16aa1ddf20536a6fb0~mv2.jpg",
     "sourceType": "jpeg",
@@ -1375,6 +3827,276 @@
     "displayedPx": [
       600,
       277
+    ],
+    "role": "product-photo"
+  },
+  {
+    "file": "manual-tool-changers-01.webp",
+    "wixId": "5c1fdb_bb7a142c33034f37b276e43448cef489~mv2.jpg",
+    "sourceType": "jpeg",
+    "hasAlpha": false,
+    "originalPx": [
+      900,
+      600
+    ],
+    "outputPx": [
+      900,
+      600
+    ],
+    "originalBytes": 172485,
+    "outputBytes": 21366,
+    "usedOn": [
+      "/manual-tool-changers"
+    ],
+    "alt": [
+      "Manual Tool Changer"
+    ],
+    "displayedPx": [
+      465,
+      0
+    ],
+    "role": "product-photo"
+  },
+  {
+    "file": "manual-tool-changers-02.webp",
+    "wixId": "5c1fdb_f4aa7df1a9ce42bb8d9e912913940eb4~mv2.png",
+    "sourceType": "png",
+    "hasAlpha": true,
+    "originalPx": [
+      900,
+      600
+    ],
+    "outputPx": [
+      640,
+      427
+    ],
+    "originalBytes": 88357,
+    "outputBytes": 29058,
+    "usedOn": [
+      "/manual-tool-changers"
+    ],
+    "alt": [
+      "QC-200 Quick Changer"
+    ],
+    "displayedPx": [
+      220,
+      0
+    ],
+    "role": "product-photo"
+  },
+  {
+    "file": "manual-tool-changers-03.webp",
+    "wixId": "5c1fdb_a4d8ed45070a448590f0803f3f6b5d90~mv2.jpg",
+    "sourceType": "jpeg",
+    "hasAlpha": false,
+    "originalPx": [
+      900,
+      600
+    ],
+    "outputPx": [
+      640,
+      427
+    ],
+    "originalBytes": 30021,
+    "outputBytes": 14136,
+    "usedOn": [
+      "/manual-tool-changers"
+    ],
+    "alt": [
+      "QC-150 Quick Changer"
+    ],
+    "displayedPx": [
+      220,
+      0
+    ],
+    "role": "product-photo"
+  },
+  {
+    "file": "manual-tool-changers-04.webp",
+    "wixId": "5c1fdb_0f3eae40f4ea4c7087eacfafe58f2525~mv2.jpg",
+    "sourceType": "jpeg",
+    "hasAlpha": false,
+    "originalPx": [
+      900,
+      600
+    ],
+    "outputPx": [
+      640,
+      427
+    ],
+    "originalBytes": 32512,
+    "outputBytes": 16310,
+    "usedOn": [
+      "/manual-tool-changers"
+    ],
+    "alt": [
+      "QC-90 Quick Changer"
+    ],
+    "displayedPx": [
+      225,
+      0
+    ],
+    "role": "product-photo"
+  },
+  {
+    "file": "manual-tool-changers-05.webp",
+    "wixId": "5c1fdb_99e50165860d46ee9954ad3f110a0e58~mv2.jpg",
+    "sourceType": "jpeg",
+    "hasAlpha": false,
+    "originalPx": [
+      900,
+      600
+    ],
+    "outputPx": [
+      640,
+      427
+    ],
+    "originalBytes": 136642,
+    "outputBytes": 12114,
+    "usedOn": [
+      "/manual-tool-changers"
+    ],
+    "alt": [
+      "Robot Tool Changer"
+    ],
+    "displayedPx": [
+      220,
+      0
+    ],
+    "role": "product-photo"
+  },
+  {
+    "file": "manual-tool-changers-06.webp",
+    "wixId": "5c1fdb_c137b7b435024a8a8d4fa5d143caa7f0~mv2.jpg",
+    "sourceType": "jpeg",
+    "hasAlpha": false,
+    "originalPx": [
+      900,
+      600
+    ],
+    "outputPx": [
+      640,
+      427
+    ],
+    "originalBytes": 20452,
+    "outputBytes": 8820,
+    "usedOn": [
+      "/manual-tool-changers"
+    ],
+    "alt": [
+      "Quick Change Interface"
+    ],
+    "displayedPx": [
+      220,
+      0
+    ],
+    "role": "product-photo"
+  },
+  {
+    "file": "manual-tool-changers-07.webp",
+    "wixId": "5c1fdb_f00b5abac9214e9bb5e3b70c5baeedba~mv2.jpg",
+    "sourceType": "jpeg",
+    "hasAlpha": false,
+    "originalPx": [
+      900,
+      600
+    ],
+    "outputPx": [
+      640,
+      427
+    ],
+    "originalBytes": 21598,
+    "outputBytes": 10520,
+    "usedOn": [
+      "/manual-tool-changers"
+    ],
+    "alt": [
+      "Square Quick Changer"
+    ],
+    "displayedPx": [
+      225,
+      0
+    ],
+    "role": "product-photo"
+  },
+  {
+    "file": "manual-tool-changers-08.webp",
+    "wixId": "5c1fdb_ba04967ce2e6438abe02aeccca64b293~mv2.jpg",
+    "sourceType": "jpeg",
+    "hasAlpha": false,
+    "originalPx": [
+      900,
+      600
+    ],
+    "outputPx": [
+      640,
+      427
+    ],
+    "originalBytes": 20001,
+    "outputBytes": 8758,
+    "usedOn": [
+      "/manual-tool-changers"
+    ],
+    "alt": [
+      "L Shape Quick Changer"
+    ],
+    "displayedPx": [
+      225,
+      0
+    ],
+    "role": "product-photo"
+  },
+  {
+    "file": "manual-tool-changers-09.webp",
+    "wixId": "5c1fdb_808d6e882b144820a539d615a3b91bf4~mv2.jpg",
+    "sourceType": "jpeg",
+    "hasAlpha": false,
+    "originalPx": [
+      900,
+      600
+    ],
+    "outputPx": [
+      640,
+      427
+    ],
+    "originalBytes": 23578,
+    "outputBytes": 12302,
+    "usedOn": [
+      "/manual-tool-changers"
+    ],
+    "alt": [
+      "Quick Connector"
+    ],
+    "displayedPx": [
+      190,
+      0
+    ],
+    "role": "product-photo"
+  },
+  {
+    "file": "manual-tool-changers-10.webp",
+    "wixId": "5c1fdb_260f8a3095fa4c2c8fbac85bf7706164~mv2.jpg",
+    "sourceType": "jpeg",
+    "hasAlpha": false,
+    "originalPx": [
+      900,
+      600
+    ],
+    "outputPx": [
+      640,
+      427
+    ],
+    "originalBytes": 12010,
+    "outputBytes": 6002,
+    "usedOn": [
+      "/manual-tool-changers"
+    ],
+    "alt": [
+      "Signal Module"
+    ],
+    "displayedPx": [
+      186,
+      0
     ],
     "role": "product-photo"
   },
@@ -1486,6 +4208,519 @@
       169
     ],
     "role": "diagram"
+  },
+  {
+    "file": "needle-grippers-01.webp",
+    "wixId": "5c1fdb_f994b856e76f4f73a250d56b8685a3f1~mv2.jpg",
+    "sourceType": "jpeg",
+    "hasAlpha": false,
+    "originalPx": [
+      900,
+      600
+    ],
+    "outputPx": [
+      838,
+      559
+    ],
+    "originalBytes": 89189,
+    "outputBytes": 5634,
+    "usedOn": [
+      "/needle-grippers"
+    ],
+    "alt": [
+      "Needle-gripper_CRG.jpg"
+    ],
+    "displayedPx": [
+      419,
+      0
+    ],
+    "role": "product-photo"
+  },
+  {
+    "file": "needle-grippers-02.webp",
+    "wixId": "5c1fdb_8d9a59539d75431ab831fa03c38113bf~mv2.jpg",
+    "sourceType": "jpeg",
+    "hasAlpha": false,
+    "originalPx": [
+      900,
+      600
+    ],
+    "outputPx": [
+      640,
+      427
+    ],
+    "originalBytes": 12735,
+    "outputBytes": 5244,
+    "usedOn": [
+      "/needle-grippers"
+    ],
+    "alt": [
+      "4 Pin Needle Grippers"
+    ],
+    "displayedPx": [
+      221,
+      0
+    ],
+    "role": "product-photo"
+  },
+  {
+    "file": "needle-grippers-03.webp",
+    "wixId": "5c1fdb_d2ea06c8fe6f4b5594dddb4f22d9993a~mv2.jpg",
+    "sourceType": "jpeg",
+    "hasAlpha": false,
+    "originalPx": [
+      900,
+      600
+    ],
+    "outputPx": [
+      640,
+      427
+    ],
+    "originalBytes": 14001,
+    "outputBytes": 5880,
+    "usedOn": [
+      "/needle-grippers"
+    ],
+    "alt": [
+      "8 Pin Needle Grippers"
+    ],
+    "displayedPx": [
+      227,
+      0
+    ],
+    "role": "product-photo"
+  },
+  {
+    "file": "parallel-gripper-02.webp",
+    "wixId": "5c1fdb_10ff839fa05943bfaf3c3a2587fb7071~mv2.jpg",
+    "sourceType": "jpeg",
+    "hasAlpha": false,
+    "originalPx": [
+      900,
+      600
+    ],
+    "outputPx": [
+      838,
+      559
+    ],
+    "originalBytes": 177917,
+    "outputBytes": 13302,
+    "usedOn": [
+      "/parallel-gripper"
+    ],
+    "alt": [
+      "Parallel-Gripper-_CRG.jpg"
+    ],
+    "displayedPx": [
+      419,
+      0
+    ],
+    "role": "product-photo"
+  },
+  {
+    "file": "parallel-gripper-03.webp",
+    "wixId": "5c1fdb_489d2790f5c846c3a661c43f3e187289~mv2.jpg",
+    "sourceType": "jpeg",
+    "hasAlpha": false,
+    "originalPx": [
+      900,
+      600
+    ],
+    "outputPx": [
+      640,
+      427
+    ],
+    "originalBytes": 23918,
+    "outputBytes": 9486,
+    "usedOn": [
+      "/parallel-gripper"
+    ],
+    "alt": [
+      "Parallel-Gripper_CRG.jpg"
+    ],
+    "displayedPx": [
+      221,
+      0
+    ],
+    "role": "product-photo"
+  },
+  {
+    "file": "parallel-gripper-04.webp",
+    "wixId": "5c1fdb_7d89f142e7c94981b348fa9ab389cdd6~mv2.jpg",
+    "sourceType": "jpeg",
+    "hasAlpha": false,
+    "originalPx": [
+      900,
+      600
+    ],
+    "outputPx": [
+      640,
+      427
+    ],
+    "originalBytes": 15443,
+    "outputBytes": 6234,
+    "usedOn": [
+      "/parallel-gripper"
+    ],
+    "alt": [
+      "Y-Shape-Parallel-Gripper_CRG.jpg"
+    ],
+    "displayedPx": [
+      221,
+      0
+    ],
+    "role": "product-photo"
+  },
+  {
+    "file": "pneumatic-finger-gripper-02.webp",
+    "wixId": "5c1fdb_9a6817fb96784b0aaa04bce43c6235f8~mv2.jpg",
+    "sourceType": "jpeg",
+    "hasAlpha": false,
+    "originalPx": [
+      900,
+      600
+    ],
+    "outputPx": [
+      640,
+      427
+    ],
+    "originalBytes": 91097,
+    "outputBytes": 3520,
+    "usedOn": [
+      "/pneumatic-finger-gripper"
+    ],
+    "alt": [
+      "Pneumatic-Finger-Gripper_CRG.jpg"
+    ],
+    "displayedPx": [
+      148,
+      0
+    ],
+    "role": "product-photo"
+  },
+  {
+    "file": "pneumatic-finger-gripper-03.webp",
+    "wixId": "5c1fdb_178a802deb1641dea7d9351f4567fcc2~mv2.jpg",
+    "sourceType": "jpeg",
+    "hasAlpha": false,
+    "originalPx": [
+      900,
+      600
+    ],
+    "outputPx": [
+      640,
+      427
+    ],
+    "originalBytes": 24540,
+    "outputBytes": 10254,
+    "usedOn": [
+      "/pneumatic-finger-gripper"
+    ],
+    "alt": [
+      "Angular Pneumatic Gripper"
+    ],
+    "displayedPx": [
+      221,
+      0
+    ],
+    "role": "product-photo"
+  },
+  {
+    "file": "pneumatic-finger-gripper-04.webp",
+    "wixId": "5c1fdb_72ce7bb3aba04f228f22b9191c3750ae~mv2.jpg",
+    "sourceType": "jpeg",
+    "hasAlpha": false,
+    "originalPx": [
+      900,
+      600
+    ],
+    "outputPx": [
+      640,
+      427
+    ],
+    "originalBytes": 15514,
+    "outputBytes": 3452,
+    "usedOn": [
+      "/pneumatic-finger-gripper"
+    ],
+    "alt": [
+      "Extended Finger Gripper"
+    ],
+    "displayedPx": [
+      227,
+      0
+    ],
+    "role": "product-photo"
+  },
+  {
+    "file": "pneumatic-finger-gripper-05.webp",
+    "wixId": "5c1fdb_03599b6a600a46b09d430063f59722e3~mv2.jpg",
+    "sourceType": "jpeg",
+    "hasAlpha": false,
+    "originalPx": [
+      900,
+      600
+    ],
+    "outputPx": [
+      640,
+      427
+    ],
+    "originalBytes": 37547,
+    "outputBytes": 15514,
+    "usedOn": [
+      "/pneumatic-finger-gripper"
+    ],
+    "alt": [
+      "GOF20 Finger Gripper"
+    ],
+    "displayedPx": [
+      230,
+      0
+    ],
+    "role": "product-photo"
+  },
+  {
+    "file": "pneumatic-finger-gripper-06.webp",
+    "wixId": "5c1fdb_8213bc52e1dd40238ec3eebceab85d28~mv2.jpg",
+    "sourceType": "jpeg",
+    "hasAlpha": false,
+    "originalPx": [
+      900,
+      600
+    ],
+    "outputPx": [
+      640,
+      427
+    ],
+    "originalBytes": 8146,
+    "outputBytes": 2576,
+    "usedOn": [
+      "/pneumatic-finger-gripper"
+    ],
+    "alt": [
+      "GFR Series Finger Gripper"
+    ],
+    "displayedPx": [
+      214,
+      0
+    ],
+    "role": "product-photo"
+  },
+  {
+    "file": "pneumatic-finger-gripper-07.webp",
+    "wixId": "5c1fdb_ecf7c8c5783b4b4db499421874216d3d~mv2.jpg",
+    "sourceType": "jpeg",
+    "hasAlpha": false,
+    "originalPx": [
+      900,
+      600
+    ],
+    "outputPx": [
+      640,
+      427
+    ],
+    "originalBytes": 7526,
+    "outputBytes": 2272,
+    "usedOn": [
+      "/pneumatic-finger-gripper"
+    ],
+    "alt": [
+      "GF Series Finger  Gripper"
+    ],
+    "displayedPx": [
+      221,
+      0
+    ],
+    "role": "product-photo"
+  },
+  {
+    "file": "pneumatic-finger-gripper-08.webp",
+    "wixId": "5c1fdb_9ba65a7240c74f0f85e397d3e186cedf~mv2.jpg",
+    "sourceType": "jpeg",
+    "hasAlpha": false,
+    "originalPx": [
+      900,
+      600
+    ],
+    "outputPx": [
+      640,
+      427
+    ],
+    "originalBytes": 9125,
+    "outputBytes": 2992,
+    "usedOn": [
+      "/pneumatic-finger-gripper"
+    ],
+    "alt": [
+      "GS Gripper Finger"
+    ],
+    "displayedPx": [
+      227,
+      0
+    ],
+    "role": "product-photo"
+  },
+  {
+    "file": "pneumatic-finger-gripper-09.webp",
+    "wixId": "5c1fdb_fbf97aee77254e4b83091467aeeb3fe0~mv2.jpg",
+    "sourceType": "jpeg",
+    "hasAlpha": false,
+    "originalPx": [
+      900,
+      600
+    ],
+    "outputPx": [
+      640,
+      427
+    ],
+    "originalBytes": 9413,
+    "outputBytes": 3292,
+    "usedOn": [
+      "/pneumatic-finger-gripper"
+    ],
+    "alt": [
+      "Gripper Finger  Accessories"
+    ],
+    "displayedPx": [
+      227,
+      0
+    ],
+    "role": "product-photo"
+  },
+  {
+    "file": "pneumatic-finger-gripper-10.webp",
+    "wixId": "5c1fdb_444f7f5e27054c17944c38ae00ab3715~mv2.jpg",
+    "sourceType": "jpeg",
+    "hasAlpha": false,
+    "originalPx": [
+      900,
+      600
+    ],
+    "outputPx": [
+      640,
+      427
+    ],
+    "originalBytes": 15857,
+    "outputBytes": 6124,
+    "usedOn": [
+      "/pneumatic-finger-gripper"
+    ],
+    "alt": [
+      "GP2  Gripper Finger Accessories"
+    ],
+    "displayedPx": [
+      227,
+      0
+    ],
+    "role": "product-photo"
+  },
+  {
+    "file": "pneumatic-finger-gripper-11.webp",
+    "wixId": "5c1fdb_25294be78bd147c99e0e4b344aaa1273~mv2.jpg",
+    "sourceType": "jpeg",
+    "hasAlpha": false,
+    "originalPx": [
+      900,
+      600
+    ],
+    "outputPx": [
+      640,
+      427
+    ],
+    "originalBytes": 7552,
+    "outputBytes": 2008,
+    "usedOn": [
+      "/pneumatic-finger-gripper"
+    ],
+    "alt": [
+      "Magnetic  Sensor"
+    ],
+    "displayedPx": [
+      221,
+      0
+    ],
+    "role": "product-photo"
+  },
+  {
+    "file": "pneumatic-finger-gripper-12.webp",
+    "wixId": "5c1fdb_be193e28fa8d4cfd8cf79e85d3f65724~mv2.jpg",
+    "sourceType": "jpeg",
+    "hasAlpha": false,
+    "originalPx": [
+      900,
+      600
+    ],
+    "outputPx": [
+      640,
+      427
+    ],
+    "originalBytes": 9933,
+    "outputBytes": 2978,
+    "usedOn": [
+      "/pneumatic-finger-gripper"
+    ],
+    "alt": [
+      "Vertical  Tilt Unit  Small EOAT"
+    ],
+    "displayedPx": [
+      227,
+      0
+    ],
+    "role": "product-photo"
+  },
+  {
+    "file": "pneumatic-finger-gripper-13.webp",
+    "wixId": "5c1fdb_c65e099feb6e416f96a229925faa80e3~mv2.jpg",
+    "sourceType": "jpeg",
+    "hasAlpha": false,
+    "originalPx": [
+      900,
+      600
+    ],
+    "outputPx": [
+      640,
+      427
+    ],
+    "originalBytes": 16332,
+    "outputBytes": 5994,
+    "usedOn": [
+      "/pneumatic-finger-gripper"
+    ],
+    "alt": [
+      "Silicone  Pad"
+    ],
+    "displayedPx": [
+      227,
+      0
+    ],
+    "role": "product-photo"
+  },
+  {
+    "file": "pneumatic-finger-gripper-14.webp",
+    "wixId": "5c1fdb_94bf0759174f4f0991df06c8921656fe~mv2.jpg",
+    "sourceType": "jpeg",
+    "hasAlpha": false,
+    "originalPx": [
+      900,
+      600
+    ],
+    "outputPx": [
+      640,
+      427
+    ],
+    "originalBytes": 10200,
+    "outputBytes": 3210,
+    "usedOn": [
+      "/pneumatic-finger-gripper"
+    ],
+    "alt": [
+      "Horizontal Tilt Unit"
+    ],
+    "displayedPx": [
+      227,
+      0
+    ],
+    "role": "product-photo"
   },
   {
     "file": "products-image.webp",
@@ -1866,6 +5101,384 @@
     "role": "product-photo"
   },
   {
+    "file": "vacuum-grippers-01.webp",
+    "wixId": "5c1fdb_ab1a76983f80406ca137c26806474bcc~mv2.jpg",
+    "sourceType": "jpeg",
+    "hasAlpha": false,
+    "originalPx": [
+      900,
+      600
+    ],
+    "outputPx": [
+      756,
+      504
+    ],
+    "originalBytes": 13219,
+    "outputBytes": 5720,
+    "usedOn": [
+      "/vacuum-grippers"
+    ],
+    "alt": [
+      "Vacuum-Cups-FGA"
+    ],
+    "displayedPx": [
+      378,
+      0
+    ],
+    "role": "product-photo"
+  },
+  {
+    "file": "vacuum-grippers-02.webp",
+    "wixId": "5c1fdb_25218d47e3c341cb8d19639f9f66921f~mv2.jpg",
+    "sourceType": "jpeg",
+    "hasAlpha": false,
+    "originalPx": [
+      900,
+      600
+    ],
+    "outputPx": [
+      640,
+      427
+    ],
+    "originalBytes": 23814,
+    "outputBytes": 9694,
+    "usedOn": [
+      "/vacuum-grippers"
+    ],
+    "alt": [
+      "Vacuum-Cups-SAF2"
+    ],
+    "displayedPx": [
+      220,
+      0
+    ],
+    "role": "product-photo"
+  },
+  {
+    "file": "vacuum-grippers-03.webp",
+    "wixId": "5c1fdb_98ab53df2bf44ecead0863cc91fa59bb~mv2.jpg",
+    "sourceType": "jpeg",
+    "hasAlpha": false,
+    "originalPx": [
+      900,
+      600
+    ],
+    "outputPx": [
+      640,
+      427
+    ],
+    "originalBytes": 28962,
+    "outputBytes": 13030,
+    "usedOn": [
+      "/vacuum-grippers"
+    ],
+    "alt": [
+      "SAB2 Vacuum Cups"
+    ],
+    "displayedPx": [
+      220,
+      0
+    ],
+    "role": "product-photo"
+  },
+  {
+    "file": "vacuum-grippers-04.webp",
+    "wixId": "5c1fdb_5eded868c98440a59f7198cb6086f739~mv2.jpg",
+    "sourceType": "jpeg",
+    "hasAlpha": false,
+    "originalPx": [
+      900,
+      600
+    ],
+    "outputPx": [
+      640,
+      427
+    ],
+    "originalBytes": 12063,
+    "outputBytes": 4328,
+    "usedOn": [
+      "/vacuum-grippers"
+    ],
+    "alt": [
+      "Vacuum-Cups-VSH"
+    ],
+    "displayedPx": [
+      220,
+      0
+    ],
+    "role": "product-photo"
+  },
+  {
+    "file": "vacuum-grippers-05.webp",
+    "wixId": "5c1fdb_a66a9ddfaa3f4db586c9ae45c7ce6a98~mv2.jpg",
+    "sourceType": "jpeg",
+    "hasAlpha": false,
+    "originalPx": [
+      900,
+      600
+    ],
+    "outputPx": [
+      640,
+      427
+    ],
+    "originalBytes": 11133,
+    "outputBytes": 3898,
+    "usedOn": [
+      "/vacuum-grippers"
+    ],
+    "alt": [
+      "Vacuum-Cups-Suspensions"
+    ],
+    "displayedPx": [
+      220,
+      0
+    ],
+    "role": "product-photo"
+  },
+  {
+    "file": "vacuum-grippers-06.webp",
+    "wixId": "5c1fdb_424d28f8dde047efbbfcead61cd1bb0a~mv2.jpg",
+    "sourceType": "jpeg",
+    "hasAlpha": false,
+    "originalPx": [
+      900,
+      600
+    ],
+    "outputPx": [
+      640,
+      427
+    ],
+    "originalBytes": 14693,
+    "outputBytes": 6148,
+    "usedOn": [
+      "/vacuum-grippers"
+    ],
+    "alt": [
+      "Vacuum-Cups-Connector"
+    ],
+    "displayedPx": [
+      220,
+      0
+    ],
+    "role": "product-photo"
+  },
+  {
+    "file": "vacuum-grippers-07.webp",
+    "wixId": "5c1fdb_eb5414dac0f340a0bd3bb40f9daedabe~mv2.jpg",
+    "sourceType": "jpeg",
+    "hasAlpha": false,
+    "originalPx": [
+      900,
+      600
+    ],
+    "outputPx": [
+      640,
+      427
+    ],
+    "originalBytes": 22039,
+    "outputBytes": 11200,
+    "usedOn": [
+      "/vacuum-grippers"
+    ],
+    "alt": [
+      "Vacuum-Module_CRG"
+    ],
+    "displayedPx": [
+      220,
+      0
+    ],
+    "role": "product-photo"
+  },
+  {
+    "file": "vacuum-grippers-08.webp",
+    "wixId": "5c1fdb_8ff892ba88134bca840e61ad1d1849bd~mv2.jpg",
+    "sourceType": "jpeg",
+    "hasAlpha": false,
+    "originalPx": [
+      900,
+      600
+    ],
+    "outputPx": [
+      640,
+      427
+    ],
+    "originalBytes": 16813,
+    "outputBytes": 7506,
+    "usedOn": [
+      "/vacuum-grippers"
+    ],
+    "alt": [
+      "Solenoid-Valve_CRG"
+    ],
+    "displayedPx": [
+      220,
+      0
+    ],
+    "role": "product-photo"
+  },
+  {
+    "file": "wensui-beltconveyors-01.webp",
+    "wixId": "5c1fdb_50c78374f9e54f29a192a1107a86f5b1~mv2.png",
+    "sourceType": "png",
+    "hasAlpha": false,
+    "originalPx": [
+      1920,
+      1920
+    ],
+    "outputPx": [
+      794,
+      794
+    ],
+    "originalBytes": 1456768,
+    "outputBytes": 32044,
+    "usedOn": [
+      "/wensui/beltconveyors"
+    ],
+    "alt": [
+      "image.png"
+    ],
+    "displayedPx": [
+      397,
+      0
+    ],
+    "role": "product-photo"
+  },
+  {
+    "file": "wensui-beltconveyors-02.webp",
+    "wixId": "5c1fdb_7e3210d4447c44f1bf6c51a869105eaf~mv2.png",
+    "sourceType": "png",
+    "hasAlpha": false,
+    "originalPx": [
+      1013,
+      530
+    ],
+    "outputPx": [
+      1013,
+      530
+    ],
+    "originalBytes": 185594,
+    "outputBytes": 26794,
+    "usedOn": [
+      "/wensui/beltconveyors"
+    ],
+    "alt": [
+      "image.png"
+    ],
+    "displayedPx": [
+      600,
+      0
+    ],
+    "role": "product-photo"
+  },
+  {
+    "file": "wensui-beltconveyors-03.webp",
+    "wixId": "5c1fdb_e9cf2031f13640a9b351d9051896510e~mv2.png",
+    "sourceType": "png",
+    "hasAlpha": false,
+    "originalPx": [
+      1007,
+      543
+    ],
+    "outputPx": [
+      1007,
+      543
+    ],
+    "originalBytes": 84890,
+    "outputBytes": 10696,
+    "usedOn": [
+      "/wensui/beltconveyors"
+    ],
+    "alt": [
+      "image.png"
+    ],
+    "displayedPx": [
+      600,
+      0
+    ],
+    "role": "product-photo"
+  },
+  {
+    "file": "wensui-chillers-01.webp",
+    "wixId": "5c1fdb_c6e573e62bc14a29a317ac810f8aa817~mv2.png",
+    "sourceType": "png",
+    "hasAlpha": false,
+    "originalPx": [
+      1920,
+      1920
+    ],
+    "outputPx": [
+      776,
+      776
+    ],
+    "originalBytes": 956127,
+    "outputBytes": 19868,
+    "usedOn": [
+      "/wensui/chillers"
+    ],
+    "alt": [
+      "image.png"
+    ],
+    "displayedPx": [
+      388,
+      0
+    ],
+    "role": "product-photo"
+  },
+  {
+    "file": "wensui-chillers-02.webp",
+    "wixId": "5c1fdb_1436a1cdd0ea4f5597c31e756b3dbbe3~mv2.png",
+    "sourceType": "png",
+    "hasAlpha": false,
+    "originalPx": [
+      800,
+      800
+    ],
+    "outputPx": [
+      662,
+      662
+    ],
+    "originalBytes": 257653,
+    "outputBytes": 16790,
+    "usedOn": [
+      "/wensui/chillers"
+    ],
+    "alt": [
+      "image.png"
+    ],
+    "displayedPx": [
+      331,
+      0
+    ],
+    "role": "product-photo"
+  },
+  {
+    "file": "wensui-chillers-03.webp",
+    "wixId": "5c1fdb_67c535fcf2844a489bb3578c195db061~mv2.png",
+    "sourceType": "png",
+    "hasAlpha": false,
+    "originalPx": [
+      800,
+      800
+    ],
+    "outputPx": [
+      662,
+      662
+    ],
+    "originalBytes": 388653,
+    "outputBytes": 21040,
+    "usedOn": [
+      "/wensui/chillers"
+    ],
+    "alt": [
+      "image.png"
+    ],
+    "displayedPx": [
+      331,
+      0
+    ],
+    "role": "product-photo"
+  },
+  {
     "file": "wensui-conveyor.webp",
     "wixId": "5c1fdb_db2c03baea0f4658b2d7e98e551aa23e~mv2.jpg",
     "sourceType": "jpeg",
@@ -1889,6 +5502,303 @@
     "displayedPx": [
       220,
       172
+    ],
+    "role": "product-photo"
+  },
+  {
+    "file": "wensui-dosersmixers-01.webp",
+    "wixId": "5c1fdb_0bb4559dc64944679294671c97dbb555~mv2.png",
+    "sourceType": "png",
+    "hasAlpha": false,
+    "originalPx": [
+      800,
+      800
+    ],
+    "outputPx": [
+      650,
+      650
+    ],
+    "originalBytes": 308112,
+    "outputBytes": 19328,
+    "usedOn": [
+      "/wensui/dosersmixers"
+    ],
+    "alt": [
+      "image.png"
+    ],
+    "displayedPx": [
+      325,
+      0
+    ],
+    "role": "product-photo"
+  },
+  {
+    "file": "wensui-dosersmixers-02.webp",
+    "wixId": "5c1fdb_659df7191ca74c02b03e1b20f2afe0c0~mv2.png",
+    "sourceType": "png",
+    "hasAlpha": false,
+    "originalPx": [
+      800,
+      800
+    ],
+    "outputPx": [
+      640,
+      640
+    ],
+    "originalBytes": 328124,
+    "outputBytes": 19470,
+    "usedOn": [
+      "/wensui/dosersmixers"
+    ],
+    "alt": [
+      "image.png"
+    ],
+    "displayedPx": [
+      312,
+      0
+    ],
+    "role": "product-photo"
+  },
+  {
+    "file": "wensui-dosersmixers-03.webp",
+    "wixId": "5c1fdb_9a7c42f5339941c08519d740c7cf5791~mv2.png",
+    "sourceType": "png",
+    "hasAlpha": false,
+    "originalPx": [
+      1920,
+      1920
+    ],
+    "outputPx": [
+      788,
+      788
+    ],
+    "originalBytes": 853757,
+    "outputBytes": 17882,
+    "usedOn": [
+      "/wensui/dosersmixers"
+    ],
+    "alt": [
+      "image.png"
+    ],
+    "displayedPx": [
+      394,
+      0
+    ],
+    "role": "product-photo"
+  },
+  {
+    "file": "wensui-dosersmixers-04.webp",
+    "wixId": "5c1fdb_7cebc4ed66764bf5bbba872b29a57650~mv2.png",
+    "sourceType": "png",
+    "hasAlpha": false,
+    "originalPx": [
+      1920,
+      1920
+    ],
+    "outputPx": [
+      674,
+      674
+    ],
+    "originalBytes": 1080771,
+    "outputBytes": 16722,
+    "usedOn": [
+      "/wensui/dosersmixers"
+    ],
+    "alt": [
+      "image.png"
+    ],
+    "displayedPx": [
+      337,
+      0
+    ],
+    "role": "product-photo"
+  },
+  {
+    "file": "wensui-dosersmixers-05.webp",
+    "wixId": "5c1fdb_233d629a88af44a28d78abafc5d04e97~mv2.png",
+    "sourceType": "png",
+    "hasAlpha": false,
+    "originalPx": [
+      1920,
+      1920
+    ],
+    "outputPx": [
+      764,
+      764
+    ],
+    "originalBytes": 658042,
+    "outputBytes": 12032,
+    "usedOn": [
+      "/wensui/dosersmixers"
+    ],
+    "alt": [
+      "image.png"
+    ],
+    "displayedPx": [
+      382,
+      0
+    ],
+    "role": "product-photo"
+  },
+  {
+    "file": "wensui-dosersmixers-06.webp",
+    "wixId": "5c1fdb_e4ff60e94adf4e58be428dd55a77c8ac~mv2.png",
+    "sourceType": "png",
+    "hasAlpha": false,
+    "originalPx": [
+      800,
+      800
+    ],
+    "outputPx": [
+      640,
+      640
+    ],
+    "originalBytes": 256284,
+    "outputBytes": 14672,
+    "usedOn": [
+      "/wensui/dosersmixers"
+    ],
+    "alt": [
+      "image.png"
+    ],
+    "displayedPx": [
+      296,
+      0
+    ],
+    "role": "product-photo"
+  },
+  {
+    "file": "wensui-dosersmixers-07.webp",
+    "wixId": "5c1fdb_eae2cd7fbb8f48258b1a4028a9de60d2~mv2.png",
+    "sourceType": "png",
+    "hasAlpha": false,
+    "originalPx": [
+      800,
+      800
+    ],
+    "outputPx": [
+      708,
+      708
+    ],
+    "originalBytes": 273398,
+    "outputBytes": 16110,
+    "usedOn": [
+      "/wensui/dosersmixers"
+    ],
+    "alt": [
+      "image.png"
+    ],
+    "displayedPx": [
+      354,
+      0
+    ],
+    "role": "product-photo"
+  },
+  {
+    "file": "wensui-dosersmixers-08.webp",
+    "wixId": "5c1fdb_555a98afcf37494bb0b0040926488b90~mv2.png",
+    "sourceType": "png",
+    "hasAlpha": false,
+    "originalPx": [
+      800,
+      800
+    ],
+    "outputPx": [
+      640,
+      640
+    ],
+    "originalBytes": 333732,
+    "outputBytes": 18802,
+    "usedOn": [
+      "/wensui/dosersmixers"
+    ],
+    "alt": [
+      "image.png"
+    ],
+    "displayedPx": [
+      301,
+      0
+    ],
+    "role": "product-photo"
+  },
+  {
+    "file": "wensui-dosersmixers-09.webp",
+    "wixId": "5c1fdb_4151c0eb1977410b80625a1b93e013c4~mv2.png",
+    "sourceType": "png",
+    "hasAlpha": false,
+    "originalPx": [
+      800,
+      800
+    ],
+    "outputPx": [
+      654,
+      654
+    ],
+    "originalBytes": 275658,
+    "outputBytes": 17670,
+    "usedOn": [
+      "/wensui/dosersmixers"
+    ],
+    "alt": [
+      "image.png"
+    ],
+    "displayedPx": [
+      327,
+      0
+    ],
+    "role": "product-photo"
+  },
+  {
+    "file": "wensui-dosersmixers-10.webp",
+    "wixId": "5c1fdb_245cbe0a863d488d814b010772c293bc~mv2.png",
+    "sourceType": "png",
+    "hasAlpha": false,
+    "originalPx": [
+      800,
+      800
+    ],
+    "outputPx": [
+      728,
+      728
+    ],
+    "originalBytes": 377332,
+    "outputBytes": 29820,
+    "usedOn": [
+      "/wensui/dosersmixers"
+    ],
+    "alt": [
+      "image.png"
+    ],
+    "displayedPx": [
+      364,
+      0
+    ],
+    "role": "product-photo"
+  },
+  {
+    "file": "wensui-dosersmixers-11.webp",
+    "wixId": "5c1fdb_03d67e34fd1a4310a697fc84d4269e87~mv2.png",
+    "sourceType": "png",
+    "hasAlpha": false,
+    "originalPx": [
+      800,
+      800
+    ],
+    "outputPx": [
+      780,
+      780
+    ],
+    "originalBytes": 296851,
+    "outputBytes": 27516,
+    "usedOn": [
+      "/wensui/dosersmixers"
+    ],
+    "alt": [
+      "image.png"
+    ],
+    "displayedPx": [
+      390,
+      0
     ],
     "role": "product-photo"
   },
@@ -2107,5 +6017,59 @@
       118
     ],
     "role": "supplier-logo"
+  },
+  {
+    "file": "wensui-wensuirobots-01.webp",
+    "wixId": "5c1fdb_9ad41f580a0140409a70ef1a7a8fc482~mv2.jpg",
+    "sourceType": "jpeg",
+    "hasAlpha": false,
+    "originalPx": [
+      800,
+      800
+    ],
+    "outputPx": [
+      708,
+      708
+    ],
+    "originalBytes": 28978,
+    "outputBytes": 11978,
+    "usedOn": [
+      "/wensui/wensuirobots"
+    ],
+    "alt": [
+      "Robot.jpg"
+    ],
+    "displayedPx": [
+      354,
+      0
+    ],
+    "role": "product-photo"
+  },
+  {
+    "file": "wensui-wensuirobots-02.webp",
+    "wixId": "5c1fdb_944604807ec74dc5b2cc92b3967ec834~mv2.png",
+    "sourceType": "png",
+    "hasAlpha": false,
+    "originalPx": [
+      800,
+      800
+    ],
+    "outputPx": [
+      640,
+      640
+    ],
+    "originalBytes": 365868,
+    "outputBytes": 21204,
+    "usedOn": [
+      "/wensui/wensuirobots"
+    ],
+    "alt": [
+      "image.png"
+    ],
+    "displayedPx": [
+      261,
+      0
+    ],
+    "role": "product-photo"
   }
 ]

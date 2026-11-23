@@ -2,7 +2,7 @@
 
 Source: the old site's own pages-sitemap.xml, captured read-only 2026-11-23. Content text and images for these pages are stored locally in assets-source (gitignored).
 
-## Already built on the new site (13)
+## Already built on the new site (13 originally; the 28 listed below were ported on 2026-11-23)
 home, products, borch-imm, wensui, safety-mats, halspumps, crg-eoat, macosystemretrofit, mouldcleaner, linearpotentiometer, services, catalogues, contact-us (plus privacy-policy, which is not in the sitemap).
 
 ## Borche machine series (parent: /borch-imm)

@@ -104,6 +104,13 @@ small, .small { font-size: 0.875rem; color: var(--steel); }
   background: var(--off); border: 1px dashed var(--line); color: var(--steel); font-size: 0.9rem; padding: 16px;
 }
 
+/* Sub-page grid on parent pages */
+.child-grid { list-style: none; padding: 0; margin: 1.25em 0 1.75em; display: grid; gap: 14px; grid-template-columns: repeat(auto-fill, minmax(190px, 1fr)); }
+.child-grid li { margin: 0; }
+.tile.sub { min-height: 0; height: 100%; padding: 14px; }
+.tile.sub .thumb { height: 110px; margin: 0 0 10px; }
+.tile.sub .supplier { font-size: 1.2rem; line-height: 1.15; margin-bottom: 0.35rem; }
+
 /* Catalogue lists */
 .cat-list { list-style: none; padding: 0; margin: 0; }
 .cat-list li { padding: 10px 0; border-bottom: 1px solid var(--line); display: flex; flex-wrap: wrap; gap: 4px 10px; align-items: baseline; }

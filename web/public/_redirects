@@ -1,0 +1,24 @@
+# Old Wix URLs that are no longer part of the site: permanent redirects (config only; not shown to visitors).
+# Client decisions 2026-11-23: one supplier range is removed from the site entirely; the legal terms page is not published;
+# duplicate / under-construction pages point to the real page.
+# NOT redirected (decision pending): /used-injection-moulding
+/topstar-anciliary /products 301
+/topstar-robots /products 301
+/auto-cooling /products 301
+/dryers /products 301
+/granulators /products 301
+/materialfeeding /products 301
+/tempcontroller /products 301
+/mouldmonitoring /products 301
+/waterregulators /products 301
+/ad-adw-series /products 301
+/eu-uew-series /products 301
+/gu-series /products 301
+/hdw-series /products 301
+/hbw-series /products 301
+/mde-mew-series /products 301
+/termsofsale / 301
+/copy-of-services /services 301
+/copy-of-products-1 /products 301
+/copy-of-linear-potentiometer /linearpotentiometer 301
+/under-construction /products 301

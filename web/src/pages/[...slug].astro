@@ -1,0 +1,82 @@
+---
+import Base from '../layouts/Base.astro';
+import Pic from '../components/Pic.astro';
+import Blocks from '../components/Blocks.astro';
+import { products } from '../data/products';
+import { subpages } from '../lib/subpages';
+import { catalogues, size } from '../lib/catalogues';
+
+// One route for every product page and machine/component sub-page (same URLs as the old site).
+export function getStaticPaths() {
+  const productPages = products.map((p) => ({
+    params: { slug: p.slug },
+    props: {
+      view: {
+        slug: p.slug, parent: p.slug, heading: p.heading, title: p.title, description: p.description,
+        what: p.what, crumbs: [{ label: p.supplier }], blocks: p.blocks, cover: p.cover, coverLabel: p.supplier,
+      },
+    },
+  }));
+  const subPages = subpages.map((s) => {
+    const parent = products.find((p) => p.slug === s.parent)!;
+    const gallery = s.pics.slice(1).map((x) => ({ file: x.file, alt: x.alt || s.heading, caption: x.alt }));
+    const blocks = [...s.blocks, ...(gallery.length ? [{ type: 'gallery', items: gallery }] : [])];
+    return {
+      params: { slug: s.slug },
+      props: {
+        view: {
+          slug: s.slug, parent: s.parent, heading: s.heading, title: s.title, description: s.description,
+          what: `${parent.supplier} ${parent.what}`.trim(),
+          crumbs: [{ label: parent.supplier, href: `/${parent.slug}` }, { label: s.heading }],
+          blocks, cover: s.pics[0] ? { file: s.pics[0].file, alt: s.heading } : undefined, coverLabel: parent.supplier,
+        },
+      },
+    };
+  });
+  return [...productPages, ...subPages];
+}
+
+const { view } = Astro.props as { view: any };
+const cats = catalogues.filter((c) => c.product === view.parent);
+---
+<Base title={view.title} description={view.description}>
+  <div class="pagehead"><div class="wrap">
+    <p class="crumbs">
+      <a href="/">Home</a> / <a href="/products">Products</a>
+      {view.crumbs.map((c: any) => <> / {c.href ? <a href={c.href}>{c.label}</a> : c.label}</>)}
+    </p>
+    <h1>{view.heading}</h1>
+    {view.what && <p>{view.what}</p>}
+  </div></div>
+
+  <section class="section">
+    <div class="wrap product-layout">
+      <div class="prose" style="min-width:0">
+        <Blocks blocks={view.blocks} parent={view.parent} />
+      </div>
+      <aside class="product-aside">
+        {view.cover
+          ? <div class="cover"><Pic name={view.cover.file} alt={view.cover.alt} sizes="(min-width: 900px) 340px, 100vw" loading="eager" /></div>
+          : <div class="placeholder" role="img" aria-label="Product photo to be supplied">Product photos to be supplied by {view.coverLabel}</div>}
+        <div class="card">
+          <h3>Interested?</h3>
+          <p>Tell us what you need and we'll come back to you.</p>
+          <a class="btn btn-primary" href="/contact-us#quote">Request a quote</a>
+        </div>
+        {cats.length > 0 && (
+          <div class="card">
+            <h3>Catalogues</h3>
+            <ul style="margin:0">
+              {cats.map((c) => c.comingSoon
+                ? <li>{c.label}: coming soon</li>
+                : <li>
+                    <a href={c.href} target="_blank" rel="noopener">{c.label}</a>
+                    <span class="small"> {c.external ? '(opens in a new tab)' : `(PDF, ${size(c.bytes)})`}</span>
+                  </li>)}
+            </ul>
+          </div>
+        )}
+      </aside>
+    </div>
+  </section>
+</Base>

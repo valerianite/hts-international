@@ -1,0 +1,254 @@
+[
+  {
+    "vp": "desktop",
+    "name": "home",
+    "url": "https://www.hts.international/",
+    "title": "HTS - Servicing The Plastics Industry",
+    "h": 2253,
+    "imgs": 14,
+    "file": "C:\\Users\\Vee_H\\Downloads\\HTS Logo\\portfolio\\before\\screenshots\\desktop-home.png"
+  },
+  {
+    "vp": "desktop",
+    "name": "products",
+    "url": "https://www.hts.international/products",
+    "title": "Products | HTS",
+    "h": 1131,
+    "imgs": 13,
+    "file": "C:\\Users\\Vee_H\\Downloads\\HTS Logo\\portfolio\\before\\screenshots\\desktop-products.png"
+  },
+  {
+    "vp": "desktop",
+    "name": "product-borch-imm",
+    "url": "https://www.hts.international/borch-imm",
+    "title": "HTS - Borche Injection Moulding Machines",
+    "h": 2598,
+    "imgs": 10,
+    "file": "C:\\Users\\Vee_H\\Downloads\\HTS Logo\\portfolio\\before\\screenshots\\desktop-product-borch-imm.png"
+  },
+  {
+    "vp": "desktop",
+    "name": "product-wensui",
+    "url": "https://www.hts.international/wensui",
+    "title": "Wensui | HTS",
+    "h": 1742,
+    "imgs": 14,
+    "file": "C:\\Users\\Vee_H\\Downloads\\HTS Logo\\portfolio\\before\\screenshots\\desktop-product-wensui.png"
+  },
+  {
+    "vp": "desktop",
+    "name": "product-safety-mats",
+    "url": "https://www.hts.international/safety-mats",
+    "title": "Safety Mats | HTS",
+    "h": 3664,
+    "imgs": 19,
+    "file": "C:\\Users\\Vee_H\\Downloads\\HTS Logo\\portfolio\\before\\screenshots\\desktop-product-safety-mats.png"
+  },
+  {
+    "vp": "desktop",
+    "name": "product-hals-pumps",
+    "url": "https://www.hts.international/halspumps",
+    "title": "HALS Pumps | HTS",
+    "h": 900,
+    "imgs": 10,
+    "file": "C:\\Users\\Vee_H\\Downloads\\HTS Logo\\portfolio\\before\\screenshots\\desktop-product-hals-pumps.png"
+  },
+  {
+    "vp": "desktop",
+    "name": "product-crg-eoat",
+    "url": "https://www.hts.international/crg-eoat",
+    "title": "End of Arm Tooling | HTS",
+    "h": 2527,
+    "imgs": 21,
+    "file": "C:\\Users\\Vee_H\\Downloads\\HTS Logo\\portfolio\\before\\screenshots\\desktop-product-crg-eoat.png"
+  },
+  {
+    "vp": "desktop",
+    "name": "product-maco-retrofit",
+    "url": "https://www.hts.international/macosystemretrofit",
+    "title": "HTS - Maco System Retrofits",
+    "h": 2320,
+    "imgs": 8,
+    "file": "C:\\Users\\Vee_H\\Downloads\\HTS Logo\\portfolio\\before\\screenshots\\desktop-product-maco-retrofit.png"
+  },
+  {
+    "vp": "desktop",
+    "name": "product-mould-cleaner",
+    "url": "https://www.hts.international/mouldcleaner",
+    "title": "Mould Cleaning | HTS",
+    "h": 1799,
+    "imgs": 9,
+    "file": "C:\\Users\\Vee_H\\Downloads\\HTS Logo\\portfolio\\before\\screenshots\\desktop-product-mould-cleaner.png"
+  },
+  {
+    "vp": "desktop",
+    "name": "product-linear-potentiometer",
+    "url": "https://www.hts.international/linearpotentiometer",
+    "title": "Linear Potentiometer | HTS",
+    "h": 3146,
+    "imgs": 10,
+    "file": "C:\\Users\\Vee_H\\Downloads\\HTS Logo\\portfolio\\before\\screenshots\\desktop-product-linear-potentiometer.png"
+  },
+  {
+    "vp": "desktop",
+    "name": "services",
+    "url": "https://www.hts.international/services",
+    "title": "Services | HTS",
+    "h": 1363,
+    "imgs": 5,
+    "file": "C:\\Users\\Vee_H\\Downloads\\HTS Logo\\portfolio\\before\\screenshots\\desktop-services.png"
+  },
+  {
+    "vp": "desktop",
+    "name": "catalogues",
+    "url": "https://www.hts.international/catalogues",
+    "title": "HTS - Servicing The Plastics Industry",
+    "h": 1809,
+    "imgs": 11,
+    "file": "C:\\Users\\Vee_H\\Downloads\\HTS Logo\\portfolio\\before\\screenshots\\desktop-catalogues.png"
+  },
+  {
+    "vp": "desktop",
+    "name": "contact-us",
+    "url": "https://www.hts.international/contact-us",
+    "title": "Contact Us | HTS",
+    "h": 900,
+    "imgs": 5,
+    "file": "C:\\Users\\Vee_H\\Downloads\\HTS Logo\\portfolio\\before\\screenshots\\desktop-contact-us.png"
+  },
+  {
+    "vp": "desktop",
+    "name": "privacy-policy",
+    "url": "https://www.hts.international/privacy-policy",
+    "title": "Privacy Policy | HTS",
+    "h": 2671,
+    "imgs": 5,
+    "file": "C:\\Users\\Vee_H\\Downloads\\HTS Logo\\portfolio\\before\\screenshots\\desktop-privacy-policy.png"
+  },
+  {
+    "vp": "mobile",
+    "name": "home",
+    "url": "https://www.hts.international/",
+    "title": "HTS - Servicing The Plastics Industry",
+    "h": 3387,
+    "imgs": 12,
+    "file": "C:\\Users\\Vee_H\\Downloads\\HTS Logo\\portfolio\\before\\screenshots\\mobile-home.png"
+  },
+  {
+    "vp": "mobile",
+    "name": "products",
+    "url": "https://www.hts.international/products",
+    "title": "Products | HTS",
+    "h": 1602,
+    "imgs": 11,
+    "file": "C:\\Users\\Vee_H\\Downloads\\HTS Logo\\portfolio\\before\\screenshots\\mobile-products.png"
+  },
+  {
+    "vp": "mobile",
+    "name": "product-borch-imm",
+    "url": "https://www.hts.international/borch-imm",
+    "title": "HTS - Borche Injection Moulding Machines",
+    "h": 2564,
+    "imgs": 10,
+    "file": "C:\\Users\\Vee_H\\Downloads\\HTS Logo\\portfolio\\before\\screenshots\\mobile-product-borch-imm.png"
+  },
+  {
+    "vp": "mobile",
+    "name": "product-wensui",
+    "url": "https://www.hts.international/wensui",
+    "title": "Wensui | HTS",
+    "h": 3643,
+    "imgs": 14,
+    "file": "C:\\Users\\Vee_H\\Downloads\\HTS Logo\\portfolio\\before\\screenshots\\mobile-product-wensui.png"
+  },
+  {
+    "vp": "mobile",
+    "name": "product-safety-mats",
+    "url": "https://www.hts.international/safety-mats",
+    "title": "Safety Mats | HTS",
+    "h": 5429,
+    "imgs": 19,
+    "file": "C:\\Users\\Vee_H\\Downloads\\HTS Logo\\portfolio\\before\\screenshots\\mobile-product-safety-mats.png"
+  },
+  {
+    "vp": "mobile",
+    "name": "product-hals-pumps",
+    "url": "https://www.hts.international/halspumps",
+    "title": "HALS Pumps | HTS",
+    "h": 1916,
+    "imgs": 10,
+    "file": "C:\\Users\\Vee_H\\Downloads\\HTS Logo\\portfolio\\before\\screenshots\\mobile-product-hals-pumps.png"
+  },
+  {
+    "vp": "mobile",
+    "name": "product-crg-eoat",
+    "url": "https://www.hts.international/crg-eoat",
+    "title": "End of Arm Tooling | HTS",
+    "h": 5679,
+    "imgs": 21,
+    "file": "C:\\Users\\Vee_H\\Downloads\\HTS Logo\\portfolio\\before\\screenshots\\mobile-product-crg-eoat.png"
+  },
+  {
+    "vp": "mobile",
+    "name": "product-maco-retrofit",
+    "url": "https://www.hts.international/macosystemretrofit",
+    "title": "HTS - Maco System Retrofits",
+    "h": 5152,
+    "imgs": 8,
+    "file": "C:\\Users\\Vee_H\\Downloads\\HTS Logo\\portfolio\\before\\screenshots\\mobile-product-maco-retrofit.png"
+  },
+  {
+    "vp": "mobile",
+    "name": "product-mould-cleaner",
+    "url": "https://www.hts.international/mouldcleaner",
+    "title": "Mould Cleaning | HTS",
+    "h": 2949,
+    "imgs": 9,
+    "file": "C:\\Users\\Vee_H\\Downloads\\HTS Logo\\portfolio\\before\\screenshots\\mobile-product-mould-cleaner.png"
+  },
+  {
+    "vp": "mobile",
+    "name": "product-linear-potentiometer",
+    "url": "https://www.hts.international/linearpotentiometer",
+    "title": "Linear Potentiometer | HTS",
+    "h": 4785,
+    "imgs": 10,
+    "file": "C:\\Users\\Vee_H\\Downloads\\HTS Logo\\portfolio\\before\\screenshots\\mobile-product-linear-potentiometer.png"
+  },
+  {
+    "vp": "mobile",
+    "name": "services",
+    "url": "https://www.hts.international/services",
+    "title": "Services | HTS",
+    "h": 2766,
+    "imgs": 5,
+    "file": "C:\\Users\\Vee_H\\Downloads\\HTS Logo\\portfolio\\before\\screenshots\\mobile-services.png"
+  },
+  {
+    "vp": "mobile",
+    "name": "catalogues",
+    "url": "https://www.hts.international/catalogues",
+    "title": "HTS - Servicing The Plastics Industry",
+    "h": 2756,
+    "imgs": 11,
+    "file": "C:\\Users\\Vee_H\\Downloads\\HTS Logo\\portfolio\\before\\screenshots\\mobile-catalogues.png"
+  },
+  {
+    "vp": "mobile",
+    "name": "contact-us",
+    "url": "https://www.hts.international/contact-us",
+    "title": "Contact Us | HTS",
+    "h": 984,
+    "imgs": 5,
+    "file": "C:\\Users\\Vee_H\\Downloads\\HTS Logo\\portfolio\\before\\screenshots\\mobile-contact-us.png"
+  },
+  {
+    "vp": "mobile",
+    "name": "privacy-policy",
+    "url": "https://www.hts.international/privacy-policy",
+    "title": "Privacy Policy | HTS",
+    "h": 4263,
+    "imgs": 5,
+    "file": "C:\\Users\\Vee_H\\Downloads\\HTS Logo\\portfolio\\before\\screenshots\\mobile-privacy-policy.png"
+  }
+]

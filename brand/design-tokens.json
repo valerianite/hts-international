@@ -1,0 +1,55 @@
+{
+  "_status": "Draft v0.2 (23 Nov 2026). Colours and fonts APPROVED by the client; type scale, UI styles, imagery and voice still pending sign-off. Red and charcoal are sampled from the final logo files.",
+  "brand": {
+    "publicName": "HTS International",
+    "tagline": "Servicing the Plastics Industry",
+    "_note": "Do not add 'Hildebrand Trades & Services' beside the logo. Copy says '40+ years of industry experience' (Bernie Hildebrand, since the 1970s/80s), never that the company is 40 years old; HTS has traded since the 1990s."
+  },
+  "color": {
+    "red":        { "value": "#CD2127", "source": "logo", "use": "Primary actions, key links, accents" },
+    "charcoal":   { "value": "#3F4142", "source": "logo", "use": "Headings, body text, dark sections" },
+    "white":      { "value": "#FFFFFF", "source": "proposed", "use": "Page background" },
+    "offWhite":   { "value": "#F3F3F4", "source": "proposed", "use": "Alternate section background, cards" },
+    "line":       { "value": "#D9DADB", "source": "proposed", "use": "Borders, dividers" },
+    "steel":      { "value": "#6B6E71", "source": "proposed", "use": "Secondary text (5.1:1 on white)" },
+    "black":      { "value": "#1E1F20", "source": "proposed", "use": "Footer, deepest dark sections" },
+    "redDark":    { "value": "#A81B21", "source": "proposed", "use": "Button/link hover (7.4:1 on white)" },
+    "_note": "No other accent colours. The client declined the optional safety yellow."
+  },
+  "contrast": {
+    "charcoalOnWhite": 10.26,
+    "whiteOnCharcoal": 10.26,
+    "whiteOnRed": 5.46,
+    "redOnWhite": 5.46,
+    "steelOnWhite": 5.13,
+    "redOnOffWhite": 4.93,
+    "redOnCharcoal": 1.88,
+    "_note": "redOnCharcoal fails WCAG AA. Never put red text or the full-colour logo on charcoal."
+  },
+  "font": {
+    "heading": { "family": "Barlow Condensed", "weights": [600, 700], "transform": "uppercase", "fallback": "Arial Narrow, Arial, sans-serif" },
+    "body":    { "family": "Barlow", "weights": [400, 500, 600], "fallback": "Arial, sans-serif" },
+    "license": "SIL Open Font License (free; can be uploaded to Wix as a custom font)"
+  },
+  "type": {
+    "h1": { "size": "54px", "mobile": "36px", "font": "heading", "weight": 700 },
+    "h2": { "size": "32px", "mobile": "26px", "font": "heading", "weight": 600 },
+    "h3": { "size": "22px", "mobile": "20px", "font": "heading", "weight": 600 },
+    "body": { "size": "17px", "mobile": "16px", "font": "body", "weight": 400, "lineHeight": 1.5 },
+    "small": { "size": "14px", "font": "body", "weight": 400, "color": "steel" },
+    "button": { "size": "16px", "font": "heading", "weight": 600, "transform": "uppercase", "letterSpacing": "0.08em" }
+  },
+  "shape": { "buttonRadius": "2px", "cardBorder": "1px solid #D9DADB", "headerAccent": "3px solid #CD2127" },
+  "logo": {
+    "minWidthScreen": "80px",
+    "minWidthPrint": "20mm",
+    "clearSpace": "Height of the letter H on every side",
+    "files": {
+      "colour": "HTS-Final/Png/HTS_logo-color.png",
+      "colourLarge": "HTS-Final/Png/HTS_logo-ColorLarge.png",
+      "white": "HTS-Final/Png/HTS_logo-white.png",
+      "black": "HTS-Final/Png/HTS_logo-black.png",
+      "master": "HTS-Final/HTS_logo-Final.ai (export SVG for the website)"
+    }
+  }
+}

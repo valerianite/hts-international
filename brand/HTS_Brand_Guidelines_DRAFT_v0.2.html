@@ -1,0 +1,447 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>HTS International – Brand Guidelines (Draft v0.2)</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600&family=Barlow+Condensed:wght@500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --red:#CD2127; --red-dark:#A81B21; --char:#3F4142; --black:#1E1F20;
+    --steel:#6B6E71; --line:#D9DADB; --off:#F3F3F4; --white:#FFFFFF;
+  }
+  @page { size: 1280px 720px; margin:0 }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html,body{background:#888}
+  body{font-family:'Barlow',Arial,sans-serif;color:var(--char);-webkit-print-color-adjust:exact;print-color-adjust:exact}
+  .page{width:1280px;height:720px;position:relative;overflow:hidden;background:var(--white);page-break-after:always;padding:56px 72px}
+  .page::before{content:"";position:absolute;left:0;top:0;bottom:0;width:12px;background:var(--red)}
+  .dark{background:var(--char);color:#fff}
+  .kicker{font-family:'Barlow Condensed';font-weight:600;font-size:15px;letter-spacing:.2em;text-transform:uppercase;color:var(--red)}
+  h1{font-family:'Barlow Condensed';font-weight:700;text-transform:uppercase;font-size:44px;line-height:1.05;margin:6px 0 22px;letter-spacing:.01em}
+  h2{font-family:'Barlow Condensed';font-weight:600;text-transform:uppercase;font-size:22px;letter-spacing:.04em;margin-bottom:8px}
+  p{font-size:15.5px;line-height:1.5;margin-bottom:10px}
+  ul{margin-left:20px} li{font-size:15px;line-height:1.5;margin-bottom:6px}
+  .foot{position:absolute;left:72px;right:72px;bottom:22px;font-size:11px;color:var(--steel);display:flex;justify-content:space-between}
+  .dark .foot{color:#9a9b9d}
+  .tag{display:inline-block;background:var(--red);color:#fff;font-family:'Barlow Condensed';font-weight:600;letter-spacing:.12em;font-size:13px;padding:3px 10px;text-transform:uppercase}
+  .tag.prop{background:var(--steel)}
+  .cols{display:flex;gap:36px}
+  .col{flex:1}
+  .card{background:var(--off);padding:22px 24px}
+  .tile{display:flex;align-items:center;justify-content:center;border:1px solid var(--line)}
+  .tile img{max-width:70%;max-height:70%}
+  .swatch{height:200px;padding:16px;display:flex;flex-direction:column;justify-content:flex-end;font-size:13px;line-height:1.45}
+  .swatch b{font-family:'Barlow Condensed';font-size:22px;letter-spacing:.03em;text-transform:uppercase}
+  table{border-collapse:collapse;width:100%;font-size:13.5px}
+  th,td{text-align:left;padding:8px 10px;border-bottom:1px solid var(--line)}
+  th{font-family:'Barlow Condensed';letter-spacing:.08em;text-transform:uppercase;font-size:13px;color:var(--steel)}
+  .pass{color:#1f7a3a;font-weight:600} .fail{color:var(--red);font-weight:600}
+  .btn{display:inline-block;font-family:'Barlow Condensed';font-weight:600;letter-spacing:.08em;text-transform:uppercase;font-size:16px;padding:12px 26px;border-radius:2px}
+  .btn.p{background:var(--red);color:#fff} .btn.s{border:2px solid var(--char);color:var(--char)} .btn.d{background:var(--char);color:#fff}
+  .dont{position:relative}
+  .dont.onred::after{color:#fff}
+  .dont::after{content:"✕";position:absolute;top:6px;right:10px;color:var(--red);font-size:22px;font-weight:700}
+  .small{font-size:12.5px;color:var(--steel);line-height:1.4}
+  .q{counter-increment:q;display:flex;gap:14px;margin-bottom:12px;font-size:14.5px;line-height:1.4}
+  .q::before{content:counter(q);flex:none;width:26px;height:26px;background:var(--char);color:#fff;font-family:'Barlow Condensed';font-weight:700;font-size:15px;display:flex;align-items:center;justify-content:center}
+</style>
+</head>
+<body>
+
+<!-- 1 COVER -->
+<section class="page dark">
+  <img src="../HTS-Final/Png/HTS_logo-white.png" style="position:absolute;left:84px;top:64px;width:170px">
+  <div style="position:absolute;left:84px;top:330px">
+    <div class="kicker">Brand guidelines</div>
+    <div style="font-family:'Barlow Condensed';font-weight:700;font-size:84px;text-transform:uppercase;line-height:1;margin:10px 0 14px">HTS International</div>
+    <div style="font-family:'Barlow Condensed';font-weight:600;font-size:24px;letter-spacing:.14em;text-transform:uppercase;color:#d0d0d2">Servicing the Plastics Industry</div>
+  </div>
+  <div style="position:absolute;left:84px;bottom:56px;display:flex;gap:18px;align-items:center"><span class="tag">Draft v0.2</span><span style="font-size:14px;color:#c4c5c7">Updated with client decisions &nbsp;|&nbsp; 23 November 2026</span></div>
+</section>
+
+<!-- 2 ABOUT THIS DOCUMENT -->
+<section class="page">
+  <div class="kicker">About this document</div>
+  <h1>What is confirmed, what is proposed</h1>
+  <p style="max-width:860px">HTS has never had a formal brand guide. This draft captures what already exists and the decisions the client has made, then proposes the remaining rules for the new website. Nothing here is final until the client signs off on the last page.</p>
+  <div class="cols" style="margin-top:22px">
+    <div class="col card"><span class="tag" style="background:#1f7a3a">Confirmed and approved</span>
+      <ul style="margin-top:14px">
+        <li>The logo, in colour, black, white and cap versions. Brand red <b>#CD2127</b> and charcoal <b>#3F4142</b> sampled from the logo files</li>
+        <li><b>Approved by the client:</b> the supporting colours (no safety yellow) and the typefaces Barlow Condensed and Barlow</li>
+        <li>Public name beside the logo: <b>HTS International</b></li>
+        <li>Tagline: the existing <b>"Servicing the Plastics Industry"</b></li>
+        <li>Vehicle livery is covered (page 15). Other materials such as quotes, uniforms and email signatures are already handled</li>
+      </ul></div>
+    <div class="col card"><span class="tag prop">Proposed for approval</span>
+      <ul style="margin-top:14px">
+        <li>Logo usage rules: clear space, minimum size, misuse</li>
+        <li>Type scale for the website</li>
+        <li>Imagery and supplier logo handling</li>
+        <li>Voice and tone</li>
+        <li>Web interface styles (buttons, cards, forms)</li>
+      </ul></div>
+  </div>
+  <div class="foot"><span>HTS International | Brand guidelines | Draft v0.2</span><span>2</span></div>
+</section>
+
+<!-- 3 FOUNDATION -->
+<section class="page">
+  <div class="kicker">Brand foundation</div>
+  <h1>Who HTS is</h1>
+  <div class="cols">
+    <div class="col">
+      <h2>The business</h2>
+      <p>A family-owned Australian business run by the Hildebrands. HTS sources, buys, services and maintains plastic injection moulding machines and related equipment for manufacturers across Australia, and also supplies material handling, automation, safety and spare-parts products.</p>
+      <p>Machines and equipment are imported from China, Korea, Japan and Italy. Current supplier brands: Borche, Wensui, CRG, Anhyup, HALS and Maco.</p>
+      <p>Based in Dandenong South, Victoria.</p>
+      <h2 style="margin-top:20px">Who it serves</h2>
+      <p>Plastics manufacturers: automotive, medical, food and beverage, and others, from plant managers to the people who run the machines.</p>
+    </div>
+    <div class="col">
+      <h2>What sets HTS apart</h2>
+      <ul>
+        <li><b>Experience.</b> One of the few remaining leading experts in the field in Australia</li>
+        <li><b>Whole-factory help.</b> Machines, feeding systems, automation, relocation and set-up</li>
+        <li><b>Personal and hands-on.</b> Family-run, accountable, easy to reach</li>
+        <li><b>Service after the sale.</b> Diagnostics, repairs, spares and upgrades</li>
+      </ul>
+      <div class="card" style="margin-top:20px;border-left:5px solid var(--red)">
+        <h2 style="color:var(--red)">The "40+ years" story (confirmed)</h2>
+        <p style="margin:0;font-size:14px">HTS itself has traded since the 1990s. Bernhard (Bernie) Hildebrand has worked in the plastics industry since the 1970s and 80s, and that is where the "40+ years" comes from. Copy should say "40+ years of industry experience", never that the company was founded 40 years ago.</p>
+      </div>
+    </div>
+  </div>
+  <div class="foot"><span>Sources: HTS Logo Redesign Project (2022) and www.hts.international</span><span>3</span></div>
+</section>
+
+<!-- 4 PERSONALITY -->
+<section class="page">
+  <div class="kicker">Brand personality</div>
+  <h1>Solid, practical, hands-on</h1>
+  <div class="cols" style="margin-bottom:26px">
+    <div class="col card"><h2>Dependable</h2><p style="margin:0;font-size:14.5px">Built to last, like the equipment it supplies. Plain promises, kept.</p></div>
+    <div class="col card"><h2>Expert</h2><p style="margin:0;font-size:14.5px">Deep technical knowledge, explained without jargon or hype.</p></div>
+    <div class="col card"><h2>Hands-on</h2><p style="margin:0;font-size:14.5px">A family business where you talk to the people who do the work.</p></div>
+    <div class="col card"><h2>Direct</h2><p style="margin:0;font-size:14.5px">Strong, square, uncluttered. No calligraphy, no curves for curves' sake.</p></div>
+  </div>
+  <h2>Tagline</h2>
+  <div class="card" style="border-left:5px solid var(--red);display:flex;gap:40px;align-items:center">
+    <div style="font-family:'Barlow Condensed';font-weight:700;font-size:40px;text-transform:uppercase;letter-spacing:.04em;white-space:nowrap">Servicing the Plastics Industry</div>
+    <p style="margin:0;font-size:14.5px">The existing tagline, confirmed by the client. Use it exactly as written, in capitals, alongside the logo on the website, vehicles and print. Do not abbreviate or reword it. It already appears on the site's home page heading and on the vehicles.</p>
+  </div>
+  <div class="foot"><span>HTS International | Brand guidelines | Draft v0.2</span><span>4</span></div>
+</section>
+
+<!-- 5 LOGO -->
+<section class="page">
+  <div class="kicker">Logo</div>
+  <h1>Primary logo and clear space</h1>
+  <div class="cols">
+    <div class="col" style="flex:1.1">
+      <div class="tile" style="height:430px;position:relative">
+        <div style="position:relative;width:240px;padding:71px;border:1.5px dashed var(--red);background:#fff;box-sizing:content-box">
+          <img src="../HTS-Final/Png/HTS_logo-ColorLarge.png" style="width:240px;display:block;max-width:none;max-height:none">
+          <div style="position:absolute;left:0;top:0;width:71px;height:71px;background:rgba(205,33,39,.12);display:flex;align-items:center;justify-content:center;font-family:'Barlow Condensed';font-weight:700;color:var(--red)">X</div>
+          <div style="position:absolute;right:0;bottom:0;width:71px;height:71px;background:rgba(205,33,39,.12);display:flex;align-items:center;justify-content:center;font-family:'Barlow Condensed';font-weight:700;color:var(--red)">X</div>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <h2>Clear space</h2>
+      <p>Keep a margin of <b>X</b> on every side of the logo, where X is the height of the letter H in the mark. Nothing (text, image edges, other logos) enters this space.</p>
+      <h2 style="margin-top:18px">Minimum size</h2>
+      <ul><li>Screen: <b>80 px</b> wide</li><li>Print: <b>20 mm</b> wide</li></ul>
+      <p class="small">The current website header shows the logo at about 85 px, so this is consistent with existing use.</p>
+      <h2 style="margin-top:18px">Master files</h2>
+      <p class="small">HTS-Final/HTS_logo-Final.ai, with PNG exports in colour, black, white and large colour. The 1200 px PNG is the largest raster available; an SVG should be exported from the .ai file for the website.</p>
+    </div>
+  </div>
+  <div class="foot"><span>HTS International | Brand guidelines | Draft v0.2</span><span>5</span></div>
+</section>
+
+<!-- 6 LOGO VERSIONS -->
+<section class="page">
+  <div class="kicker">Logo</div>
+  <h1>Approved versions</h1>
+  <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:18px">
+    <div><div class="tile" style="height:210px;background:#fff"><img src="../HTS-Final/Png/HTS_logo-color.png"></div><p style="margin-top:8px;font-size:13.5px"><b>Full colour</b><br>Default. On white or light grey (#F3F3F4).</p></div>
+    <div><div class="tile" style="height:210px;background:var(--char);border-color:var(--char)"><img src="../HTS-Final/Png/HTS_logo-white.png"></div><p style="margin-top:8px;font-size:13.5px"><b>White</b><br>On charcoal, black, red and dark photography.</p></div>
+    <div><div class="tile" style="height:210px;background:var(--off)"><img src="../HTS-Final/Png/HTS_logo-black.png"></div><p style="margin-top:8px;font-size:13.5px"><b>Black</b><br>One-colour print, stamps, fax and forms.</p></div>
+    <div><div class="tile" style="height:210px;background:var(--char);border-color:var(--char)"><img src="../HTS-BaseballCap/Png/HTS_logo-Final-BaseballCap.png" style="max-width:80%"></div><p style="margin-top:8px;font-size:13.5px"><b>Embroidery / cap</b><br>Simplified, white letters with red swoosh and T, for dark fabric.</p></div>
+  </div>
+  <div class="card" style="margin-top:22px">
+    <p style="margin:0"><b>Rule of thumb:</b> use the full-colour logo only on light backgrounds. On charcoal the red swoosh drops to a contrast ratio of 1.9:1, so switch to the white version. The public name beside the logo is "HTS International". Do not add "Hildebrand Trades &amp; Services" to the logo.</p>
+  </div>
+  <div class="foot"><span>HTS International | Brand guidelines | Draft v0.2</span><span>6</span></div>
+</section>
+
+<!-- 7 MISUSE -->
+<section class="page">
+  <div class="kicker">Logo</div>
+  <h1>Please don't</h1>
+  <div style="display:grid;grid-template-columns:repeat(5,1fr);gap:16px">
+    <div><div class="tile dont" style="height:170px"><img src="../HTS-Final/Png/HTS_logo-color.png" style="width:130px;height:70px;max-width:none;max-height:none"></div><p class="small" style="margin-top:8px">Stretch or squash</p></div>
+    <div><div class="tile dont" style="height:170px"><img src="../HTS-Final/Png/HTS_logo-color.png" style="max-width:none;width:110px;transform:rotate(-14deg)"></div><p class="small" style="margin-top:8px">Rotate or tilt</p></div>
+    <div><div class="tile dont" style="height:170px"><img src="../HTS-Final/Png/HTS_logo-color.png" style="max-width:none;width:110px;filter:hue-rotate(200deg) saturate(1.6)"></div><p class="small" style="margin-top:8px">Change the colours</p></div>
+    <div><div class="tile dont" style="height:170px"><img src="../HTS-Final/Png/HTS_logo-color.png" style="max-width:none;width:110px;filter:drop-shadow(6px 8px 5px rgba(0,0,0,.55))"></div><p class="small" style="margin-top:8px">Add shadows or effects</p></div>
+    <div><div class="tile dont onred" style="height:170px;background:var(--red)"><img src="../HTS-Final/Png/HTS_logo-color.png" style="max-width:none;width:110px"></div><p class="small" style="margin-top:8px">Colour logo on red (or charcoal)</p></div>
+  </div>
+  <div class="cols" style="margin-top:28px">
+    <div class="col"><ul>
+      <li>Don't redraw, re-type or rearrange the mark</li>
+      <li>Don't place it on busy photographs without a solid panel behind it</li>
+    </ul></div>
+    <div class="col"><ul>
+      <li>Don't crop it or let it touch the edge of a page or box</li>
+      <li>Don't use the 500 px PNG at large sizes; ask for the vector file</li>
+    </ul></div>
+  </div>
+  <div class="foot"><span>HTS International | Brand guidelines | Draft v0.2</span><span>7</span></div>
+</section>
+
+<!-- 8 COLOUR PRIMARY -->
+<section class="page">
+  <div class="kicker">Colour</div>
+  <h1>Primary palette</h1>
+  <div style="display:grid;grid-template-columns:1.2fr 1.2fr 1fr;gap:0">
+    <div class="swatch" style="background:var(--red);color:#fff;height:300px"><b>HTS Red</b>HEX #CD2127<br>RGB 205 33 39<br>Use for key actions, highlights, the logo</div>
+    <div class="swatch" style="background:var(--char);color:#fff;height:300px"><b>HTS Charcoal</b>HEX #3F4142<br>RGB 63 65 66<br>Use for headings, body text, dark sections</div>
+    <div class="swatch" style="background:#fff;border:1px solid var(--line);height:300px"><b>White</b>HEX #FFFFFF<br>The main page background</div>
+  </div>
+  <p style="margin-top:20px;max-width:900px">Red and charcoal come straight from the logo. Charcoal does the heavy lifting; red is the signal. As a guide, keep red to roughly one tenth of any page so it stays meaningful: buttons, key links, a rule or a highlight.</p>
+  <p class="small">Print values are not yet specified. If the client needs Pantone or CMYK matches for signage, uniforms or printed catalogues, they should be matched from the master .ai file by the printer.</p>
+  <div class="foot"><span>HTS International | Brand guidelines | Draft v0.2</span><span>8</span></div>
+</section>
+
+<!-- 9 COLOUR SECONDARY + ACCESS -->
+<section class="page">
+  <div class="kicker">Colour</div>
+  <h1>Supporting colours and accessible pairings <span class="tag" style="vertical-align:middle;margin-left:8px;background:#1f7a3a">Approved</span></h1>
+  <div style="display:grid;grid-template-columns:repeat(5,1fr);gap:0;margin-bottom:22px">
+    <div class="swatch" style="background:var(--black);color:#fff;height:120px"><b style="font-size:17px">Black</b>#1E1F20</div>
+    <div class="swatch" style="background:var(--steel);color:#fff;height:120px"><b style="font-size:17px">Steel</b>#6B6E71</div>
+    <div class="swatch" style="background:var(--line);height:120px"><b style="font-size:17px">Line</b>#D9DADB</div>
+    <div class="swatch" style="background:var(--off);height:120px"><b style="font-size:17px">Off-white</b>#F3F3F4</div>
+    <div class="swatch" style="background:var(--red-dark);color:#fff;height:120px"><b style="font-size:17px">Deep red</b>#A81B21 (hover)</div>
+  </div>
+  <div class="cols">
+    <div class="col">
+      <table>
+        <tr><th>Text on background</th><th>Contrast</th><th>WCAG AA</th></tr>
+        <tr><td>Charcoal on white</td><td>10.3 : 1</td><td class="pass">Pass</td></tr>
+        <tr><td>White on charcoal</td><td>10.3 : 1</td><td class="pass">Pass</td></tr>
+        <tr><td>White on red (button text)</td><td>5.5 : 1</td><td class="pass">Pass</td></tr>
+        <tr><td>Red on white (links, accents)</td><td>5.5 : 1</td><td class="pass">Pass</td></tr>
+        <tr><td>Steel on white (secondary text)</td><td>5.1 : 1</td><td class="pass">Pass</td></tr>
+        <tr><td>Red on off-white</td><td>4.9 : 1</td><td class="pass">Pass</td></tr>
+        <tr><td>Red on charcoal</td><td>1.9 : 1</td><td class="fail">Never use</td></tr>
+      </table>
+    </div>
+    <div class="col">
+      <div class="card" style="border-left:5px solid var(--red)">
+        <h2>Client decision</h2>
+        <p style="font-size:14px;margin:0">The supporting colours were approved on 23 November 2026. The optional safety yellow was declined: the palette is red, charcoal and the neutrals shown here, and nothing else. Do not add accent colours without client approval.</p>
+      </div>
+    </div>
+  </div>
+  <div class="foot"><span>Contrast ratios calculated from the hex values above using the WCAG 2.x formula</span><span>9</span></div>
+</section>
+
+<!-- 10 TYPOGRAPHY -->
+<section class="page">
+  <div class="kicker">Typography</div>
+  <h1>Typefaces <span class="tag" style="vertical-align:middle;margin-left:8px;background:#1f7a3a">Approved</span></h1>
+  <div class="cols">
+    <div class="col card">
+      <div class="small">HEADINGS</div>
+      <div style="font-family:'Barlow Condensed';font-weight:700;font-size:64px;text-transform:uppercase;line-height:1;margin:8px 0">Barlow Condensed</div>
+      <div style="font-family:'Barlow Condensed';font-weight:600;font-size:26px;letter-spacing:.04em">ABCDEFGHIJKLMNOPQRSTUVWXYZ 0123456789</div>
+      <p style="margin-top:14px;font-size:14px">SemiBold and Bold, usually uppercase for headings and buttons. Narrow, upright and squared-off, in keeping with the angular H, T and S in the logo.</p>
+    </div>
+    <div class="col card">
+      <div class="small">BODY</div>
+      <div style="font-family:'Barlow';font-weight:500;font-size:64px;line-height:1;margin:8px 0">Barlow</div>
+      <div style="font-family:'Barlow';font-size:22px">ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijklmnopqrstuvwxyz 0123456789</div>
+      <p style="margin-top:14px;font-size:14px">Regular for body copy, Medium or SemiBold for emphasis. Highly legible at small sizes, which matters for technical specifications.</p>
+    </div>
+  </div>
+  <p style="margin-top:18px;font-size:14px;max-width:1000px"><b>Why these:</b> the current site uses a very light weight of DIN Next in light grey, which is hard to read. Barlow keeps a similar industrial, DIN-like character but has stronger weights. Both fonts are free and open source (SIL Open Font License). If they are not in Wix's built-in font list they can be uploaded as custom fonts. Fallback: Arial.</p>
+  <div class="foot"><span>HTS International | Brand guidelines | Draft v0.2</span><span>10</span></div>
+</section>
+
+<!-- 11 TYPE SCALE -->
+<section class="page">
+  <div class="kicker">Typography</div>
+  <h1>Type scale for the website <span class="tag prop" style="vertical-align:middle;margin-left:8px">Proposed</span></h1>
+  <div style="display:flex;gap:40px">
+    <div style="flex:1.3">
+      <div style="font-family:'Barlow Condensed';font-weight:700;font-size:54px;text-transform:uppercase;line-height:1.05">Plastics machinery, sourced and serviced</div>
+      <div style="font-family:'Barlow Condensed';font-weight:600;font-size:32px;text-transform:uppercase;letter-spacing:.02em;margin:16px 0 6px;color:var(--red)">Service, repair and spares</div>
+      <div style="font-family:'Barlow Condensed';font-weight:600;font-size:22px;text-transform:uppercase;letter-spacing:.04em;margin-bottom:6px">Technology and upgrades</div>
+      <p style="font-size:17px;max-width:620px">Body text is Barlow Regular at 17 to 18 px on desktop, in charcoal on white, with generous line spacing so long technical descriptions stay readable.</p>
+      <p class="small" style="font-size:13.5px">Caption and small print: Barlow Regular 13 to 14 px in steel grey.</p>
+    </div>
+    <div style="flex:1">
+      <table>
+        <tr><th>Style</th><th>Font</th><th>Desktop / mobile</th></tr>
+        <tr><td>H1</td><td>Barlow Cond. Bold</td><td>54 / 36 px</td></tr>
+        <tr><td>H2</td><td>Barlow Cond. SemiBold</td><td>32 / 26 px</td></tr>
+        <tr><td>H3</td><td>Barlow Cond. SemiBold</td><td>22 / 20 px</td></tr>
+        <tr><td>Body</td><td>Barlow Regular</td><td>17 / 16 px</td></tr>
+        <tr><td>Small</td><td>Barlow Regular</td><td>14 / 14 px</td></tr>
+        <tr><td>Button</td><td>Barlow Cond. SemiBold</td><td>16 px, caps</td></tr>
+      </table>
+      <p class="small" style="margin-top:10px">Minimum body size 16 px. Never set body text lighter than Regular or paler than steel grey.</p>
+    </div>
+  </div>
+  <div class="foot"><span>HTS International | Brand guidelines | Draft v0.2</span><span>11</span></div>
+</section>
+
+<!-- 12 IMAGERY + SUPPLIERS -->
+<section class="page">
+  <div class="kicker">Imagery and partner brands</div>
+  <h1>Photography and supplier logos <span class="tag prop" style="vertical-align:middle;margin-left:8px">Proposed</span></h1>
+  <div class="cols">
+    <div class="col">
+      <h2>Photography</h2>
+      <ul>
+        <li><b>Product:</b> clean side-on shots on white or light grey, consistently sized and lit (the Borche and HALS photography already does this well)</li>
+        <li><b>Client sites are off limits:</b> HTS installs and customer factories are private and must not be photographed or shown on the website. The market is highly competitive</li>
+        <li><b>Use instead:</b> supplier product photography, technical diagrams and drawings, and clean product-on-white shots</li>
+        <li>Avoid generic stock imagery, heavy filters and busy backgrounds behind logos</li>
+        <li>The vehicle photos on page 15 are brand reference only, not for the website</li>
+        <li>Place the HTS logo, not a supplier's, in the site header</li>
+      </ul>
+    </div>
+    <div class="col">
+      <h2>Supplier and partner logos</h2>
+      <p style="font-size:14.5px">Supplier logos arrive in every colour, shape and size. On the current site this makes the Products page look uneven, and the HTS logo is used as a stand-in where no product image exists. Proposed rules:</p>
+      <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin:10px 0">
+        <div class="tile" style="height:64px;font-family:'Barlow Condensed';font-weight:700;font-size:22px;color:var(--steel)">BORCHE</div>
+        <div class="tile" style="height:64px;font-family:'Barlow Condensed';font-weight:700;font-size:22px;color:var(--steel)">WENSUI</div>
+        <div class="tile" style="height:64px;font-family:'Barlow Condensed';font-weight:700;font-size:22px;color:var(--steel)">CRG</div>
+      </div>
+      <ul>
+        <li>Show each supplier logo in a same-size white tile with a thin line border</li>
+        <li>Keep supplier logos in their own colours on product pages, in grey on overview grids if permitted by the supplier</li>
+        <li>Never use the HTS logo as a product image; use a product photo or a neutral icon</li>
+        <li>Confirm each supplier's logo-use terms with them</li>
+      </ul>
+    </div>
+  </div>
+  <div class="foot"><span>Tile samples are illustrative only, not the suppliers' real logos</span><span>12</span></div>
+</section>
+
+<!-- 13 UI -->
+<section class="page">
+  <div class="kicker">Web styles</div>
+  <h1>Interface elements <span class="tag prop" style="vertical-align:middle;margin-left:8px">Proposed</span></h1>
+  <div class="cols">
+    <div class="col">
+      <h2>Buttons</h2>
+      <div style="display:flex;gap:14px;margin:8px 0 22px;flex-wrap:wrap"><span class="btn p">Request a quote</span><span class="btn s">Download catalogue</span><span class="btn d">Call us</span></div>
+      <p class="small">Square-ish corners (2 px radius), uppercase Barlow Condensed. One primary red button per section. Hover: deep red #A81B21.</p>
+      <h2 style="margin-top:20px">Product card</h2>
+      <div style="display:flex;border:1px solid var(--line);width:430px">
+        <div style="width:150px;background:var(--off);display:flex;align-items:center;justify-content:center;font-size:12px;color:var(--steel)">Product photo</div>
+        <div style="padding:14px 16px"><div style="font-family:'Barlow Condensed';font-weight:600;font-size:20px;text-transform:uppercase">HALS pumps</div><div style="font-size:13.5px;margin:4px 0 8px">Coolant and lubrication pumps for moulding equipment.</div><div style="font-family:'Barlow Condensed';font-weight:600;color:var(--red);letter-spacing:.06em">VIEW RANGE &rarr;</div></div>
+      </div>
+    </div>
+    <div class="col">
+      <h2>Header and sections</h2>
+      <div style="border:1px solid var(--line);margin:8px 0 18px">
+        <div style="display:flex;align-items:center;justify-content:space-between;padding:10px 16px;border-bottom:3px solid var(--red)">
+          <img src="../HTS-Final/Png/HTS_logo-color.png" style="height:44px">
+          <div style="font-family:'Barlow Condensed';font-weight:600;text-transform:uppercase;letter-spacing:.08em;font-size:15px;display:flex;gap:18px"><span>Products</span><span>Services</span><span>Catalogues</span><span style="color:var(--red)">Contact</span></div>
+        </div>
+        <div style="background:var(--char);color:#fff;padding:18px 16px"><span style="font-family:'Barlow Condensed';font-weight:700;font-size:26px;text-transform:uppercase">Dark section</span><div style="font-size:13px;color:#d0d0d2">White text on charcoal; red used sparingly.</div></div>
+      </div>
+      <h2>Form fields</h2>
+      <div style="display:flex;gap:12px"><div style="flex:1"><div style="font-size:13px;font-weight:600;margin-bottom:4px">Your email *</div><div style="border:1.5px solid var(--steel);height:38px;background:#fff"></div></div><div style="flex:1"><div style="font-size:13px;font-weight:600;margin-bottom:4px">Focus state</div><div style="border:2px solid var(--red);height:38px;background:#fff"></div></div></div>
+      <p class="small" style="margin-top:8px">Visible borders and labels, not faint grey outlines.</p>
+    </div>
+  </div>
+  <div class="foot"><span>HTS International | Brand guidelines | Draft v0.2</span><span>13</span></div>
+</section>
+
+<!-- 14 VOICE -->
+<section class="page">
+  <div class="kicker">Voice and tone</div>
+  <h1>Write like a skilled tradesperson <span class="tag prop" style="vertical-align:middle;margin-left:8px">Proposed</span></h1>
+  <div class="cols" style="margin-bottom:20px">
+    <div class="col"><h2>Do</h2><ul><li>Say what the product does and who it is for</li><li>Use short sentences and plain words</li><li>Use "we" and "you"</li><li>Lead with the benefit, then the spec</li></ul></div>
+    <div class="col"><h2>Don't</h2><ul><li>Use hype words such as "elevate", "unlock" or "cutting-edge"</li><li>Write long paragraphs without headings</li><li>Leave typos or run-together words in technical copy</li><li>Over-promise</li></ul></div>
+  </div>
+  <h2>Example rewrite (from the current Technology &amp; Upgrades copy)</h2>
+  <div class="cols">
+    <div class="col card"><div class="small">NOW</div><p style="margin:6px 0 0;font-size:14.5px">"Unlock the future of smarter and more energy-efficient production by upgrading your existing equipment with cutting-edge technology."</p></div>
+    <div class="col card" style="border-left:5px solid var(--red)"><div class="small">PROPOSED</div><p style="margin:6px 0 0;font-size:14.5px">"Upgrade the machines you already have. We help you run them more efficiently and use less energy."</p></div>
+  </div>
+  <p class="small" style="margin-top:12px">Rewrites keep the original claims only. Any new claims (savings, response times, numbers) must come from the client.</p>
+  <div class="foot"><span>HTS International | Brand guidelines | Draft v0.2</span><span>14</span></div>
+</section>
+
+<!-- 15 VEHICLES -->
+<section class="page">
+  <div class="kicker">Applications</div>
+  <h1>Vehicle livery <span class="tag prop" style="vertical-align:middle;margin-left:8px">Brand reference only</span></h1>
+  <div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:14px">
+    <div><img src="reference/vehicle-door.jpg" style="width:100%;height:230px;object-fit:cover;display:block"><p class="small" style="margin-top:6px">Front door: full-colour logo, contact band</p></div>
+    <div><img src="reference/vehicle-side.jpg" style="width:100%;height:230px;object-fit:cover;display:block"><p class="small" style="margin-top:6px">Side: tagline on the rear panel</p></div>
+    <div><img src="reference/vehicle-rear.jpg" style="width:100%;height:230px;object-fit:cover;display:block"><p class="small" style="margin-top:6px">Tailgate: logo, tagline and contact band</p></div>
+  </div>
+  <div class="cols" style="margin-top:20px">
+    <div class="col">
+      <h2>What the livery shows</h2>
+      <ul>
+        <li>The full-colour logo, large, on the white body panels (no company-name wordmark)</li>
+        <li>The tagline <b>SERVICING THE PLASTICS INDUSTRY</b> in dark capitals on the rear side panel and tailgate</li>
+        <li>A dark band along the lower body with <b>www.hts.international</b> and <b>(03) 9013 5413</b> in white</li>
+      </ul>
+    </div>
+    <div class="col">
+      <h2>Notes for future vehicles</h2>
+      <ul>
+        <li>Keep the logo on a white or light panel; never place the full-colour logo on the dark band</li>
+        <li>The vehicle lettering uses a wide, extended capital typeface, not Barlow. Keep the signwriter's existing artwork as the master for vehicles</li>
+        <li>Colours look warmer in these photos because of sunlight. Ask the signwriter to match the vinyl to red #CD2127 and charcoal #3F4142</li>
+      </ul>
+      <p class="small">These photos are for brand reference only and are not for use on the website.</p>
+    </div>
+  </div>
+  <div class="foot"><span>HTS International | Brand guidelines | Draft v0.2</span><span>15</span></div>
+</section>
+
+<!-- 16 APPROVAL -->
+<section class="page dark">
+  <div class="kicker">Client approval</div>
+  <h1 style="color:#fff">Decisions recorded and sign-off</h1>
+  <div class="cols">
+    <div class="col" style="counter-reset:q">
+      <div class="small" style="color:#c4c5c7;margin-bottom:10px;letter-spacing:.08em;text-transform:uppercase">Client decisions, 23 November 2026</div>
+      <div class="q">"40+ years" means Bernie Hildebrand's industry experience (since the 1970s and 80s). The company has traded since the 1990s</div>
+      <div class="q">Public name beside the logo: HTS International</div>
+      <div class="q">Supporting colours approved. No safety yellow</div>
+      <div class="q">Barlow Condensed and Barlow approved</div>
+      <div class="q">Tagline: the existing "Servicing the Plastics Industry"</div>
+      <div class="q">No photos of installs, service work or customer sites on the website</div>
+      <div class="q">Vehicles added to the guidelines; other materials already handled</div>
+      <div class="small" style="color:#c4c5c7;margin-top:14px">Still needed: supplier permission to use logos and catalogues, and supplier product photos for Maco-System, Mould Cleaner and Linear Potentiometer</div>
+    </div>
+    <div class="col">
+      <div style="background:#fff;color:var(--char);padding:26px 28px">
+        <h2>Approval</h2>
+        <p style="font-size:14px">By signing, the client approves these guidelines as the basis for the new website and future brand materials, subject to any changes noted.</p>
+        <div style="margin-top:26px;border-bottom:1.5px solid var(--char);height:36px"></div><div class="small" style="margin-top:4px">Name and signature</div>
+        <div style="margin-top:22px;border-bottom:1.5px solid var(--char);height:30px"></div><div class="small" style="margin-top:4px">Date</div>
+        <div style="margin-top:22px;border-bottom:1.5px solid var(--char);height:30px"></div><div class="small" style="margin-top:4px">Changes requested</div>
+      </div>
+    </div>
+  </div>
+  <div class="foot"><span>HTS International | Brand guidelines | Draft v0.2</span><span>16</span></div>
+</section>
+
+</body>
+</html>

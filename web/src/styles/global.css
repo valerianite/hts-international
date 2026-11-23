@@ -135,8 +135,6 @@ table.specs th { width: 36%; font-weight: 600; background: var(--off); }
 }
 .form input:focus, .form textarea:focus { border-color: var(--red); outline: none; box-shadow: 0 0 0 2px rgba(205, 33, 39, 0.25); }
 .form .field { margin-bottom: 16px; }
-.form .check { display: flex; gap: 10px; align-items: flex-start; font-size: 0.95rem; margin: 6px 0 18px; }
-.form .check input { margin-top: 5px; }
 
 .form-status { margin: 16px 0 8px; font-weight: 600; min-height: 1.5em; outline: none; }
 .form-status.ok { color: #1f7a3a; border-left: 4px solid #1f7a3a; padding-left: 12px; }

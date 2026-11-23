@@ -1,13 +1,17 @@
 ---
-// Static form. The live endpoint is NOT connected yet: set FORM_ACTION once a form
-// service (e.g. Formspree / Web3Forms) or a Cloudflare Pages Function is chosen.
-// Spam protection: add Cloudflare Turnstile (replaces reCAPTCHA) when the endpoint is wired up.
-const FORM_ACTION = '#'; // TODO: replace with form endpoint
+import { form, site } from '../data/site';
+const connected = form.accessKey.length > 0;
 ---
-<form class="form" method="post" action={FORM_ACTION} id="quote">
+<form class="form" id="quote" method="post" action={form.endpoint} data-endpoint={form.endpoint} novalidate>
+  <input type="hidden" name="access_key" value={form.accessKey} />
+  <input type="hidden" name="from_name" value="HTS International website" />
+  <input type="hidden" name="redirect" value={`${site.url}/contact-us?sent=1`} />
+  <!-- Spam honeypot: real visitors never see or fill this -->
+  <input type="checkbox" name="botcheck" class="sr-only" tabindex="-1" autocomplete="off" aria-hidden="true" />
+
   <div class="field">
     <label for="name">Your name</label>
-    <input type="text" id="name" name="name" autocomplete="name" />
+    <input type="text" id="name" name="name" autocomplete="name" required />
   </div>
   <div class="field">
     <label for="email">Your email <span aria-hidden="true">*</span></label>
@@ -15,13 +19,54 @@ const FORM_ACTION = '#'; // TODO: replace with form endpoint
   </div>
   <div class="field">
     <label for="subject">Subject</label>
-    <input type="text" id="subject" name="subject" />
+    <input type="text" id="subject" name="subject" placeholder={form.subjectLine} />
   </div>
   <div class="field">
-    <label for="message">Your message</label>
-    <textarea id="message" name="message" rows="6"></textarea>
+    <label for="message">Your message <span aria-hidden="true">*</span></label>
+    <textarea id="message" name="message" rows="6" required></textarea>
   </div>
-  <label class="check"><input type="checkbox" name="newsletter" value="yes" /> <span>I want to subscribe to the newsletter.</span></label>
-  <button class="btn btn-primary" type="submit">Send message</button>
-  <p class="small" style="margin-top:14px">Preview build: this form is not connected yet.</p>
+  <label class="check"><input type="checkbox" name="newsletter" value="Yes, subscribe me to the newsletter" /> <span>I want to subscribe to the newsletter.</span></label>
+
+  <button class="btn btn-primary" type="submit" disabled={!connected}>Send message</button>
+
+  <p id="form-status" class="form-status" role="status" aria-live="polite" tabindex="-1">
+    {!connected && <>This form isn't connected yet. Please email <a href={`mailto:${site.email}`}>{site.email}</a> or call <a href={site.phoneHref}>{site.phone}</a>.</>}
+  </p>
+  <p class="small">We use a third-party service to deliver your message to us. See our <a href="/privacy-policy">Privacy Policy</a>.</p>
 </form>
+
+<script is:inline define:vars={{ connected, email: site.email, subjectLine: form.subjectLine }}>
+  const f = document.getElementById('quote');
+  const status = document.getElementById('form-status');
+  if (f && connected) {
+    if (new URLSearchParams(location.search).get('sent') === '1') {
+      status.textContent = 'Thanks, your message has been sent. We will come back to you soon.';
+      status.className = 'form-status ok';
+    }
+    f.addEventListener('submit', async (e) => {
+      e.preventDefault();
+      status.className = 'form-status';
+      if (!f.checkValidity()) { f.reportValidity(); return; }
+      const btn = f.querySelector('button[type=submit]');
+      btn.disabled = true; btn.textContent = 'Sending…';
+      const data = new FormData(f);
+      if (!data.get('subject')) data.set('subject', subjectLine);
+      data.delete('redirect');
+      try {
+        const res = await fetch(f.dataset.endpoint, { method: 'POST', headers: { Accept: 'application/json' }, body: data });
+        const json = await res.json().catch(() => ({}));
+        if (res.ok && json.success) {
+          f.reset();
+          status.textContent = 'Thanks, your message has been sent. We will come back to you soon.';
+          status.className = 'form-status ok';
+        } else { throw new Error(json.message || 'Send failed'); }
+      } catch (err) {
+        status.innerHTML = 'Sorry, we could not send your message. Please email <a href="mailto:' + email + '">' + email + '</a> instead.';
+        status.className = 'form-status err';
+      } finally {
+        btn.disabled = false; btn.textContent = 'Send message';
+        status.focus();
+      }
+    });
+  }
+</script>

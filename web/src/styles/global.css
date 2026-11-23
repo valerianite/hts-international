@@ -138,6 +138,11 @@ table.specs th { width: 36%; font-weight: 600; background: var(--off); }
 .form .check { display: flex; gap: 10px; align-items: flex-start; font-size: 0.95rem; margin: 6px 0 18px; }
 .form .check input { margin-top: 5px; }
 
+.form-status { margin: 16px 0 8px; font-weight: 600; min-height: 1.5em; outline: none; }
+.form-status.ok { color: #1f7a3a; border-left: 4px solid #1f7a3a; padding-left: 12px; }
+.form-status.err { color: var(--red-dark); border-left: 4px solid var(--red); padding-left: 12px; }
+.form button[disabled] { opacity: 0.55; cursor: not-allowed; }
+
 /* Header */
 .site-header { background: var(--white); border-bottom: 3px solid var(--red); position: sticky; top: 0; z-index: 20; }
 .site-header .wrap { display: flex; align-items: center; justify-content: space-between; gap: 20px; min-height: 84px; }

@@ -60,6 +60,23 @@ Same 14 pages as the live site, so before and after screenshots match one-to-one
 
 **Forms:** keep the existing fields (name, email, subject, message, newsletter tick box), keep reCAPTCHA, and confirm submissions still reach contact@hts.international before launch.
 
+## Part 2b: SEO problems found on the live site (fix in the rebuild)
+
+Source: `site/content/live-site-copy.md` (full page text, titles and meta descriptions, captured read-only 23 Nov 2026).
+
+| Problem | Pages |
+|---|---|
+| Meta description copied from the wrong page ("Borche Injection Moulding Machines") | Services, Contact Us |
+| Meta description identical to the home page ("Sales, Service and Repairs to all your plastics manufacturing needs HTS www.hts.international") and page title identical to home | Catalogues |
+| No meta description at all | Products, Privacy Policy |
+| Description starts with a stray "Meta Description:" label | Wensui |
+| Very thin description (just the page name) | Borche |
+| US spelling ("molding", "molds", "Optimize") in an Australian business; the site otherwise uses "moulding" | Safety Mats, CRG, Maco, Mould Cleaner, Linear Potentiometer, HALS |
+| Hype wording ("Elevate your molding operations today!") conflicting with the approved voice | Maco |
+| Inconsistent title format ("HTS - Borche..." vs "Wensui \| HTS") | All |
+
+Rebuild rule: one unique title and a 120 to 155 character description per page, Australian spelling, no hype words, format "Page name | HTS International". Include the tagline only on the home page. Use only claims already on the live site or approved by the client (for example, "300+ models" for Wensui is on the live site; confirm it is still accurate).
+
 ## Part 3: Open items before building
 
 1. Formal client sign-off on the brand guidelines (last page of the PDF).

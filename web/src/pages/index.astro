@@ -1,5 +1,6 @@
 ---
 import Base from '../layouts/Base.astro';
+import Pic from '../components/Pic.astro';
 import { products } from '../data/products';
 import { site } from '../data/site';
 ---
@@ -40,6 +41,7 @@ import { site } from '../data/site';
       <div class="grid cols-4" style="margin-top:24px">
         {products.map((p) => (
           <a class="tile" href={`/${p.slug}`}>
+            {p.cover && <span class="thumb"><Pic name={p.cover.file} alt="" sizes="(min-width: 900px) 230px, 100vw" /></span>}
             <span class="supplier">{p.supplier}</span>
             <span class="what">{p.what}</span>
             <span class="blurb">{p.blurb}</span>

@@ -1,5 +1,6 @@
 ---
 import Base from '../layouts/Base.astro';
+import Pic from '../components/Pic.astro';
 import { products, type Product } from '../data/products';
 
 export function getStaticPaths() {
@@ -15,8 +16,8 @@ const { p } = Astro.props as { p: Product };
   </div></div>
 
   <section class="section">
-    <div class="wrap" style="display:grid;gap:48px;grid-template-columns:repeat(auto-fit,minmax(min(100%,320px),1fr));align-items:start">
-      <div class="prose" style="grid-column:span 2;min-width:0">
+    <div class="wrap product-layout">
+      <div class="prose" style="min-width:0">
         {p.blocks.map((b) => {
           if (b.type === 'p') return <p>{b.text}</p>;
           if (b.type === 'h2') return <h2>{b.text}</h2>;
@@ -25,10 +26,30 @@ const { p } = Astro.props as { p: Product };
           if (b.type === 'specs') return (
             <table class="specs"><tbody>{b.rows.map(([k, v]) => <tr><th scope="row">{k}</th><td>{v}</td></tr>)}</tbody></table>
           );
+          if (b.type === 'figure') return (
+            <figure class="figure">
+              <Pic name={b.pic.file} alt={b.pic.alt} sizes="(min-width: 900px) 620px, 100vw" />
+              {b.pic.caption && <figcaption>{b.pic.caption}</figcaption>}
+            </figure>
+          );
+          if (b.type === 'gallery') return (
+            <ul class={`gallery${b.wide ? ' wide' : ''}`}>
+              {b.items.map((it) => (
+                <li>
+                  <figure>
+                    <Pic name={it.file} alt={it.alt} sizes={b.wide ? '(min-width: 900px) 330px, 100vw' : '(min-width: 900px) 200px, 50vw'} />
+                    <figcaption>{it.caption}</figcaption>
+                  </figure>
+                </li>
+              ))}
+            </ul>
+          );
         })}
       </div>
-      <aside style="display:grid;gap:20px;position:sticky;top:110px">
-        <div class="placeholder" role="img" aria-label="Product photo to be supplied">Product photos to be supplied by {p.supplier}</div>
+      <aside class="product-aside">
+        {p.cover
+          ? <div class="cover"><Pic name={p.cover.file} alt={p.cover.alt} sizes="(min-width: 900px) 340px, 100vw" loading="eager" /></div>
+          : <div class="placeholder" role="img" aria-label="Product photo to be supplied">Product photos to be supplied by {p.supplier}</div>}
         <div class="card">
           <h3>Interested?</h3>
           <p>Tell us what you need and we'll come back to you.</p>

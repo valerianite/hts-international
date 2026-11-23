@@ -1375,7 +1375,7 @@
       369
     ],
     "role": "product-photo",
-    "note": "Brand text on the machine reads mirrored (\"IEFGNEH\"): the file looks horizontally flipped. Ask for a corrected photo."
+    "note": "Supplier photo has garbled lettering on the machine: the brand text reads \"IEFGNEH\" (HENGFEI with the letters in reverse order; the glyphs are not mirrored). It is the same on the old site. Not used on the new pages until the supplier provides a clean photo. Unmodified conversion of the original."
   },
   {
     "file": "mouldcleaner-screenshot-2024-06-05-140752.webp",

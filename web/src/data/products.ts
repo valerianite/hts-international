@@ -2,11 +2,19 @@
 // Spelling normalised to Australian English; run-together words on the Safety Mats page fixed.
 // Wording is the client's. No new claims have been added.
 
+export interface Pic {
+  file: string; // filename in src/assets/wix without .webp
+  alt: string;
+  caption?: string;
+}
+
 export type Block =
   | { type: 'p'; text: string }
   | { type: 'h2' | 'h3'; text: string }
   | { type: 'ul'; items: string[] }
-  | { type: 'specs'; rows: [string, string][] };
+  | { type: 'specs'; rows: [string, string][] }
+  | { type: 'figure'; pic: Pic }
+  | { type: 'gallery'; items: Pic[]; wide?: boolean };
 
 export interface Product {
   slug: string; // keeps the live URL, e.g. /borch-imm
@@ -16,6 +24,7 @@ export interface Product {
   heading: string;
   title: string; // <title>
   description: string; // meta description, Australian spelling, no hype
+  cover?: Pic; // used on tiles and in the product sidebar
   blocks: Block[];
   catalogues: { label: string; href: string }[];
   note?: string; // build note for the team, not shown on the site
@@ -31,12 +40,19 @@ export const products: Product[] = [
     title: 'Borche Injection Moulding Machines | HTS International',
     description:
       'HTS International is the Australian distributor for Borche injection moulding machines, from 50T to 6800T clamping force.',
+    cover: { file: 'borch-imm-borche-bi-series', alt: 'Borche Bi series injection moulding machine' },
     blocks: [
       { type: 'p', text: 'Since 2002, Borche Machinery Co., LTD (Borche) has been a driving force in the intelligent injection moulding machines (IMM) arena. With a focus on self-development, manufacturing, and sales, Borche has etched its mark as an industry pioneer.' },
       { type: 'p', text: 'Borche operates three manufacturing bases, with its headquarters in Guangzhou housing both R&D and manufacturing facilities. The Hangzhou plant and the Guangzhou intelligent manufacturing demonstration plant of two-platen machines contribute to a total premises of 215,000 square metres, driven by a dedicated team of over 800 employees.' },
       { type: 'p', text: 'HTS International is the Australian distributor for Borche. Borche is the manufacturer of the largest two-platen IMM in Asia. Its intelligent two-platen BU series, servo BS series, updated toggle Bi series, hybrid machines, and BM series multi-component IMM encompass over 100 models. The range spans clamping force from 50T to 6800T, with shot weights from 25g to 300kg.' },
       { type: 'h2', text: 'Machine series' },
-      { type: 'ul', items: ['BS-III Series', 'Bi Series', 'BM Series', 'BU Series', 'Bi-M Series'] },
+      { type: 'gallery', wide: true, items: [
+        { file: 'borch-imm-02', alt: 'Borche BS-III series servo injection moulding machine', caption: 'BS-III Series' },
+        { file: 'borch-imm-borche-bi-series', alt: 'Borche Bi series toggle injection moulding machine', caption: 'Bi Series' },
+        { file: 'borch-imm-03', alt: 'Borche BM series multi-component injection moulding machine', caption: 'BM Series' },
+        { file: 'borch-imm-01', alt: 'Borche BU series two-platen injection moulding machine', caption: 'BU Series' },
+        { file: 'borch-imm-20230412-bi-m', alt: 'Borche Bi-M series injection moulding machine', caption: 'Bi-M Series' },
+      ] },
     ],
     catalogues: [
       { label: 'BU Series', href: 'https://utm.guru/HTSBorcheBU' },
@@ -58,6 +74,7 @@ export const products: Product[] = [
     title: 'Wensui Plastic Auxiliary Machinery | HTS International',
     description:
       'HTS International is the exclusive Australian distributor for Wensui. 300+ models of plastic auxiliary machinery, from recycling to robotic automation.',
+    cover: { file: 'wensui-robot', alt: 'Wensui take-out robot' },
     blocks: [
       { type: 'p', text: 'Precision engineering. Global expertise. Local support.' },
       { type: 'p', text: 'HTS International is the exclusive Australian distributor for Wensui, a global leader in plastic auxiliary machinery. With over 30 years of industry-defining experience, Wensui’s commitment to precision and durability aligns with HTS International’s mission to provide high-performance solutions to the local manufacturing sector.' },
@@ -70,6 +87,16 @@ export const products: Product[] = [
         'Temperature Control: industrial chillers and mould temperature controllers for process stability.',
         'Material Handling: vacuum loaders and conveying systems.',
         'Robotic Automation: high-speed SCARA and servo-driven take-out robots.',
+      ] },
+      { type: 'gallery', items: [
+        { file: 'wensui-granulators', alt: 'Wensui granulator', caption: 'Granulators' },
+        { file: 'wensui-drying-and-dehumidifying', alt: 'Wensui drying and dehumidifying hopper dryer', caption: 'Drying & dehumidifying' },
+        { file: 'wensui-mixing-and-dosing', alt: 'Wensui mixing and dosing unit', caption: 'Mixing & dosing' },
+        { file: 'wensui-temp-control', alt: 'Wensui temperature control unit', caption: 'Temperature control' },
+        { file: 'wensui-material-handling', alt: 'Wensui vacuum loader and material handling equipment', caption: 'Material handling' },
+        { file: 'wensui-conveyor', alt: 'Wensui belt conveyor', caption: 'Belt conveyors' },
+        { file: 'wensui-robot', alt: 'Wensui take-out robot', caption: 'Robotic automation' },
+        { file: 'wensui-mould-monitor', alt: 'Wensui mould monitor display', caption: 'Mould monitor' },
       ] },
       { type: 'h2', text: 'The HTS and Wensui partnership' },
       { type: 'p', text: 'We don’t just sell machines; we build long-term, win-win partnerships. Combining Wensui’s manufacturing with HTS International’s understanding of the Australian market, we deliver:' },
@@ -92,6 +119,7 @@ export const products: Product[] = [
     title: 'Anhyup Safety Mats | HTS International',
     description:
       'Anhyup safety mats and controllers for injection moulding machines, robots and production lines, in standard and custom sizes.',
+    cover: { file: 'safety-mats-safety-mat-with-available-colour-range', alt: 'Anhyup safety mats in yellow, grey and black' },
     blocks: [
       { type: 'p', text: 'Your safety is our priority.' },
       { type: 'h2', text: 'What is a safety mat switch?' },
@@ -99,6 +127,7 @@ export const products: Product[] = [
       { type: 'p', text: 'As smaller machines become more common, worker safety has improved. However, with the expanding risk areas within factories, a proactive safety device has emerged with the primary aim of preventing accidents and enhancing worker safety. This device is known as the safety mat switch.' },
       { type: 'p', text: 'The safety mat switch operates by detecting pressure applied to the countless contact points on both the upper and lower layers of the mat. When pressure is applied, it triggers the so-called “A” contact point. It also operates similarly to the “B” contact point, which remains unmonitored.' },
       { type: 'p', text: 'This design ensures that any liquids present can be swiftly drained away. You can rely on this safety mat switch to bolster workplace safety.' },
+      { type: 'figure', pic: { file: 'safety-mats-rectangle-safety-mat-with-trailing-lead', alt: 'Rectangular Anhyup safety mat with trailing lead' } },
       { type: 'h2', text: 'Industrial robot safety mat switch' },
       { type: 'p', text: 'The AMS Series Safety Mat by Anhyup Electronics Co., Ltd. is a pressure sensor engineered to detect the presence of people or objects on its sensing surface.' },
       { type: 'p', text: 'This device serves as a force-sensing protective mechanism. It operates by detecting pressure when two conductive sheets are pressed together, and is available in standard-sized mats as well as customisable variants.' },
@@ -114,9 +143,21 @@ export const products: Product[] = [
         'Around automotive machine tools',
         'Automatic doors or off-limits areas at hazardous work sites, and similar',
       ] },
+      { type: 'figure', pic: { file: 'safety-mats-safety-mat-installed-in-work-area', alt: 'Safety mat installed in front of a machine in a work area' } },
       { type: 'h2', text: 'Made to your requirements' },
       { type: 'p', text: 'We offer safety mats designed to meet your exact specifications, accommodating any size and shape to suit a wide range of applications.' },
+      { type: 'gallery', items: [
+        { file: 'safety-mats-custom-made-curved-safety-mat', alt: 'Drawing of a curved custom safety mat', caption: 'Curved' },
+        { file: 'safety-mats-custom-made-l-shaped-safety-mat', alt: 'Drawing of an L-shaped custom safety mat', caption: 'L-shaped' },
+        { file: 'safety-mats-custom-made-t-shaped-safety-mat', alt: 'Drawing of a T-shaped custom safety mat', caption: 'T-shaped' },
+        { file: 'safety-mats-custom-made-u-shaped-safety-mat', alt: 'Drawing of a U-shaped custom safety mat', caption: 'U-shaped' },
+        { file: 'safety-mats-custom-made-safety-mat-with-round-cutout', alt: 'Custom safety mat with a round cutout', caption: 'With round cutout' },
+        { file: 'safety-mats-custom-made-safety-safety-mat', alt: 'Custom-made stepped safety mat', caption: 'Stepped' },
+        { file: 'safety-mats-custom-made-8-piece-safety-mat-and-wiring', alt: 'Custom eight-piece safety mat with wiring', caption: 'Eight-piece with wiring' },
+        { file: 'safety-mats-custom-made-8-section-safety-mat-diagram', alt: 'Diagram of an eight-section custom safety mat', caption: 'Eight-section diagram' },
+      ] },
       { type: 'h2', text: 'Mat controllers' },
+      { type: 'figure', pic: { file: 'safety-mats-amc-series-safety-mat-controller', alt: 'AMC series mat controller in a yellow enclosure' } },
       { type: 'h3', text: 'AMC Series mat controller' },
       { type: 'ul', items: [
         '8-bit MCU, 128 Kbytes in system',
@@ -135,6 +176,7 @@ export const products: Product[] = [
         'Detachable terminal block',
         'Power consumption: DC 24 V at 1 A (maximum)',
       ] },
+      { type: 'figure', pic: { file: 'safety-mats-ah-mc-series-safety-mat-controller', alt: 'AH-MC series mat controller in a yellow enclosure with emergency stop' } },
       { type: 'h3', text: 'AH-MC mat controller' },
       { type: 'ul', items: [
         '8-bit MCU, 16 Kbytes in system',
@@ -178,9 +220,15 @@ export const products: Product[] = [
     title: 'HALS Pumps | HTS International',
     description:
       'HALS grease, lube, rotor and coolant pumps for injection moulding and industrial machinery, supplied by HTS International.',
+    cover: { file: 'halspumps-03', alt: 'HALS grease pumps with clear reservoirs' },
     blocks: [
       { type: 'h2', text: 'Pump range' },
-      { type: 'ul', items: ['Grease Pump', 'Lube Pump', 'Rotor Pump', 'Coolant Pump'] },
+      { type: 'gallery', items: [
+        { file: 'halspumps-03', alt: 'HALS grease pumps with clear reservoirs', caption: 'Grease Pump' },
+        { file: 'halspumps-02', alt: 'HALS lube pump with controller and reservoir', caption: 'Lube Pump' },
+        { file: 'halspumps-04', alt: 'HALS rotor pump', caption: 'Rotor Pump' },
+        { file: 'halspumps-01', alt: 'HALS coolant pumps', caption: 'Coolant Pump' },
+      ] },
     ],
     catalogues: [{ label: 'HALS grease pumps', href: 'https://utm.guru/HTS-HALS-GP' }],
     note: 'Live page is four product photos with labels only. Needs supplier photos and, ideally, short descriptions from the client.',
@@ -194,6 +242,7 @@ export const products: Product[] = [
     title: 'CRG End of Arm Tooling | HTS International',
     description:
       'HTS International is the authorised agent for CRG end-of-arm tooling in Australia: tool changers, grippers and components for take-out robots.',
+    cover: { file: 'crg-eoat-quick-changers', alt: 'CRG quick changer end-of-arm tooling couplings' },
     blocks: [
       { type: 'p', text: 'HTS International and CRG have an enduring partnership in injection automation. As the authorised agent for CRG end-of-arm tooling in Australia, HTS International is committed to your automation needs.' },
       { type: 'p', text: 'Module design philosophy: the partnership combines CRG’s module design philosophy with our extensive experience, simplifying automation design, improving adaptability and ensuring reliability.' },
@@ -201,11 +250,24 @@ export const products: Product[] = [
       { type: 'p', text: 'Guiding principle: mastery through repetition. Through close collaboration, we build expertise and ensure success through our established partnership.' },
       { type: 'p', text: 'HTS International and CRG remain dedicated to delivering exceptional service and fostering innovation, in a partnership that streamlines your automation work.' },
       { type: 'h2', text: 'Product range' },
-      { type: 'ul', items: [
-        'Automatic Tool Changer', 'Manual Tool Quick-Changer', 'Frame Connectors', 'Sprue Gripper', 'Needle Gripper',
-        'Expansion Gripper', 'Pneumatic Gripper', 'Elbow Arm', 'Parallel Gripper', '3 Finger Pneumatic',
-        'Air Slide Table', 'Vacuum Gripper', 'Air Nipper', 'EOAT Components', 'Locators',
+      { type: 'gallery', items: [
+        { file: 'crg-eoat-quick-changers', alt: 'CRG quick changer couplings', caption: 'Quick changers' },
+        { file: 'crg-eoat-manual-tool-changer', alt: 'CRG manual tool quick-changer', caption: 'Manual tool quick-changer' },
+        { file: 'crg-eoat-frame-connectors-with-ss-profile', alt: 'CRG frame connectors with aluminium profile', caption: 'Frame connectors' },
+        { file: 'crg-eoat-sprue-gripper', alt: 'CRG sprue gripper', caption: 'Sprue gripper' },
+        { file: 'crg-eoat-needle-gripper', alt: 'CRG needle gripper', caption: 'Needle gripper' },
+        { file: 'crg-eoat-expansion-gripper', alt: 'CRG expansion gripper', caption: 'Expansion gripper' },
+        { file: 'crg-eoat-pneumatic-finger-gripper', alt: 'CRG pneumatic finger gripper', caption: 'Pneumatic gripper' },
+        { file: 'crg-eoat-spring-loaded-elbow-arm', alt: 'CRG spring-loaded elbow arm', caption: 'Elbow arm' },
+        { file: 'crg-eoat-parallel-gripper', alt: 'CRG parallel gripper', caption: 'Parallel gripper' },
+        { file: 'crg-eoat-3-finger-pneumatic-gripper', alt: 'CRG three-finger pneumatic gripper', caption: '3 finger pneumatic' },
+        { file: 'crg-eoat-air-slide-table', alt: 'CRG air slide table', caption: 'Air slide table' },
+        { file: 'crg-eoat-vacuum-cups-fga', alt: 'CRG vacuum cup', caption: 'Vacuum cups' },
+        { file: 'crg-eoat-slide-off-air-nipper-bracket', alt: 'CRG slide-off air nipper with bracket', caption: 'Air nipper' },
+        { file: 'crg-eoat-gripper-for-engagement', alt: 'CRG gripper for engagement', caption: 'Gripper for engagement' },
+        { file: 'crg-eoat-hose', alt: 'CRG coloured pneumatic hose', caption: 'Hose' },
       ] },
+      { type: 'p', text: 'Also available: automatic tool changers, EOAT components and locators.' },
     ],
     catalogues: [
       { label: 'End-of-arm tooling, all', href: 'https://utm.guru/HTS-CRG-All' },
@@ -221,6 +283,7 @@ export const products: Product[] = [
     title: 'MACO Compact Retrofits | HTS International',
     description:
       'MACO Compact retrofit control systems to replace outdated controls on injection moulding machines of any make or model.',
+    cover: { file: 'macosystemretrofit', alt: 'Injection moulding machine fitted with a MACO Compact operator screen' },
     blocks: [
       { type: 'h2', text: 'MACO Compact retrofit: upgrading your injection moulding machine' },
       { type: 'p', text: 'HTS International offers a retrofit solution for all injection moulding machines. Our MACO Compact retrofit is designed to replace outdated controls, improving your machine’s performance and longevity.' },
@@ -240,6 +303,7 @@ export const products: Product[] = [
       { type: 'ul', items: ['Complete control system replacement', 'Installation of the operator terminal and controller', 'Implementation of standard machine program screens'] },
       { type: 'h2', text: 'MACO Compact operator stations' },
       { type: 'p', text: 'The MACO Compact operator interface offers a contemporary design and a selection of cost-effective HMIs for the MACO Compact control system. It is equipped with a 12.1-inch TFT display with 800 x 600 viewing resolution, with an optional touchscreen interface.' },
+      { type: 'figure', pic: { file: 'macosystemretrofit-maco-compact-control-system', alt: 'MACO Compact control system controller' } },
       { type: 'h2', text: 'MACO Compact control system' },
       { type: 'p', text: 'This cost-effective, compact programmable logic controller offers integrated, high-performance machine control. It is expandable to meet diverse application needs and connects to plant-wide systems through Ethernet communications.' },
       { type: 'p', text: 'Using DSP technology, it achieves rapid response times, making it a versatile choice for precision control.' },
@@ -255,10 +319,15 @@ export const products: Product[] = [
     title: 'Mould Cleaning Machines | HTS International',
     description:
       'Hengfei mould waterway cleaning machines that remove scale, rust and sludge from injection mould cooling circuits.',
+    cover: { file: 'mouldcleaner-screenshot-2024-06-05-140752', alt: 'Hengfei mould waterway cleaning machines' },
     blocks: [
       { type: 'p', text: 'The mould waterway cleaning machine decomposes scale, rust and sludge without leaving any residue.' },
       { type: 'p', text: 'Efficient cooling of the water circuit in plastic moulds is crucial for product formation during the moulding process. Poor cooling or extended cooling times can lead to defects such as bending, burrs and bubbles, compromising product quality and increasing production costs.' },
       { type: 'p', text: 'We offer a professional solution for all types of plastic machine and injection mould waterway problems. Our products address issues such as limited water flow in cooling rings, inadequate heat dissipation and high oil temperatures.' },
+      { type: 'gallery', items: [
+        { file: 'mouldcleaner-screenshot-2024-06-05-143504', alt: 'Cutaway of a mould cooling waterway blocked with scale and sludge', caption: 'Before' },
+        { file: 'mouldcleaner-screenshot-2024-06-05-143520', alt: 'Cutaway of a clean mould cooling waterway', caption: 'After' },
+      ] },
       { type: 'h2', text: 'Key features' },
       { type: 'ul', items: ['PLC + touch control', 'Three-step pulse cleaning', 'Automatic blow drying', 'Adjustable cleaning time', 'Automatic low water alarm'] },
       { type: 'h2', text: 'HF-2LC' },
@@ -277,10 +346,15 @@ export const products: Product[] = [
     title: 'Linear Potentiometers | HTS International',
     description:
       'Linear potentiometers for length and displacement measurement on injection moulding and hydraulic machinery, with strokes up to 4000 mm.',
+    cover: { file: 'linearpotentiometer-02', alt: 'Linear potentiometer with mounting accessories' },
     blocks: [
       { type: 'h2', text: 'Product summary' },
       { type: 'p', text: 'Designed for precise and accurate length measurement, the linear potentiometer is suited to control and measuring applications in the plastics manufacturing industry.' },
       { type: 'p', text: 'It measures displacement and length directly, outputting a DC voltage signal. This can be converted to standard 0-5 V, 0-10 V or 4-20 mA DC signals using a built-in or external V/A converter module. It also supports remote transmission control requirements.' },
+      { type: 'gallery', items: [
+        { file: 'linearpotentiometer-03', alt: 'Linear potentiometer with sensor and connector accessories', caption: 'Potentiometer with accessories' },
+        { file: 'linearpotentiometer-20221027021843495', alt: 'Linear potentiometer sensor', caption: 'Linear potentiometer' },
+      ] },
       { type: 'h2', text: 'Application range' },
       { type: 'p', text: 'The linear potentiometer is designed for compact installation, which suits applications where reducing the installed length in the mechanical direction is important. It is particularly suited to large-stroke applications, including:' },
       { type: 'ul', items: ['Large injection moulding machine closing strokes', 'Rubber machine closing strokes', 'Woodworking machinery', 'Hydraulic machinery'] },

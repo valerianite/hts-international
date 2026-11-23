@@ -49,10 +49,12 @@ Fonts are self-hosted (Fontsource Barlow and Barlow Condensed), so there are no 
 
 All 74 unique images on the live site were downloaded at original resolution (19.1 MB) and converted to WebP (1.4 MB in the repo, quality 82 for photos, 90 with alpha for logos and diagrams, capped at 2x the largest size shown on the old site). Files are in `src/assets/wix/`, and `src/data/images.json` records, for each one: original Wix ID and size, where it was used, alt text, role and notes. The full-size originals are kept **locally only** in `assets-source/` (gitignored). Use them with Astro's `<Image>` component so responsive sizes are generated at build time.
 
+**Wired into the pages (23 Nov 2026):** product covers on the home and Products tiles and in each product sidebar; galleries and figures inline on Borche (5 series), Wensui (8 categories), Safety Mats (custom shapes, controllers, install photo), HALS (4 pumps), CRG (15 components), MACO, Mould Cleaner (before/after) and Linear Potentiometer. Image choices and captions live in `src/data/products.ts` (`cover`, `figure`, `gallery` blocks); the `Pic` component only requests sizes the source can supply. Not used: supplier logos, social icons, the soft hero composite, the two spec-table screenshots and the garbled Mould Cleaner photo.
+
 Roles in the manifest: `product-photo` (45), `diagram` (11), `supplier-logo` (9), `social-icon` (4), `spec-table-image` (2), `hero-composite` (1). Two stale low-resolution copies of the HTS logo were set aside and are not in the repo.
 
 Known problems with the source images:
-- `mouldcleaner-hf-2lz`: brand text on the machine is mirrored, so the file looks flipped. Ask for a corrected photo.
+- `mouldcleaner-hf-2lz`: the machine's brand text reads "IEFGNEH" (HENGFEI with the letters in reverse order) in the supplier's own photo, and on the old site too. Not used on the new pages. Ask the supplier for a clean photo.
 - `home-03` (hero composite) is only 820 px wide and looks soft when stretched. Needs a better hero image.
 - The CRG tooling thumbnails are 300 x 200: thumbnail use only.
 - `linearpotentiometer-01` and `-screenshot-…` are screenshots of spec tables. Rebuild them as HTML tables.

@@ -1,0 +1,17 @@
+---
+import { Image } from 'astro:assets';
+import { img } from '../lib/images';
+
+interface Props {
+  name: string;
+  alt: string;
+  sizes?: string;
+  class?: string;
+  loading?: 'lazy' | 'eager';
+}
+const { name, alt, sizes = '(min-width: 900px) 600px, 100vw', class: cls, loading = 'lazy' } = Astro.props;
+const src = img(name);
+// Only request widths the source can supply (never upscale small images).
+const widths = [...new Set([320, 480, 640, 960, 1280, 1600].filter((w) => w < src.width).concat(src.width))];
+---
+<Image src={src} alt={alt} widths={widths} sizes={sizes} class={cls} loading={loading} decoding="async" />

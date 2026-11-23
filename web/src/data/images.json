@@ -1,0 +1,2082 @@
+[
+  {
+    "file": "borch-imm-01.webp",
+    "wixId": "5c1fdb_4df60dca5f9c47869acdc2897e581b35~mv2.png",
+    "sourceType": "png",
+    "hasAlpha": true,
+    "originalPx": [
+      1820,
+      599
+    ],
+    "outputPx": [
+      1820,
+      599
+    ],
+    "originalBytes": 699439,
+    "outputBytes": 87858,
+    "usedOn": [
+      "/borch-imm"
+    ],
+    "alt": [],
+    "displayedPx": [
+      925,
+      305
+    ],
+    "role": "product-photo"
+  },
+  {
+    "file": "borch-imm-02.webp",
+    "wixId": "5c1fdb_577a9ba8cbae4f7d8e53b205c85b0975~mv2.png",
+    "sourceType": "png",
+    "hasAlpha": true,
+    "originalPx": [
+      1400,
+      372
+    ],
+    "outputPx": [
+      1400,
+      372
+    ],
+    "originalBytes": 436445,
+    "outputBytes": 51826,
+    "usedOn": [
+      "/borch-imm"
+    ],
+    "alt": [],
+    "displayedPx": [
+      970,
+      255
+    ],
+    "role": "product-photo"
+  },
+  {
+    "file": "borch-imm-03.webp",
+    "wixId": "5c1fdb_d7a31fc700934d4188768971a5c7dcd1~mv2.png",
+    "sourceType": "png",
+    "hasAlpha": true,
+    "originalPx": [
+      4740,
+      1936
+    ],
+    "outputPx": [
+      1440,
+      588
+    ],
+    "originalBytes": 7046037,
+    "outputBytes": 98916,
+    "usedOn": [
+      "/borch-imm"
+    ],
+    "alt": [],
+    "displayedPx": [
+      720,
+      295
+    ],
+    "role": "product-photo"
+  },
+  {
+    "file": "borch-imm-20230412-bi-m.webp",
+    "wixId": "5c1fdb_45914da3bafc490190cfd9e5b1ade219~mv2.jpg",
+    "sourceType": "jpeg",
+    "hasAlpha": false,
+    "originalPx": [
+      3677,
+      1630
+    ],
+    "outputPx": [
+      1578,
+      700
+    ],
+    "originalBytes": 412905,
+    "outputBytes": 30994,
+    "usedOn": [
+      "/borch-imm"
+    ],
+    "alt": [
+      "20230412 Bi-M.jpg"
+    ],
+    "displayedPx": [
+      789,
+      305
+    ],
+    "role": "product-photo"
+  },
+  {
+    "file": "borch-imm-borche-bi-series.webp",
+    "wixId": "5c1fdb_dc9df392c2644e93861b6eee50b327d7~mv2.png",
+    "sourceType": "png",
+    "hasAlpha": true,
+    "originalPx": [
+      3750,
+      1652
+    ],
+    "outputPx": [
+      1550,
+      683
+    ],
+    "originalBytes": 2939254,
+    "outputBytes": 78002,
+    "usedOn": [
+      "/borch-imm"
+    ],
+    "alt": [
+      "Borche BI Series.png"
+    ],
+    "displayedPx": [
+      775,
+      295
+    ],
+    "role": "product-photo"
+  },
+  {
+    "file": "catalogues-01.webp",
+    "wixId": "5c1fdb_6158eac1835244bcb2ea3cf34f131eaf~mv2.png",
+    "sourceType": "png",
+    "hasAlpha": true,
+    "originalPx": [
+      512,
+      512
+    ],
+    "outputPx": [
+      512,
+      512
+    ],
+    "originalBytes": 69352,
+    "outputBytes": 22954,
+    "usedOn": [
+      "/catalogues"
+    ],
+    "alt": [],
+    "displayedPx": [
+      217,
+      83
+    ],
+    "role": "supplier-logo"
+  },
+  {
+    "file": "catalogues-wensui-logo.webp",
+    "wixId": "5c1fdb_29375f8e8dc94be09f1297579a8d7a19~mv2.webp",
+    "sourceType": "webp",
+    "hasAlpha": true,
+    "originalPx": [
+      946,
+      542
+    ],
+    "outputPx": [
+      640,
+      367
+    ],
+    "originalBytes": 7384,
+    "outputBytes": 22310,
+    "usedOn": [
+      "/catalogues"
+    ],
+    "alt": [
+      "Wensui-logo-compressed.webp"
+    ],
+    "displayedPx": [
+      150,
+      85
+    ],
+    "role": "supplier-logo"
+  },
+  {
+    "file": "crg-eoat-3-finger-pneumatic-gripper.webp",
+    "wixId": "5c1fdb_fa99a0aeeee142e4a78c2a95477a3336~mv2.jpg",
+    "sourceType": "jpeg",
+    "hasAlpha": false,
+    "originalPx": [
+      300,
+      200
+    ],
+    "outputPx": [
+      300,
+      200
+    ],
+    "originalBytes": 17578,
+    "outputBytes": 2326,
+    "usedOn": [
+      "/crg-eoat"
+    ],
+    "alt": [
+      "3-Finger-Pneumatic-Gripper_CRG-300x200.jpg"
+    ],
+    "displayedPx": [
+      285,
+      170
+    ],
+    "role": "product-photo",
+    "note": "Small source image (≤320 px): fine as a thumbnail only."
+  },
+  {
+    "file": "crg-eoat-air-slide-table.webp",
+    "wixId": "5c1fdb_b822f778d5e14a019d969b18d57695f1~mv2.jpg",
+    "sourceType": "jpeg",
+    "hasAlpha": false,
+    "originalPx": [
+      300,
+      200
+    ],
+    "outputPx": [
+      300,
+      200
+    ],
+    "originalBytes": 5697,
+    "outputBytes": 2840,
+    "usedOn": [
+      "/crg-eoat"
+    ],
+    "alt": [
+      "Air-Slide-Table_CRG-300x200.jpg"
+    ],
+    "displayedPx": [
+      285,
+      170
+    ],
+    "role": "product-photo",
+    "note": "Small source image (≤320 px): fine as a thumbnail only."
+  },
+  {
+    "file": "crg-eoat-expansion-gripper.webp",
+    "wixId": "5c1fdb_4c7c5a23b74d4de2ab02e03b4c604ad2~mv2.jpg",
+    "sourceType": "jpeg",
+    "hasAlpha": false,
+    "originalPx": [
+      300,
+      200
+    ],
+    "outputPx": [
+      300,
+      200
+    ],
+    "originalBytes": 15412,
+    "outputBytes": 1106,
+    "usedOn": [
+      "/crg-eoat"
+    ],
+    "alt": [
+      "Expansion-Gripper_CRG-300x200.jpg"
+    ],
+    "displayedPx": [
+      285,
+      170
+    ],
+    "role": "product-photo",
+    "note": "Small source image (≤320 px): fine as a thumbnail only."
+  },
+  {
+    "file": "crg-eoat-frame-connectors-with-ss-profile.webp",
+    "wixId": "5c1fdb_3ac953cb158544a1942d9b26ba00c9b9~mv2.jpg",
+    "sourceType": "jpeg",
+    "hasAlpha": false,
+    "originalPx": [
+      300,
+      200
+    ],
+    "outputPx": [
+      300,
+      200
+    ],
+    "originalBytes": 16192,
+    "outputBytes": 9588,
+    "usedOn": [
+      "/crg-eoat"
+    ],
+    "alt": [
+      "Frame-connectors-with-SS-profile_CRG-300x200.jpg"
+    ],
+    "displayedPx": [
+      285,
+      170
+    ],
+    "role": "product-photo",
+    "note": "Small source image (≤320 px): fine as a thumbnail only."
+  },
+  {
+    "file": "crg-eoat-gripper-for-engagement.webp",
+    "wixId": "5c1fdb_63c617cbb73f4a82a8b0a8cc56563b56~mv2.jpg",
+    "sourceType": "jpeg",
+    "hasAlpha": false,
+    "originalPx": [
+      300,
+      200
+    ],
+    "outputPx": [
+      300,
+      200
+    ],
+    "originalBytes": 15791,
+    "outputBytes": 1504,
+    "usedOn": [
+      "/crg-eoat"
+    ],
+    "alt": [
+      "Gripper-for-Engagement_CRG-300x200.jpg"
+    ],
+    "displayedPx": [
+      285,
+      170
+    ],
+    "role": "product-photo",
+    "note": "Small source image (≤320 px): fine as a thumbnail only."
+  },
+  {
+    "file": "crg-eoat-hose.webp",
+    "wixId": "5c1fdb_1d2095af2a414fab82e7be31c9dd34e4~mv2.jpg",
+    "sourceType": "jpeg",
+    "hasAlpha": false,
+    "originalPx": [
+      300,
+      200
+    ],
+    "outputPx": [
+      300,
+      200
+    ],
+    "originalBytes": 12839,
+    "outputBytes": 9288,
+    "usedOn": [
+      "/crg-eoat"
+    ],
+    "alt": [
+      "Hose_CRG-300x200.jpg"
+    ],
+    "displayedPx": [
+      285,
+      170
+    ],
+    "role": "product-photo",
+    "note": "Small source image (≤320 px): fine as a thumbnail only."
+  },
+  {
+    "file": "crg-eoat-manual-tool-changer.webp",
+    "wixId": "5c1fdb_d65c1d19129348d4a82720d09984beef~mv2.jpg",
+    "sourceType": "jpeg",
+    "hasAlpha": false,
+    "originalPx": [
+      900,
+      600
+    ],
+    "outputPx": [
+      640,
+      427
+    ],
+    "originalBytes": 172485,
+    "outputBytes": 14442,
+    "usedOn": [
+      "/crg-eoat"
+    ],
+    "alt": [
+      "Manual-Tool-Changer_CRG.jpg"
+    ],
+    "displayedPx": [
+      285,
+      170
+    ],
+    "role": "product-photo"
+  },
+  {
+    "file": "crg-eoat-needle-gripper.webp",
+    "wixId": "5c1fdb_8502a49183954c4da41f92ac194587fe~mv2.jpg",
+    "sourceType": "jpeg",
+    "hasAlpha": false,
+    "originalPx": [
+      300,
+      200
+    ],
+    "outputPx": [
+      300,
+      200
+    ],
+    "originalBytes": 15259,
+    "outputBytes": 1390,
+    "usedOn": [
+      "/crg-eoat"
+    ],
+    "alt": [
+      "Needle-gripper_CRG-300x200.jpg"
+    ],
+    "displayedPx": [
+      285,
+      170
+    ],
+    "role": "product-photo",
+    "note": "Small source image (≤320 px): fine as a thumbnail only."
+  },
+  {
+    "file": "crg-eoat-parallel-gripper.webp",
+    "wixId": "5c1fdb_10ae29fabbec4823a608e8f8b12d3b4d~mv2.jpg",
+    "sourceType": "jpeg",
+    "hasAlpha": false,
+    "originalPx": [
+      300,
+      200
+    ],
+    "outputPx": [
+      300,
+      200
+    ],
+    "originalBytes": 19474,
+    "outputBytes": 3112,
+    "usedOn": [
+      "/crg-eoat"
+    ],
+    "alt": [
+      "Parallel-Gripper-_CRG-300x200.jpg"
+    ],
+    "displayedPx": [
+      285,
+      170
+    ],
+    "role": "product-photo",
+    "note": "Small source image (≤320 px): fine as a thumbnail only."
+  },
+  {
+    "file": "crg-eoat-pneumatic-finger-gripper.webp",
+    "wixId": "5c1fdb_ad3c3c79bc984b7dbcd4714d546dfa16~mv2.jpg",
+    "sourceType": "jpeg",
+    "hasAlpha": false,
+    "originalPx": [
+      300,
+      200
+    ],
+    "outputPx": [
+      300,
+      200
+    ],
+    "originalBytes": 15024,
+    "outputBytes": 1276,
+    "usedOn": [
+      "/crg-eoat"
+    ],
+    "alt": [
+      "Pneumatic-Finger-Gripper_CRG-300x200.jpg"
+    ],
+    "displayedPx": [
+      285,
+      170
+    ],
+    "role": "product-photo",
+    "note": "Small source image (≤320 px): fine as a thumbnail only."
+  },
+  {
+    "file": "crg-eoat-quick-changers.webp",
+    "wixId": "5c1fdb_8d85359ee3954ce9a4d50c4f20e94cef~mv2.jpg",
+    "sourceType": "jpeg",
+    "hasAlpha": false,
+    "originalPx": [
+      900,
+      600
+    ],
+    "outputPx": [
+      640,
+      427
+    ],
+    "originalBytes": 45679,
+    "outputBytes": 25510,
+    "usedOn": [
+      "/crg-eoat"
+    ],
+    "alt": [
+      "Quick-Changers_CRG.jpg"
+    ],
+    "displayedPx": [
+      285,
+      170
+    ],
+    "role": "product-photo"
+  },
+  {
+    "file": "crg-eoat-slide-off-air-nipper-bracket.webp",
+    "wixId": "5c1fdb_a7235822dc9e42c5ad257d05e50912b4~mv2.jpg",
+    "sourceType": "jpeg",
+    "hasAlpha": false,
+    "originalPx": [
+      900,
+      600
+    ],
+    "outputPx": [
+      640,
+      427
+    ],
+    "originalBytes": 17335,
+    "outputBytes": 7128,
+    "usedOn": [
+      "/crg-eoat"
+    ],
+    "alt": [
+      "Slide-off-air-nipper-bracket_CRG.jpg"
+    ],
+    "displayedPx": [
+      285,
+      170
+    ],
+    "role": "product-photo"
+  },
+  {
+    "file": "crg-eoat-spring-loaded-elbow-arm.webp",
+    "wixId": "5c1fdb_f82174e33b664bb486b401dadf09cddf~mv2.jpg",
+    "sourceType": "jpeg",
+    "hasAlpha": false,
+    "originalPx": [
+      900,
+      600
+    ],
+    "outputPx": [
+      640,
+      427
+    ],
+    "originalBytes": 83277,
+    "outputBytes": 5498,
+    "usedOn": [
+      "/crg-eoat"
+    ],
+    "alt": [
+      "Spring-Loaded-Elbow-Arm_CRG.jpg"
+    ],
+    "displayedPx": [
+      285,
+      170
+    ],
+    "role": "product-photo"
+  },
+  {
+    "file": "crg-eoat-sprue-gripper.webp",
+    "wixId": "5c1fdb_15d4f0166d5648f782389de5212fbb66~mv2.jpg",
+    "sourceType": "jpeg",
+    "hasAlpha": false,
+    "originalPx": [
+      900,
+      600
+    ],
+    "outputPx": [
+      640,
+      427
+    ],
+    "originalBytes": 137406,
+    "outputBytes": 8394,
+    "usedOn": [
+      "/crg-eoat"
+    ],
+    "alt": [
+      "Sprue-gripper_CRG.jpg"
+    ],
+    "displayedPx": [
+      285,
+      170
+    ],
+    "role": "product-photo"
+  },
+  {
+    "file": "crg-eoat-vacuum-cups-fga.webp",
+    "wixId": "5c1fdb_01f87339f83948b5b62921b8abd6841d~mv2.jpg",
+    "sourceType": "jpeg",
+    "hasAlpha": false,
+    "originalPx": [
+      900,
+      600
+    ],
+    "outputPx": [
+      640,
+      427
+    ],
+    "originalBytes": 13219,
+    "outputBytes": 4526,
+    "usedOn": [
+      "/crg-eoat"
+    ],
+    "alt": [
+      "Vacuum-Cups-FGA_CRG.jpg"
+    ],
+    "displayedPx": [
+      285,
+      170
+    ],
+    "role": "product-photo"
+  },
+  {
+    "file": "halspumps-01.webp",
+    "wixId": "5c1fdb_285318109b5f4fa5925ed07410bc6696~mv2.png",
+    "sourceType": "png",
+    "hasAlpha": false,
+    "originalPx": [
+      419,
+      262
+    ],
+    "outputPx": [
+      419,
+      262
+    ],
+    "originalBytes": 78108,
+    "outputBytes": 8160,
+    "usedOn": [
+      "/halspumps"
+    ],
+    "alt": [],
+    "displayedPx": [
+      195,
+      174
+    ],
+    "role": "product-photo"
+  },
+  {
+    "file": "halspumps-02.webp",
+    "wixId": "5c1fdb_8baefb7056e94be29740589ac4c6a160~mv2.png",
+    "sourceType": "png",
+    "hasAlpha": false,
+    "originalPx": [
+      419,
+      273
+    ],
+    "outputPx": [
+      419,
+      273
+    ],
+    "originalBytes": 82519,
+    "outputBytes": 9178,
+    "usedOn": [
+      "/halspumps"
+    ],
+    "alt": [],
+    "displayedPx": [
+      166,
+      169
+    ],
+    "role": "product-photo"
+  },
+  {
+    "file": "halspumps-03.webp",
+    "wixId": "5c1fdb_a74697d5ee6847c0a0627f57d1c22239~mv2.png",
+    "sourceType": "png",
+    "hasAlpha": false,
+    "originalPx": [
+      419,
+      262
+    ],
+    "outputPx": [
+      419,
+      262
+    ],
+    "originalBytes": 108804,
+    "outputBytes": 11844,
+    "usedOn": [
+      "/halspumps"
+    ],
+    "alt": [],
+    "displayedPx": [
+      220,
+      158
+    ],
+    "role": "product-photo"
+  },
+  {
+    "file": "halspumps-04.webp",
+    "wixId": "5c1fdb_d70d735b35c64278a7f29dc25b481671~mv2.png",
+    "sourceType": "png",
+    "hasAlpha": false,
+    "originalPx": [
+      419,
+      202
+    ],
+    "outputPx": [
+      419,
+      202
+    ],
+    "originalBytes": 69072,
+    "outputBytes": 6556,
+    "usedOn": [
+      "/halspumps"
+    ],
+    "alt": [],
+    "displayedPx": [
+      228,
+      135
+    ],
+    "role": "product-photo"
+  },
+  {
+    "file": "home-01.webp",
+    "wixId": "5c1fdb_771baf467ab8460e8a141abca456d8db~mv2.png",
+    "sourceType": "png",
+    "hasAlpha": true,
+    "originalPx": [
+      198,
+      88
+    ],
+    "outputPx": [
+      198,
+      88
+    ],
+    "originalBytes": 6142,
+    "outputBytes": 4654,
+    "usedOn": [
+      "/",
+      "/products",
+      "/halspumps",
+      "/catalogues"
+    ],
+    "alt": [],
+    "displayedPx": [
+      198,
+      88
+    ],
+    "role": "supplier-logo"
+  },
+  {
+    "file": "home-02.webp",
+    "wixId": "5c1fdb_9c2b42d329e64434834d8e56f2c8e016%7Emv2.jpeg",
+    "sourceType": "jpeg",
+    "hasAlpha": false,
+    "originalPx": [
+      48,
+      48
+    ],
+    "outputPx": [
+      48,
+      48
+    ],
+    "originalBytes": 1263,
+    "outputBytes": 824,
+    "usedOn": [
+      "/",
+      "/products",
+      "/borch-imm",
+      "/wensui",
+      "/safety-mats",
+      "/halspumps",
+      "/crg-eoat",
+      "/macosystemretrofit",
+      "/mouldcleaner",
+      "/linearpotentiometer",
+      "/services",
+      "/catalogues",
+      "/contact-us",
+      "/privacy-policy"
+    ],
+    "alt": [],
+    "displayedPx": [
+      0,
+      0
+    ],
+    "role": "superseded-hts-logo",
+    "excluded": "Stale low-resolution copy of the HTS logo. Use the final artwork in HTS-Final instead."
+  },
+  {
+    "file": "home-03.webp",
+    "wixId": "5c1fdb_4e89d812c2574fa8a895c0bcbc6e98f3~mv2.png",
+    "sourceType": "png",
+    "hasAlpha": true,
+    "originalPx": [
+      820,
+      312
+    ],
+    "outputPx": [
+      820,
+      312
+    ],
+    "originalBytes": 169139,
+    "outputBytes": 26524,
+    "usedOn": [
+      "/"
+    ],
+    "alt": [
+      "HTS International Injection Moulding Machine and Anciliary Equipment"
+    ],
+    "displayedPx": [
+      980,
+      300
+    ],
+    "role": "hero-composite",
+    "note": "Only 820 px wide; the live site stretches it to 980 px, so it looks soft. Needs a better hero image."
+  },
+  {
+    "file": "home-20221027021858975.webp",
+    "wixId": "5c1fdb_27ea07a60f18434eaf14d1c0a057d28b~mv2.jpg",
+    "sourceType": "jpeg",
+    "hasAlpha": false,
+    "originalPx": [
+      1200,
+      1200
+    ],
+    "outputPx": [
+      640,
+      640
+    ],
+    "originalBytes": 284044,
+    "outputBytes": 12222,
+    "usedOn": [
+      "/"
+    ],
+    "alt": [
+      "20221027021858975.jpg"
+    ],
+    "displayedPx": [
+      158,
+      85
+    ],
+    "role": "product-photo"
+  },
+  {
+    "file": "home-anhyup-logo.webp",
+    "wixId": "5c1fdb_e573c12bd80d4077913912e3ffa8ddb3~mv2.png",
+    "sourceType": "png",
+    "hasAlpha": true,
+    "originalPx": [
+      829,
+      985
+    ],
+    "outputPx": [
+      640,
+      760
+    ],
+    "originalBytes": 492691,
+    "outputBytes": 38264,
+    "usedOn": [
+      "/",
+      "/products",
+      "/safety-mats",
+      "/catalogues"
+    ],
+    "alt": [
+      "ANHYUP Logo ",
+      "ANHYUP Logo"
+    ],
+    "displayedPx": [
+      260,
+      310
+    ],
+    "role": "supplier-logo"
+  },
+  {
+    "file": "home-borche-injection-moulding-machines-logo.webp",
+    "wixId": "5c1fdb_aa58d0d978024dddb00299dd07e1a89f~mv2.png",
+    "sourceType": "png",
+    "hasAlpha": true,
+    "originalPx": [
+      514,
+      106
+    ],
+    "outputPx": [
+      514,
+      106
+    ],
+    "originalBytes": 4634,
+    "outputBytes": 2340,
+    "usedOn": [
+      "/",
+      "/products",
+      "/catalogues"
+    ],
+    "alt": [
+      "Borche Injection Moulding Machines Logo",
+      "Borche"
+    ],
+    "displayedPx": [
+      265,
+      60
+    ],
+    "role": "supplier-logo"
+  },
+  {
+    "file": "home-crg-eoat-logo.webp",
+    "wixId": "5c1fdb_d763ad0e41004d819ccffe64f01a1e32~mv2.jpg",
+    "sourceType": "jpeg",
+    "hasAlpha": false,
+    "originalPx": [
+      512,
+      208
+    ],
+    "outputPx": [
+      512,
+      208
+    ],
+    "originalBytes": 15217,
+    "outputBytes": 8836,
+    "usedOn": [
+      "/",
+      "/products",
+      "/crg-eoat"
+    ],
+    "alt": [
+      "CRG EOAT Logo",
+      "CRG EOAT"
+    ],
+    "displayedPx": [
+      170,
+      70
+    ],
+    "role": "supplier-logo"
+  },
+  {
+    "file": "home-facebook.webp",
+    "wixId": "e316f544f9094143b9eac01f1f19e697.png",
+    "sourceType": "png",
+    "hasAlpha": true,
+    "originalPx": [
+      200,
+      200
+    ],
+    "outputPx": [
+      200,
+      200
+    ],
+    "originalBytes": 1420,
+    "outputBytes": 1326,
+    "usedOn": [
+      "/",
+      "/products",
+      "/borch-imm",
+      "/wensui",
+      "/safety-mats",
+      "/halspumps",
+      "/crg-eoat",
+      "/macosystemretrofit",
+      "/mouldcleaner",
+      "/linearpotentiometer",
+      "/services",
+      "/catalogues",
+      "/contact-us",
+      "/privacy-policy"
+    ],
+    "alt": [
+      "Facebook"
+    ],
+    "displayedPx": [
+      39,
+      39
+    ],
+    "role": "social-icon"
+  },
+  {
+    "file": "home-hts-international-logo.webp",
+    "wixId": "5c1fdb_a9f497642e0e4793867cb06fcbd0f57e~mv2.jpg",
+    "sourceType": "jpeg",
+    "hasAlpha": false,
+    "originalPx": [
+      1200,
+      1200
+    ],
+    "outputPx": [
+      640,
+      640
+    ],
+    "originalBytes": 88381,
+    "outputBytes": 11148,
+    "usedOn": [
+      "/",
+      "/products",
+      "/borch-imm",
+      "/wensui",
+      "/safety-mats",
+      "/halspumps",
+      "/crg-eoat",
+      "/macosystemretrofit",
+      "/mouldcleaner",
+      "/linearpotentiometer",
+      "/services",
+      "/catalogues",
+      "/contact-us",
+      "/privacy-policy"
+    ],
+    "alt": [
+      "HTS International Logo"
+    ],
+    "displayedPx": [
+      85,
+      85
+    ],
+    "role": "superseded-hts-logo",
+    "excluded": "Stale low-resolution copy of the HTS logo. Use the final artwork in HTS-Final instead."
+  },
+  {
+    "file": "home-instagram.webp",
+    "wixId": "8d6893330740455c96d218258a458aa4.png",
+    "sourceType": "png",
+    "hasAlpha": true,
+    "originalPx": [
+      200,
+      200
+    ],
+    "outputPx": [
+      200,
+      200
+    ],
+    "originalBytes": 23259,
+    "outputBytes": 3852,
+    "usedOn": [
+      "/",
+      "/products",
+      "/borch-imm",
+      "/wensui",
+      "/safety-mats",
+      "/halspumps",
+      "/crg-eoat",
+      "/macosystemretrofit",
+      "/mouldcleaner",
+      "/linearpotentiometer",
+      "/services",
+      "/catalogues",
+      "/contact-us",
+      "/privacy-policy"
+    ],
+    "alt": [
+      "Instagram"
+    ],
+    "displayedPx": [
+      39,
+      39
+    ],
+    "role": "social-icon"
+  },
+  {
+    "file": "home-linkedin.webp",
+    "wixId": "48a2a42b19814efaa824450f23e8a253.png",
+    "sourceType": "png",
+    "hasAlpha": true,
+    "originalPx": [
+      200,
+      200
+    ],
+    "outputPx": [
+      200,
+      200
+    ],
+    "originalBytes": 2018,
+    "outputBytes": 2016,
+    "usedOn": [
+      "/",
+      "/products",
+      "/borch-imm",
+      "/wensui",
+      "/safety-mats",
+      "/halspumps",
+      "/crg-eoat",
+      "/macosystemretrofit",
+      "/mouldcleaner",
+      "/linearpotentiometer",
+      "/services",
+      "/catalogues",
+      "/contact-us",
+      "/privacy-policy"
+    ],
+    "alt": [
+      "LinkedIn"
+    ],
+    "displayedPx": [
+      39,
+      39
+    ],
+    "role": "social-icon"
+  },
+  {
+    "file": "home-maco-mcd2-500x500.webp",
+    "wixId": "5c1fdb_b17e6a97c2e041c986b36ace03d96a8c~mv2.jpg",
+    "sourceType": "jpeg",
+    "hasAlpha": false,
+    "originalPx": [
+      500,
+      500
+    ],
+    "outputPx": [
+      500,
+      500
+    ],
+    "originalBytes": 86652,
+    "outputBytes": 10944,
+    "usedOn": [
+      "/",
+      "/macosystemretrofit"
+    ],
+    "alt": [
+      "MACO_mcd2-500x500.jpg",
+      "Maco Compact Operator Station"
+    ],
+    "displayedPx": [
+      243,
+      369
+    ],
+    "role": "product-photo"
+  },
+  {
+    "file": "home-wensui-logo.webp",
+    "wixId": "5c1fdb_77cfe581a89f43139506b7ccfec4b7db~mv2.png",
+    "sourceType": "png",
+    "hasAlpha": true,
+    "originalPx": [
+      946,
+      183
+    ],
+    "outputPx": [
+      640,
+      124
+    ],
+    "originalBytes": 25130,
+    "outputBytes": 18930,
+    "usedOn": [
+      "/"
+    ],
+    "alt": [
+      "Wensui-logo-compressed_edited.png"
+    ],
+    "displayedPx": [
+      259,
+      60
+    ],
+    "role": "supplier-logo"
+  },
+  {
+    "file": "home-whatsapp.webp",
+    "wixId": "11062b_1db239e728f641c3a3be5b7ca708f239~mv2.png",
+    "sourceType": "png",
+    "hasAlpha": true,
+    "originalPx": [
+      201,
+      201
+    ],
+    "outputPx": [
+      201,
+      201
+    ],
+    "originalBytes": 4552,
+    "outputBytes": 4244,
+    "usedOn": [
+      "/",
+      "/products",
+      "/borch-imm",
+      "/wensui",
+      "/safety-mats",
+      "/halspumps",
+      "/crg-eoat",
+      "/macosystemretrofit",
+      "/mouldcleaner",
+      "/linearpotentiometer",
+      "/services",
+      "/catalogues",
+      "/contact-us",
+      "/privacy-policy"
+    ],
+    "alt": [
+      "Whatsapp"
+    ],
+    "displayedPx": [
+      39,
+      39
+    ],
+    "role": "social-icon"
+  },
+  {
+    "file": "linearpotentiometer-01.webp",
+    "wixId": "5c1fdb_2a6c9f80fb7445a294273ab80451dce7~mv2.png",
+    "sourceType": "png",
+    "hasAlpha": true,
+    "originalPx": [
+      364,
+      564
+    ],
+    "outputPx": [
+      364,
+      564
+    ],
+    "originalBytes": 55021,
+    "outputBytes": 41570,
+    "usedOn": [
+      "/linearpotentiometer"
+    ],
+    "alt": [],
+    "displayedPx": [
+      305,
+      473
+    ],
+    "role": "spec-table-image",
+    "note": "Screenshot of a spec table: rebuild as an HTML table (accessibility, SEO). Check whether it contains prices."
+  },
+  {
+    "file": "linearpotentiometer-02.webp",
+    "wixId": "5c1fdb_60bce4dc281848159bb475259fb85572~mv2.jpg",
+    "sourceType": "jpeg",
+    "hasAlpha": false,
+    "originalPx": [
+      800,
+      800
+    ],
+    "outputPx": [
+      800,
+      800
+    ],
+    "originalBytes": 179006,
+    "outputBytes": 23250,
+    "usedOn": [
+      "/linearpotentiometer"
+    ],
+    "alt": [],
+    "displayedPx": [
+      600,
+      167
+    ],
+    "role": "product-photo"
+  },
+  {
+    "file": "linearpotentiometer-03.webp",
+    "wixId": "5c1fdb_ef19a83e91a34fe4856f92cafd56ed59~mv2.jpg",
+    "sourceType": "jpeg",
+    "hasAlpha": false,
+    "originalPx": [
+      1200,
+      1200
+    ],
+    "outputPx": [
+      968,
+      968
+    ],
+    "originalBytes": 261797,
+    "outputBytes": 15478,
+    "usedOn": [
+      "/linearpotentiometer"
+    ],
+    "alt": [],
+    "displayedPx": [
+      484,
+      136
+    ],
+    "role": "product-photo"
+  },
+  {
+    "file": "linearpotentiometer-20221027021843495.webp",
+    "wixId": "5c1fdb_74abf5174600495d9dece4449b9801cc~mv2.jpg",
+    "sourceType": "jpeg",
+    "hasAlpha": false,
+    "originalPx": [
+      1200,
+      1200
+    ],
+    "outputPx": [
+      968,
+      968
+    ],
+    "originalBytes": 349551,
+    "outputBytes": 29776,
+    "usedOn": [
+      "/linearpotentiometer"
+    ],
+    "alt": [
+      "20221027021843495.jpg"
+    ],
+    "displayedPx": [
+      484,
+      261
+    ],
+    "role": "product-photo"
+  },
+  {
+    "file": "linearpotentiometer-screenshot-2024-06-28-132020.webp",
+    "wixId": "5c1fdb_6c5a5e626b824770ad4497bbc99a5654~mv2.png",
+    "sourceType": "png",
+    "hasAlpha": true,
+    "originalPx": [
+      364,
+      659
+    ],
+    "outputPx": [
+      364,
+      659
+    ],
+    "originalBytes": 64531,
+    "outputBytes": 50700,
+    "usedOn": [
+      "/linearpotentiometer"
+    ],
+    "alt": [
+      "Screenshot 2024-06-28 132020.png"
+    ],
+    "displayedPx": [
+      305,
+      552
+    ],
+    "role": "spec-table-image",
+    "note": "Screenshot of a spec table: rebuild as an HTML table (accessibility, SEO). Check whether it contains prices."
+  },
+  {
+    "file": "macosystemretrofit-maco-compact-control-system.webp",
+    "wixId": "5c1fdb_d9338654ebbf4e16aa1ddf20536a6fb0~mv2.jpg",
+    "sourceType": "jpeg",
+    "hasAlpha": false,
+    "originalPx": [
+      500,
+      500
+    ],
+    "outputPx": [
+      500,
+      500
+    ],
+    "originalBytes": 43809,
+    "outputBytes": 5380,
+    "usedOn": [
+      "/macosystemretrofit"
+    ],
+    "alt": [
+      "Maco Compact Control System"
+    ],
+    "displayedPx": [
+      236,
+      268
+    ],
+    "role": "product-photo"
+  },
+  {
+    "file": "macosystemretrofit.webp",
+    "wixId": "5c1fdb_12ea0363c9994771990558bc692d3981~mv2.jpeg",
+    "sourceType": "jpeg",
+    "hasAlpha": false,
+    "originalPx": [
+      1080,
+      499
+    ],
+    "outputPx": [
+      1080,
+      499
+    ],
+    "originalBytes": 58755,
+    "outputBytes": 26956,
+    "usedOn": [
+      "/macosystemretrofit"
+    ],
+    "alt": [
+      "Maco Compact Controller Retrofit on Injection Moulding Machine"
+    ],
+    "displayedPx": [
+      600,
+      277
+    ],
+    "role": "product-photo"
+  },
+  {
+    "file": "mouldcleaner-hf-2lz.webp",
+    "wixId": "5c1fdb_0d8f46bee7d7420ca586095c1ca2462e~mv2.jpg",
+    "sourceType": "jpeg",
+    "hasAlpha": false,
+    "originalPx": [
+      1216,
+      874
+    ],
+    "outputPx": [
+      640,
+      460
+    ],
+    "originalBytes": 45345,
+    "outputBytes": 10750,
+    "usedOn": [
+      "/mouldcleaner"
+    ],
+    "alt": [
+      "HF-2LZ英文说明书.jpg"
+    ],
+    "displayedPx": [
+      311,
+      369
+    ],
+    "role": "product-photo",
+    "note": "Brand text on the machine reads mirrored (\"IEFGNEH\"): the file looks horizontally flipped. Ask for a corrected photo."
+  },
+  {
+    "file": "mouldcleaner-screenshot-2024-06-05-140752.webp",
+    "wixId": "5c1fdb_7d69e827310a4a96b2fb305849e47b80~mv2.png",
+    "sourceType": "png",
+    "hasAlpha": true,
+    "originalPx": [
+      968,
+      528
+    ],
+    "outputPx": [
+      968,
+      528
+    ],
+    "originalBytes": 438194,
+    "outputBytes": 47202,
+    "usedOn": [
+      "/mouldcleaner"
+    ],
+    "alt": [
+      "Screenshot 2024-06-05 140752.png"
+    ],
+    "displayedPx": [
+      600,
+      327
+    ],
+    "role": "diagram"
+  },
+  {
+    "file": "mouldcleaner-screenshot-2024-06-05-143504.webp",
+    "wixId": "5c1fdb_2a93e95969c04c138a578965617e39bd~mv2.png",
+    "sourceType": "png",
+    "hasAlpha": true,
+    "originalPx": [
+      1039,
+      764
+    ],
+    "outputPx": [
+      640,
+      471
+    ],
+    "originalBytes": 497562,
+    "outputBytes": 27208,
+    "usedOn": [
+      "/mouldcleaner"
+    ],
+    "alt": [
+      "Screenshot 2024-06-05 143504.png"
+    ],
+    "displayedPx": [
+      227,
+      169
+    ],
+    "role": "diagram"
+  },
+  {
+    "file": "mouldcleaner-screenshot-2024-06-05-143520.webp",
+    "wixId": "5c1fdb_8ac762a143a74dde80d9b1531ceed0fa~mv2.png",
+    "sourceType": "png",
+    "hasAlpha": true,
+    "originalPx": [
+      1029,
+      764
+    ],
+    "outputPx": [
+      640,
+      475
+    ],
+    "originalBytes": 458132,
+    "outputBytes": 24900,
+    "usedOn": [
+      "/mouldcleaner"
+    ],
+    "alt": [
+      "Screenshot 2024-06-05 143520.png"
+    ],
+    "displayedPx": [
+      227,
+      169
+    ],
+    "role": "diagram"
+  },
+  {
+    "file": "products-image.webp",
+    "wixId": "5c1fdb_cd4995e8b2fb451ea8ac2aa5522970b0~mv2.png",
+    "sourceType": "png",
+    "hasAlpha": true,
+    "originalPx": [
+      259,
+      60
+    ],
+    "outputPx": [
+      259,
+      60
+    ],
+    "originalBytes": 23323,
+    "outputBytes": 11158,
+    "usedOn": [
+      "/products"
+    ],
+    "alt": [
+      "image.png"
+    ],
+    "displayedPx": [
+      259,
+      60
+    ],
+    "role": "supplier-logo"
+  },
+  {
+    "file": "safety-mats-ah-mc-series-safety-mat-controller.webp",
+    "wixId": "5c1fdb_aa76276b8eb44c3aad2e05a1e3bb38fa~mv2.jpg",
+    "sourceType": "jpeg",
+    "hasAlpha": false,
+    "originalPx": [
+      543,
+      791
+    ],
+    "outputPx": [
+      543,
+      791
+    ],
+    "originalBytes": 70941,
+    "outputBytes": 30278,
+    "usedOn": [
+      "/safety-mats"
+    ],
+    "alt": [
+      "AH-MC Series Safety Mat Controller"
+    ],
+    "displayedPx": [
+      235,
+      380
+    ],
+    "role": "product-photo"
+  },
+  {
+    "file": "safety-mats-amc-series-safety-mat-controller.webp",
+    "wixId": "5c1fdb_49343d13e1be4358a730df4978a62117~mv2.jpg",
+    "sourceType": "jpeg",
+    "hasAlpha": false,
+    "originalPx": [
+      524,
+      849
+    ],
+    "outputPx": [
+      524,
+      849
+    ],
+    "originalBytes": 74904,
+    "outputBytes": 30914,
+    "usedOn": [
+      "/safety-mats"
+    ],
+    "alt": [
+      "AMC Series Safety Mat Controller"
+    ],
+    "displayedPx": [
+      235,
+      380
+    ],
+    "role": "product-photo"
+  },
+  {
+    "file": "safety-mats-custom-made-8-piece-safety-mat-and-wiring.webp",
+    "wixId": "5c1fdb_7b158a40e8ca4089a23b494fbe9a381a~mv2.jpg",
+    "sourceType": "jpeg",
+    "hasAlpha": false,
+    "originalPx": [
+      1404,
+      692
+    ],
+    "outputPx": [
+      640,
+      315
+    ],
+    "originalBytes": 183322,
+    "outputBytes": 28232,
+    "usedOn": [
+      "/safety-mats"
+    ],
+    "alt": [
+      "Custom Made 8 Piece Safety Mat and Wiring"
+    ],
+    "displayedPx": [
+      293,
+      145
+    ],
+    "role": "diagram"
+  },
+  {
+    "file": "safety-mats-custom-made-8-section-safety-mat-diagram.webp",
+    "wixId": "5c1fdb_6c39fb3d65524f3a9c287ce07fe2e0a1~mv2.jpg",
+    "sourceType": "jpeg",
+    "hasAlpha": false,
+    "originalPx": [
+      591,
+      675
+    ],
+    "outputPx": [
+      591,
+      675
+    ],
+    "originalBytes": 60407,
+    "outputBytes": 21304,
+    "usedOn": [
+      "/safety-mats"
+    ],
+    "alt": [
+      "Custom Made 8 Section Safety Mat Diagram"
+    ],
+    "displayedPx": [
+      243,
+      278
+    ],
+    "role": "diagram"
+  },
+  {
+    "file": "safety-mats-custom-made-curved-safety-mat.webp",
+    "wixId": "5c1fdb_e853a4559ca74cbc975ec47da0262600~mv2.jpg",
+    "sourceType": "jpeg",
+    "hasAlpha": false,
+    "originalPx": [
+      890,
+      565
+    ],
+    "outputPx": [
+      640,
+      406
+    ],
+    "originalBytes": 67827,
+    "outputBytes": 5968,
+    "usedOn": [
+      "/safety-mats"
+    ],
+    "alt": [
+      "Custom Made Curved Safety Mat"
+    ],
+    "displayedPx": [
+      245,
+      156
+    ],
+    "role": "diagram"
+  },
+  {
+    "file": "safety-mats-custom-made-l-shaped-safety-mat.webp",
+    "wixId": "5c1fdb_425038c4803c478bafa1c4082012758c~mv2.jpg",
+    "sourceType": "jpeg",
+    "hasAlpha": false,
+    "originalPx": [
+      912,
+      685
+    ],
+    "outputPx": [
+      640,
+      481
+    ],
+    "originalBytes": 74291,
+    "outputBytes": 3720,
+    "usedOn": [
+      "/safety-mats"
+    ],
+    "alt": [
+      "Custom Made L Shaped Safety Mat"
+    ],
+    "displayedPx": [
+      192,
+      145
+    ],
+    "role": "diagram"
+  },
+  {
+    "file": "safety-mats-custom-made-safety-mat-with-round-cutout.webp",
+    "wixId": "5c1fdb_183b5ded49d641b6863d142e4c53cd69~mv2.jpg",
+    "sourceType": "jpeg",
+    "hasAlpha": false,
+    "originalPx": [
+      1746,
+      736
+    ],
+    "outputPx": [
+      740,
+      312
+    ],
+    "originalBytes": 196714,
+    "outputBytes": 15586,
+    "usedOn": [
+      "/safety-mats"
+    ],
+    "alt": [
+      "Custom Made Safety Mat With Round Cutout"
+    ],
+    "displayedPx": [
+      370,
+      156
+    ],
+    "role": "diagram"
+  },
+  {
+    "file": "safety-mats-custom-made-safety-safety-mat.webp",
+    "wixId": "5c1fdb_80f71383e4b947caba22c313985794c4~mv2.jpg",
+    "sourceType": "jpeg",
+    "hasAlpha": false,
+    "originalPx": [
+      1301,
+      878
+    ],
+    "outputPx": [
+      640,
+      432
+    ],
+    "originalBytes": 162023,
+    "outputBytes": 13170,
+    "usedOn": [
+      "/safety-mats"
+    ],
+    "alt": [
+      "Custom Made Safety Safety Mat "
+    ],
+    "displayedPx": [
+      231,
+      156
+    ],
+    "role": "diagram"
+  },
+  {
+    "file": "safety-mats-custom-made-t-shaped-safety-mat.webp",
+    "wixId": "5c1fdb_5c0c2f2a11164defb3ad184267b09952~mv2.jpg",
+    "sourceType": "jpeg",
+    "hasAlpha": false,
+    "originalPx": [
+      1070,
+      604
+    ],
+    "outputPx": [
+      640,
+      361
+    ],
+    "originalBytes": 83964,
+    "outputBytes": 3162,
+    "usedOn": [
+      "/safety-mats"
+    ],
+    "alt": [
+      "Custom Made T Shaped Safety Mat"
+    ],
+    "displayedPx": [
+      256,
+      145
+    ],
+    "role": "diagram"
+  },
+  {
+    "file": "safety-mats-custom-made-u-shaped-safety-mat.webp",
+    "wixId": "5c1fdb_339adc0422204c59b9c15dfdcf1dddc1~mv2.jpg",
+    "sourceType": "jpeg",
+    "hasAlpha": false,
+    "originalPx": [
+      1094,
+      702
+    ],
+    "outputPx": [
+      640,
+      411
+    ],
+    "originalBytes": 94972,
+    "outputBytes": 4172,
+    "usedOn": [
+      "/safety-mats"
+    ],
+    "alt": [
+      "Custom Made U Shaped Safety Mat"
+    ],
+    "displayedPx": [
+      225,
+      145
+    ],
+    "role": "diagram"
+  },
+  {
+    "file": "safety-mats-rectangle-safety-mat-with-trailing-lead.webp",
+    "wixId": "5c1fdb_bd45f36883804dc9b302313522ee00db~mv2.jpg",
+    "sourceType": "jpeg",
+    "hasAlpha": false,
+    "originalPx": [
+      1432,
+      609
+    ],
+    "outputPx": [
+      1256,
+      534
+    ],
+    "originalBytes": 204553,
+    "outputBytes": 41024,
+    "usedOn": [
+      "/safety-mats"
+    ],
+    "alt": [
+      "Rectangle Safety Mat With Trailing Lead"
+    ],
+    "displayedPx": [
+      628,
+      267
+    ],
+    "role": "product-photo"
+  },
+  {
+    "file": "safety-mats-safety-mat-installed-in-work-area.webp",
+    "wixId": "5c1fdb_00eeff6fea1a489caf847047fbd631ad~mv2.png",
+    "sourceType": "png",
+    "hasAlpha": true,
+    "originalPx": [
+      1177,
+      771
+    ],
+    "outputPx": [
+      980,
+      642
+    ],
+    "originalBytes": 1871836,
+    "outputBytes": 128650,
+    "usedOn": [
+      "/safety-mats"
+    ],
+    "alt": [
+      "Safety Mat Installed In Work Area "
+    ],
+    "displayedPx": [
+      490,
+      330
+    ],
+    "role": "product-photo"
+  },
+  {
+    "file": "safety-mats-safety-mat-with-available-colour-range.webp",
+    "wixId": "5c1fdb_1edccc0aa7304c1ca2cd2fb85b6c7694~mv2.jpg",
+    "sourceType": "jpeg",
+    "hasAlpha": false,
+    "originalPx": [
+      664,
+      713
+    ],
+    "outputPx": [
+      640,
+      687
+    ],
+    "originalBytes": 91353,
+    "outputBytes": 18392,
+    "usedOn": [
+      "/safety-mats"
+    ],
+    "alt": [
+      "Safety Mat With Available Colour Range"
+    ],
+    "displayedPx": [
+      259,
+      278
+    ],
+    "role": "product-photo"
+  },
+  {
+    "file": "wensui-conveyor.webp",
+    "wixId": "5c1fdb_db2c03baea0f4658b2d7e98e551aa23e~mv2.jpg",
+    "sourceType": "jpeg",
+    "hasAlpha": false,
+    "originalPx": [
+      800,
+      800
+    ],
+    "outputPx": [
+      640,
+      640
+    ],
+    "originalBytes": 63577,
+    "outputBytes": 27926,
+    "usedOn": [
+      "/wensui"
+    ],
+    "alt": [
+      "Conveyor.jpg"
+    ],
+    "displayedPx": [
+      220,
+      172
+    ],
+    "role": "product-photo"
+  },
+  {
+    "file": "wensui-drying-and-dehumidifying.webp",
+    "wixId": "5c1fdb_80dae6c687c14647a417291fbd984aca~mv2.jpg",
+    "sourceType": "jpeg",
+    "hasAlpha": false,
+    "originalPx": [
+      800,
+      800
+    ],
+    "outputPx": [
+      640,
+      640
+    ],
+    "originalBytes": 40802,
+    "outputBytes": 15406,
+    "usedOn": [
+      "/wensui"
+    ],
+    "alt": [
+      "Drying and Dehumidifying.jpg"
+    ],
+    "displayedPx": [
+      220,
+      173
+    ],
+    "role": "product-photo"
+  },
+  {
+    "file": "wensui-granulators.webp",
+    "wixId": "5c1fdb_904a73fde3154e45891db12760b075f3~mv2.jpg",
+    "sourceType": "jpeg",
+    "hasAlpha": false,
+    "originalPx": [
+      800,
+      800
+    ],
+    "outputPx": [
+      640,
+      640
+    ],
+    "originalBytes": 39415,
+    "outputBytes": 15178,
+    "usedOn": [
+      "/wensui"
+    ],
+    "alt": [
+      "Granulators.jpg"
+    ],
+    "displayedPx": [
+      220,
+      172
+    ],
+    "role": "product-photo"
+  },
+  {
+    "file": "wensui-material-handling.webp",
+    "wixId": "5c1fdb_6f11152da5dd43cc974264b7773922e2~mv2.jpg",
+    "sourceType": "jpeg",
+    "hasAlpha": false,
+    "originalPx": [
+      800,
+      800
+    ],
+    "outputPx": [
+      640,
+      640
+    ],
+    "originalBytes": 51275,
+    "outputBytes": 27928,
+    "usedOn": [
+      "/wensui"
+    ],
+    "alt": [
+      "Material Handling.jpg"
+    ],
+    "displayedPx": [
+      214,
+      145
+    ],
+    "role": "product-photo"
+  },
+  {
+    "file": "wensui-mixing-and-dosing.webp",
+    "wixId": "5c1fdb_fb71ff92f18640cea51cfb39a78d9d87~mv2.jpg",
+    "sourceType": "jpeg",
+    "hasAlpha": false,
+    "originalPx": [
+      1920,
+      1920
+    ],
+    "outputPx": [
+      640,
+      640
+    ],
+    "originalBytes": 141565,
+    "outputBytes": 13482,
+    "usedOn": [
+      "/wensui"
+    ],
+    "alt": [
+      "Mixing & Dosing.jpg"
+    ],
+    "displayedPx": [
+      188,
+      179
+    ],
+    "role": "product-photo"
+  },
+  {
+    "file": "wensui-mould-monitor.webp",
+    "wixId": "5c1fdb_b77103d858724d95984f7865663bacde~mv2.jpg",
+    "sourceType": "jpeg",
+    "hasAlpha": false,
+    "originalPx": [
+      800,
+      800
+    ],
+    "outputPx": [
+      640,
+      640
+    ],
+    "originalBytes": 59602,
+    "outputBytes": 25240,
+    "usedOn": [
+      "/wensui"
+    ],
+    "alt": [
+      "Mould Monitor.jpg"
+    ],
+    "displayedPx": [
+      220,
+      173
+    ],
+    "role": "product-photo"
+  },
+  {
+    "file": "wensui-robot.webp",
+    "wixId": "5c1fdb_8bf734fac16244a3b032327e85dc7df1~mv2.jpg",
+    "sourceType": "jpeg",
+    "hasAlpha": false,
+    "originalPx": [
+      800,
+      800
+    ],
+    "outputPx": [
+      640,
+      640
+    ],
+    "originalBytes": 28978,
+    "outputBytes": 10000,
+    "usedOn": [
+      "/wensui"
+    ],
+    "alt": [
+      "Robot.jpg"
+    ],
+    "displayedPx": [
+      220,
+      173
+    ],
+    "role": "product-photo"
+  },
+  {
+    "file": "wensui-temp-control.webp",
+    "wixId": "5c1fdb_2d49ca4de2a14d81a82856a4ae78ffe1~mv2.jpg",
+    "sourceType": "jpeg",
+    "hasAlpha": false,
+    "originalPx": [
+      1920,
+      1920
+    ],
+    "outputPx": [
+      640,
+      640
+    ],
+    "originalBytes": 155934,
+    "outputBytes": 14840,
+    "usedOn": [
+      "/wensui"
+    ],
+    "alt": [
+      "Temp Control.jpg"
+    ],
+    "displayedPx": [
+      220,
+      173
+    ],
+    "role": "product-photo"
+  },
+  {
+    "file": "wensui-wensui-logo.webp",
+    "wixId": "5c1fdb_56cd7dce8ad6450b9c1cb1b43eba8b89~mv2.webp",
+    "sourceType": "webp",
+    "hasAlpha": true,
+    "originalPx": [
+      946,
+      542
+    ],
+    "outputPx": [
+      640,
+      367
+    ],
+    "originalBytes": 7384,
+    "outputBytes": 22310,
+    "usedOn": [
+      "/wensui"
+    ],
+    "alt": [
+      "Wensui-logo-compressed.webp"
+    ],
+    "displayedPx": [
+      206,
+      118
+    ],
+    "role": "supplier-logo"
+  }
+]

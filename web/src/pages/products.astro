@@ -18,7 +18,7 @@ import { products } from '../data/products';
         <a class="tile" href={`/${p.slug}`}>
           {p.cover && <span class="thumb"><Pic name={p.cover.file} alt="" sizes="(min-width: 900px) 270px, 100vw" /></span>}
           <span class="supplier">{p.supplier}</span>
-          <span class="what">{p.what}</span>
+          {p.what && <span class="what">{p.what}</span>}
           <span class="blurb">{p.blurb}</span>
           <span class="more">View →</span>
         </a>

@@ -3,6 +3,7 @@ import Base from '../layouts/Base.astro';
 import Pic from '../components/Pic.astro';
 import { products, type Product } from '../data/products';
 import { catalogues, size } from '../lib/catalogues';
+import prices from '../data/potentiometer-prices.json';
 
 export function getStaticPaths() {
   return products.map((p) => ({ params: { slug: p.slug }, props: { p } }));
@@ -14,7 +15,7 @@ const cats = catalogues.filter((c) => c.product === p.slug);
   <div class="pagehead"><div class="wrap">
     <p class="crumbs"><a href="/">Home</a> / <a href="/products">Products</a> / {p.supplier}</p>
     <h1>{p.heading}</h1>
-    <p>{p.what}</p>
+    {p.what && <p>{p.what}</p>}
   </div></div>
 
   <section class="section">
@@ -26,7 +27,25 @@ const cats = catalogues.filter((c) => c.product === p.slug);
           if (b.type === 'h3') return <h3>{b.text}</h3>;
           if (b.type === 'ul') return <ul>{b.items.map((i) => <li>{i}</li>)}</ul>;
           if (b.type === 'specs') return (
-            <table class="specs"><tbody>{b.rows.map(([k, v]) => <tr><th scope="row">{k}</th><td>{v}</td></tr>)}</tbody></table>
+            <div class="table-wrap">
+              <table class="specs"><tbody>{b.rows.map(([k, v]) => <tr><th scope="row">{k}</th><td>{v.split('\n').map((line, i) => <>{i > 0 && <br />}{line}</>)}</td></tr>)}</tbody></table>
+            </div>
+          );
+          if (b.type === 'prices') return (
+            <>
+              <p>{prices.note} {prices.warranty}</p>
+              {prices.tables.map((t) => (
+                <div class="table-wrap">
+                  <table class="specs prices">
+                    <caption>{t.title}</caption>
+                    <thead><tr><th scope="col">Part number</th><th scope="col">Description</th><th scope="col" class="num">Price (AUD, ex GST)</th></tr></thead>
+                    <tbody>{t.rows.map((r) => <tr><th scope="row">{r.part}</th><td>{r.description}</td><td class="num">${r.price}{r.shipping ? ' ^' : ''}</td></tr>)}</tbody>
+                  </table>
+                </div>
+              ))}
+              <p class="small">^ {prices.shippingNote}</p>
+              <p><a class="btn btn-primary" href="/contact-us#quote">Request a quote</a></p>
+            </>
           );
           if (b.type === 'figure') return (
             <figure class="figure">

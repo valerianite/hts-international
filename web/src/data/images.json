@@ -695,6 +695,35 @@
     "role": "product-photo"
   },
   {
+    "file": "hero-borche-bu.webp",
+    "wixId": null,
+    "sourceType": "png",
+    "hasAlpha": true,
+    "originalPx": [
+      1820,
+      599
+    ],
+    "outputPx": [
+      1820,
+      599
+    ],
+    "originalBytes": 699439,
+    "outputBytes": 86332,
+    "usedOn": [
+      "/"
+    ],
+    "alt": [
+      "Borche BU series two-platen injection moulding machine"
+    ],
+    "displayedPx": [
+      0,
+      0
+    ],
+    "role": "hero",
+    "source": "https://borcheglobal.com/wp-content/uploads/2019/10/Borche-mechine-for-josh.png",
+    "note": "Hero image supplied by the user (23 Nov 2026), downloaded from Borche Global and converted to WebP. Transparent background. Confirm Borche permission to use it (same as other supplier images)."
+  },
+  {
     "file": "home-01.webp",
     "wixId": "5c1fdb_771baf467ab8460e8a141abca456d8db~mv2.png",
     "sourceType": "png",

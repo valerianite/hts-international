@@ -20,6 +20,12 @@ import { site } from '../data/site';
     </div>
   </section>
 
+  <div class="hero-stage">
+    <div class="wrap">
+      <Pic name="hero-borche-bu" alt="Borche BU series two-platen injection moulding machine" sizes="(min-width: 1200px) 1100px, 100vw" loading="eager" />
+    </div>
+  </div>
+
   <section class="section">
     <div class="wrap grid cols-2">
       <div>
@@ -43,7 +49,7 @@ import { site } from '../data/site';
           <a class="tile" href={`/${p.slug}`}>
             {p.cover && <span class="thumb"><Pic name={p.cover.file} alt="" sizes="(min-width: 900px) 230px, 100vw" /></span>}
             <span class="supplier">{p.supplier}</span>
-            <span class="what">{p.what}</span>
+            {p.what && <span class="what">{p.what}</span>}
             <span class="blurb">{p.blurb}</span>
             <span class="more">View →</span>
           </a>

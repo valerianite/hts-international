@@ -1,0 +1,476 @@
+{
+  "source": "Live hts.international page captured 2026-11-23; cross-checked against the catalogue PDF (Miran Tech / Linear Potentiometers, published 04-07-2024).",
+  "note": "Quoted prices are in AUD and exclusive of GST and local delivery charges.",
+  "warranty": "2 year warranty as standard.",
+  "shippingNote": "Additional shipping charges apply to the items marked ^. Please contact us for more information.",
+  "tables": [
+    {
+      "id": "ktf",
+      "title": "KTF series slider (rodless)",
+      "rows": [
+        {
+          "part": "KTF-0050",
+          "description": "Linear potentiometer, rodless slide 50 mm",
+          "price": "88.70",
+          "shipping": false
+        },
+        {
+          "part": "KTF-0075",
+          "description": "Linear potentiometer, rodless slide 75 mm",
+          "price": "97.90",
+          "shipping": false
+        },
+        {
+          "part": "KTF-0100",
+          "description": "Linear potentiometer, rodless slide 100 mm",
+          "price": "107.20",
+          "shipping": false
+        },
+        {
+          "part": "KTF-0110",
+          "description": "Linear potentiometer, rodless slide 110 mm",
+          "price": "111.40",
+          "shipping": false
+        },
+        {
+          "part": "KTF-0125",
+          "description": "Linear potentiometer, rodless slide 125 mm",
+          "price": "116.40",
+          "shipping": false
+        },
+        {
+          "part": "KTF-0130",
+          "description": "Linear potentiometer, rodless slide 130 mm",
+          "price": "119.30",
+          "shipping": false
+        },
+        {
+          "part": "KTF-0150",
+          "description": "Linear potentiometer, rodless slide 150 mm",
+          "price": "125.60",
+          "shipping": false
+        },
+        {
+          "part": "KTF-0175",
+          "description": "Linear potentiometer, rodless slide 175 mm",
+          "price": "126.50",
+          "shipping": false
+        },
+        {
+          "part": "KTF-0200",
+          "description": "Linear potentiometer, rodless slide 200 mm",
+          "price": "144.10",
+          "shipping": false
+        },
+        {
+          "part": "KTF-0225",
+          "description": "Linear potentiometer, rodless slide 225 mm",
+          "price": "153.40",
+          "shipping": false
+        },
+        {
+          "part": "KTF-0250",
+          "description": "Linear potentiometer, rodless slide 250 mm",
+          "price": "157.60",
+          "shipping": false
+        },
+        {
+          "part": "KTF-0275",
+          "description": "Linear potentiometer, rodless slide 275 mm",
+          "price": "162.20",
+          "shipping": false
+        },
+        {
+          "part": "KTF-0300",
+          "description": "Linear potentiometer, rodless slide 300 mm",
+          "price": "171.40",
+          "shipping": false
+        },
+        {
+          "part": "KTF-0325",
+          "description": "Linear potentiometer, rodless slide 325 mm",
+          "price": "175.60",
+          "shipping": false
+        },
+        {
+          "part": "KTF-0350",
+          "description": "Linear potentiometer, rodless slide 350 mm",
+          "price": "184.90",
+          "shipping": false
+        },
+        {
+          "part": "KTF-0360",
+          "description": "Linear potentiometer, rodless slide 360 mm",
+          "price": "189.10",
+          "shipping": false
+        },
+        {
+          "part": "KTF-0375",
+          "description": "Linear potentiometer, rodless slide 375 mm",
+          "price": "193.70",
+          "shipping": false
+        },
+        {
+          "part": "KTF-0400",
+          "description": "Linear potentiometer, rodless slide 400 mm",
+          "price": "202.90",
+          "shipping": false
+        },
+        {
+          "part": "KTF-0425",
+          "description": "Linear potentiometer, rodless slide 425 mm",
+          "price": "207.10",
+          "shipping": false
+        },
+        {
+          "part": "KTF-0450",
+          "description": "Linear potentiometer, rodless slide 450 mm",
+          "price": "211.30",
+          "shipping": false
+        },
+        {
+          "part": "KTF-0475",
+          "description": "Linear potentiometer, rodless slide 475 mm",
+          "price": "215.90",
+          "shipping": false
+        },
+        {
+          "part": "KTF-0500",
+          "description": "Linear potentiometer, rodless slide 500 mm",
+          "price": "220.10",
+          "shipping": false
+        },
+        {
+          "part": "KTF-0550",
+          "description": "Linear potentiometer, rodless slide 550 mm",
+          "price": "233.60",
+          "shipping": false
+        },
+        {
+          "part": "KTF-0600",
+          "description": "Linear potentiometer, rodless slide 600 mm",
+          "price": "246.60",
+          "shipping": false
+        },
+        {
+          "part": "KTF-0650",
+          "description": "Linear potentiometer, rodless slide 650 mm",
+          "price": "257.10",
+          "shipping": false
+        },
+        {
+          "part": "KTF-0700",
+          "description": "Linear potentiometer, rodless slide 700 mm",
+          "price": "266.40",
+          "shipping": false
+        },
+        {
+          "part": "KTF-0750",
+          "description": "Linear potentiometer, rodless slide 750 mm",
+          "price": "283.60",
+          "shipping": false
+        },
+        {
+          "part": "KTF-0800",
+          "description": "Linear potentiometer, rodless slide 800 mm",
+          "price": "296.60",
+          "shipping": false
+        },
+        {
+          "part": "KTF-0850",
+          "description": "Linear potentiometer, rodless slide 850 mm",
+          "price": "305.40",
+          "shipping": false
+        },
+        {
+          "part": "KTF-0900",
+          "description": "Linear potentiometer, rodless slide 900 mm",
+          "price": "322.60",
+          "shipping": false
+        },
+        {
+          "part": "KTF-0950",
+          "description": "Linear potentiometer, rodless slide 950 mm",
+          "price": "331.50",
+          "shipping": false
+        },
+        {
+          "part": "KTF-1000",
+          "description": "Linear potentiometer, rodless slide 1000 mm",
+          "price": "344.90",
+          "shipping": false
+        },
+        {
+          "part": "KTF-1150",
+          "description": "Linear potentiometer, rodless slide 1150 mm",
+          "price": "370.90",
+          "shipping": false
+        },
+        {
+          "part": "KTF-1250",
+          "description": "Linear potentiometer, rodless slide 1250 mm",
+          "price": "392.40",
+          "shipping": false
+        },
+        {
+          "part": "KTF-1350",
+          "description": "Linear potentiometer, rodless slide 1350 mm",
+          "price": "443.60",
+          "shipping": true
+        },
+        {
+          "part": "KTF-1450",
+          "description": "Linear potentiometer, rodless slide 1450 mm",
+          "price": "477.60",
+          "shipping": true
+        },
+        {
+          "part": "KTF-1500",
+          "description": "Linear potentiometer, rodless slide 1500 mm",
+          "price": "516.70",
+          "shipping": true
+        },
+        {
+          "part": "KTF-1600",
+          "description": "Linear potentiometer, rodless slide 1600 mm",
+          "price": "565.40",
+          "shipping": true
+        },
+        {
+          "part": "KTF-1800",
+          "description": "Linear potentiometer, rodless slide 1800 mm",
+          "price": "629.70",
+          "shipping": true
+        },
+        {
+          "part": "KTF-2000",
+          "description": "Linear potentiometer, rodless slide 2000 mm",
+          "price": "694.40",
+          "shipping": true
+        },
+        {
+          "part": "KTF-2250",
+          "description": "Linear potentiometer, rodless slide 2250 mm",
+          "price": "779.60",
+          "shipping": true
+        },
+        {
+          "part": "KTF-2500",
+          "description": "Linear potentiometer, rodless slide 2500 mm",
+          "price": "864.90",
+          "shipping": true
+        }
+      ]
+    },
+    {
+      "id": "ktc1",
+      "title": "KTC1 series pull-rod",
+      "rows": [
+        {
+          "part": "KTC1-0050",
+          "description": "Linear potentiometer, pull rod 50 mm",
+          "price": "85.30",
+          "shipping": false
+        },
+        {
+          "part": "KTC1-0075",
+          "description": "Linear potentiometer, pull rod 75 mm",
+          "price": "92.90",
+          "shipping": false
+        },
+        {
+          "part": "KTC1-0100",
+          "description": "Linear potentiometer, pull rod 100 mm",
+          "price": "101.70",
+          "shipping": false
+        },
+        {
+          "part": "KTC1-0110",
+          "description": "Linear potentiometer, pull rod 110 mm",
+          "price": "106.30",
+          "shipping": false
+        },
+        {
+          "part": "KTC1-0125",
+          "description": "Linear potentiometer, pull rod 125 mm",
+          "price": "110.90",
+          "shipping": false
+        },
+        {
+          "part": "KTC1-0130",
+          "description": "Linear potentiometer, pull rod 130 mm",
+          "price": "113.90",
+          "shipping": false
+        },
+        {
+          "part": "KTC1-0150",
+          "description": "Linear potentiometer, pull rod 150 mm",
+          "price": "119.30",
+          "shipping": false
+        },
+        {
+          "part": "KTC1-0175",
+          "description": "Linear potentiometer, pull rod 175 mm",
+          "price": "128.20",
+          "shipping": false
+        },
+        {
+          "part": "KTC1-0200",
+          "description": "Linear potentiometer, pull rod 200 mm",
+          "price": "137.40",
+          "shipping": false
+        },
+        {
+          "part": "KTC1-0225",
+          "description": "Linear potentiometer, pull rod 225 mm",
+          "price": "146.20",
+          "shipping": false
+        },
+        {
+          "part": "KTC1-0250",
+          "description": "Linear potentiometer, pull rod 250 mm",
+          "price": "150.40",
+          "shipping": false
+        },
+        {
+          "part": "KTC1-0275",
+          "description": "Linear potentiometer, pull rod 275 mm",
+          "price": "154.60",
+          "shipping": false
+        },
+        {
+          "part": "KTC1-0300",
+          "description": "Linear potentiometer, pull rod 300 mm",
+          "price": "162.60",
+          "shipping": false
+        },
+        {
+          "part": "KTC1-0325",
+          "description": "Linear potentiometer, pull rod 325 mm",
+          "price": "167.60",
+          "shipping": false
+        },
+        {
+          "part": "KTC1-0350",
+          "description": "Linear potentiometer, pull rod 350 mm",
+          "price": "175.60",
+          "shipping": false
+        },
+        {
+          "part": "KTC1-0360",
+          "description": "Linear potentiometer, pull rod 360 mm",
+          "price": "180.70",
+          "shipping": false
+        },
+        {
+          "part": "KTC1-0375",
+          "description": "Linear potentiometer, pull rod 375 mm",
+          "price": "184.40",
+          "shipping": false
+        },
+        {
+          "part": "KTC1-0400",
+          "description": "Linear potentiometer, pull rod 400 mm",
+          "price": "192.80",
+          "shipping": false
+        },
+        {
+          "part": "KTC1-0425",
+          "description": "Linear potentiometer, pull rod 425 mm",
+          "price": "197.50",
+          "shipping": false
+        },
+        {
+          "part": "KTC1-0450",
+          "description": "Linear potentiometer, pull rod 450 mm",
+          "price": "201.70",
+          "shipping": false
+        },
+        {
+          "part": "KTC1-0475",
+          "description": "Linear potentiometer, pull rod 475 mm",
+          "price": "205.90",
+          "shipping": false
+        },
+        {
+          "part": "KTC1-0500",
+          "description": "Linear potentiometer, pull rod 500 mm",
+          "price": "210.10",
+          "shipping": false
+        },
+        {
+          "part": "KTC1-0550",
+          "description": "Linear potentiometer, pull rod 550 mm",
+          "price": "222.70",
+          "shipping": false
+        },
+        {
+          "part": "KTC1-0600",
+          "description": "Linear potentiometer, pull rod 600 mm",
+          "price": "235.70",
+          "shipping": false
+        },
+        {
+          "part": "KTC1-0650",
+          "description": "Linear potentiometer, pull rod 650 mm",
+          "price": "245.30",
+          "shipping": false
+        },
+        {
+          "part": "KTC1-0700",
+          "description": "Linear potentiometer, pull rod 700 mm",
+          "price": "253.30",
+          "shipping": false
+        },
+        {
+          "part": "KTC1-0750",
+          "description": "Linear potentiometer, pull rod 750 mm",
+          "price": "270.10",
+          "shipping": false
+        },
+        {
+          "part": "KTC1-0800",
+          "description": "Linear potentiometer, pull rod 800 mm",
+          "price": "282.70",
+          "shipping": false
+        },
+        {
+          "part": "KTC1-0850",
+          "description": "Linear potentiometer, pull rod 850 mm",
+          "price": "290.70",
+          "shipping": false
+        },
+        {
+          "part": "KTC1-0900",
+          "description": "Linear potentiometer, pull rod 900 mm",
+          "price": "307.10",
+          "shipping": false
+        },
+        {
+          "part": "KTC1-0950",
+          "description": "Linear potentiometer, pull rod 950 mm",
+          "price": "315.90",
+          "shipping": false
+        },
+        {
+          "part": "KTC1-1000",
+          "description": "Linear potentiometer, pull rod 1000 mm",
+          "price": "328.10",
+          "shipping": false
+        },
+        {
+          "part": "KTC1-1150",
+          "description": "Linear potentiometer, pull rod 1150 mm",
+          "price": "352.90",
+          "shipping": false
+        },
+        {
+          "part": "KTC1-1250",
+          "description": "Linear potentiometer, pull rod 1250 mm",
+          "price": "373.90",
+          "shipping": false
+        }
+      ]
+    }
+  ]
+}

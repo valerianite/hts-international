@@ -20,7 +20,7 @@ export const site = {
 // To get it: enter contact@hts.international at web3forms.com; the key is emailed to that address.
 // Leave empty until then: the form shows as "not connected" and points visitors to the email address.
 export const form = {
-  accessKey: '', // TODO: paste the Web3Forms access key here
+  accessKey: 'f46dbbdf-f9d2-4b43-ab16-8768c8ca0150',
   endpoint: 'https://api.web3forms.com/submit',
   subjectLine: 'New enquiry from hts.international',
 };

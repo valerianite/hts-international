@@ -10,7 +10,8 @@
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro",
-    "prebuild": "node scripts/check-catalogues.mjs"
+    "prebuild": "node scripts/check-catalogues.mjs",
+    "postbuild": "node scripts/check-forbidden.mjs"
   },
   "dependencies": {
     "@fontsource/barlow": "^5.3.0",

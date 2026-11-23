@@ -1,0 +1,33 @@
+---
+import Base from '../layouts/Base.astro';
+import { products } from '../data/products';
+// Catalogue links come from the live site. They currently go through utm.guru short links.
+// TODO: host the PDFs on this site (repo or Cloudflare R2) so downloads do not depend on a third-party redirector.
+const groups = products
+  .filter((p) => p.catalogues.length > 0)
+  .map((p) => ({ supplier: p.supplier, what: p.what, items: p.catalogues }));
+---
+<Base
+  title="Catalogues | HTS International"
+  description="Download product catalogues for Borche, Wensui, CRG, Anhyup, HALS, MACO, mould cleaning and linear potentiometers."
+>
+  <div class="pagehead"><div class="wrap">
+    <p class="crumbs"><a href="/">Home</a> / Catalogues</p>
+    <h1>Catalogues</h1>
+    <p>Download our range of catalogues.</p>
+  </div></div>
+  <section class="section">
+    <div class="wrap grid cols-3">
+      {groups.map((g) => (
+        <div class="card">
+          <h3>{g.supplier}</h3>
+          <p class="small" style="margin-bottom:10px">{g.what}</p>
+          <ul style="margin:0">
+            {g.items.map((c) => <li><a href={c.href} rel="noopener">{c.label}</a></li>)}
+          </ul>
+        </div>
+      ))}
+    </div>
+    <div class="wrap"><p class="small" style="margin-top:20px">Borche BM series catalogue: coming soon.</p></div>
+  </section>
+</Base>

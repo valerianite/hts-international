@@ -1,0 +1,26 @@
+---
+import Base from '../layouts/Base.astro';
+import { products } from '../data/products';
+---
+<Base
+  title="Products | HTS International"
+  description="Borche injection moulding machines, Wensui auxiliary equipment, CRG end-of-arm tooling, Anhyup safety mats, HALS pumps, MACO retrofits, mould cleaners and linear potentiometers."
+>
+  <div class="pagehead"><div class="wrap">
+    <p class="crumbs"><a href="/">Home</a> / Products</p>
+    <h1>Our products</h1>
+    <p>Injection moulding machines, automation, material handling and spares.</p>
+  </div></div>
+  <section class="section">
+    <div class="wrap grid cols-4">
+      {products.map((p) => (
+        <a class="tile" href={`/${p.slug}`}>
+          <span class="supplier">{p.supplier}</span>
+          <span class="what">{p.what}</span>
+          <span class="blurb">{p.blurb}</span>
+          <span class="more">View →</span>
+        </a>
+      ))}
+    </div>
+  </section>
+</Base>

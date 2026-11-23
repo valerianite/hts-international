@@ -1,0 +1,27 @@
+---
+// Static form. The live endpoint is NOT connected yet: set FORM_ACTION once a form
+// service (e.g. Formspree / Web3Forms) or a Cloudflare Pages Function is chosen.
+// Spam protection: add Cloudflare Turnstile (replaces reCAPTCHA) when the endpoint is wired up.
+const FORM_ACTION = '#'; // TODO: replace with form endpoint
+---
+<form class="form" method="post" action={FORM_ACTION} id="quote">
+  <div class="field">
+    <label for="name">Your name</label>
+    <input type="text" id="name" name="name" autocomplete="name" />
+  </div>
+  <div class="field">
+    <label for="email">Your email <span aria-hidden="true">*</span></label>
+    <input type="email" id="email" name="email" autocomplete="email" required />
+  </div>
+  <div class="field">
+    <label for="subject">Subject</label>
+    <input type="text" id="subject" name="subject" />
+  </div>
+  <div class="field">
+    <label for="message">Your message</label>
+    <textarea id="message" name="message" rows="6"></textarea>
+  </div>
+  <label class="check"><input type="checkbox" name="newsletter" value="yes" /> <span>I want to subscribe to the newsletter.</span></label>
+  <button class="btn btn-primary" type="submit">Send message</button>
+  <p class="small" style="margin-top:14px">Preview build: this form is not connected yet.</p>
+</form>

@@ -1,0 +1,58 @@
+# HTS International: static website (Astro)
+
+Replacement for the Wix site at www.hts.international. Plain static HTML output, same 14 URLs as the live site, built to deploy on Cloudflare Pages from this GitHub repo.
+
+Brand source of truth: `../brand/HTS_Brand_Guidelines_DRAFT_v0.2.pdf` and `../brand/design-tokens.json` (mirrored in `src/styles/global.css`).
+
+## Commands
+
+```powershell
+cd web
+npm install
+npm run dev       # local dev server, http://localhost:4321
+npm run build     # static output in dist/
+npm run preview   # serve the built site locally
+```
+
+Requires Node 22+.
+
+## Cloudflare Pages settings (when ready)
+
+| Setting | Value |
+|---|---|
+| Framework preset | Astro |
+| Root directory | `web` |
+| Build command | `npm run build` |
+| Build output directory | `dist` |
+| Node version | 22 or later (set `NODE_VERSION`) |
+
+Build uses `build.format: 'file'` and `trailingSlash: 'never'`, so `/products` is served from `products.html` exactly like the live site's URLs.
+
+## Structure
+
+- `src/styles/global.css`: brand tokens, type scale, buttons, layout
+- `src/layouts/Base.astro`: page shell, meta tags, canonical URL
+- `src/components/`: Header, Footer, ContactForm
+- `src/data/site.ts`: address, phone, email, social, nav
+- `src/data/products.ts`: all 8 supplier pages (content ported from the live site)
+- `src/pages/`: home, products, services, catalogues, contact-us, privacy-policy, `[slug].astro` (product template)
+
+Fonts are self-hosted (Fontsource Barlow and Barlow Condensed), so there are no external font requests. Images in `src/assets` are converted to WebP at build time.
+
+## Open items before launch
+
+**Content and decisions (client)**
+1. **Product and hero photos.** Pages currently show placeholders. Photos must come from the client's Wix media library or suppliers (not scraped). No photos of client installs or customer sites (client decision).
+2. **Linear potentiometer prices.** The live page publishes a KTF part number and price table (about $88.70 to $189.10, more rows). It is **omitted** here until the client says whether prices stay public. See `../site/content/live-site-copy.md`.
+3. **Supplier logos.** Tiles use text names, not logos, until supplier permission is confirmed.
+4. **Spare-parts brands.** The live Services/Contact meta text lists "Donshin, LG, Borche, Topstar, Barber Colman, Maco" for spare parts. Not shown on this site until the client confirms it is accurate.
+5. **Privacy Policy** is ported unchanged but mentions payment information, orders and a Cookie Policy that do not exist. The new hosting and form provider also change who handles data. Needs client or legal review.
+6. **Wording.** Spelling is Australian English; hype words ("elevate", "unlock", "cutting-edge") removed; run-together words on Safety Mats fixed; no new claims added. Review the product pages against the client's intent.
+
+**Technical**
+7. **Contact form is not connected.** Set `FORM_ACTION` in `src/components/ContactForm.astro` once a form service or Cloudflare Pages Function is chosen, and add Cloudflare Turnstile. The newsletter tick box needs a destination.
+8. **Catalogue links** go through third-party `utm.guru` short links (as on the live site). Host the PDFs on this site (repo or R2) so downloads don't depend on them.
+9. **SVG logo.** Export an SVG from `../HTS-Final/HTS_logo-Final.ai` and replace the PNGs in `src/assets`.
+10. **Sitemap and robots.** Add `@astrojs/sitemap` and a `robots.txt` before launch. Keep the site `noindex` on any preview deployment.
+11. **Domain, DNS and email.** Find where `hts.international` is registered and whether email runs through Wix before touching DNS. Keep Wix live until the switch.
+12. **Analytics and Search Console.** Record baseline numbers from the live site first.

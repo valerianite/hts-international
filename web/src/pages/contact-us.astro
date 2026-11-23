@@ -1,0 +1,36 @@
+---
+import Base from '../layouts/Base.astro';
+import ContactForm from '../components/ContactForm.astro';
+import { site } from '../data/site';
+---
+<Base
+  title="Contact Us | HTS International"
+  description="Contact HTS International in Dandenong South, Victoria. Phone +61 (3) 9013 5413 or email contact@hts.international."
+>
+  <div class="pagehead"><div class="wrap">
+    <p class="crumbs"><a href="/">Home</a> / Contact</p>
+    <h1>Contact us</h1>
+    <p>We'd love to hear from you.</p>
+  </div></div>
+  <section class="section">
+    <div class="wrap" style="display:grid;gap:48px;grid-template-columns:repeat(auto-fit,minmax(min(100%,320px),1fr))">
+      <div>
+        <h2>HTS International</h2>
+        <p>
+          {site.address.map((l) => <>{l}<br /></>)}
+        </p>
+        <p>
+          Phone: <a href={site.phoneHref}>{site.phone}</a><br />
+          Email: <a href={`mailto:${site.email}`}>{site.email}</a>
+        </p>
+        <ul class="social" style="margin-top:12px">
+          {site.social.map((s) => <li><a href={s.href} rel="noopener" target="_blank">{s.label}</a></li>)}
+        </ul>
+      </div>
+      <div>
+        <h2>Request a quote</h2>
+        <ContactForm />
+      </div>
+    </div>
+  </section>
+</Base>

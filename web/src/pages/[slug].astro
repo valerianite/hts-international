@@ -1,0 +1,48 @@
+---
+import Base from '../layouts/Base.astro';
+import { products, type Product } from '../data/products';
+
+export function getStaticPaths() {
+  return products.map((p) => ({ params: { slug: p.slug }, props: { p } }));
+}
+const { p } = Astro.props as { p: Product };
+---
+<Base title={p.title} description={p.description}>
+  <div class="pagehead"><div class="wrap">
+    <p class="crumbs"><a href="/">Home</a> / <a href="/products">Products</a> / {p.supplier}</p>
+    <h1>{p.heading}</h1>
+    <p>{p.what}</p>
+  </div></div>
+
+  <section class="section">
+    <div class="wrap" style="display:grid;gap:48px;grid-template-columns:repeat(auto-fit,minmax(min(100%,320px),1fr));align-items:start">
+      <div class="prose" style="grid-column:span 2;min-width:0">
+        {p.blocks.map((b) => {
+          if (b.type === 'p') return <p>{b.text}</p>;
+          if (b.type === 'h2') return <h2>{b.text}</h2>;
+          if (b.type === 'h3') return <h3>{b.text}</h3>;
+          if (b.type === 'ul') return <ul>{b.items.map((i) => <li>{i}</li>)}</ul>;
+          if (b.type === 'specs') return (
+            <table class="specs"><tbody>{b.rows.map(([k, v]) => <tr><th scope="row">{k}</th><td>{v}</td></tr>)}</tbody></table>
+          );
+        })}
+      </div>
+      <aside style="display:grid;gap:20px;position:sticky;top:110px">
+        <div class="placeholder" role="img" aria-label="Product photo to be supplied">Product photos to be supplied by {p.supplier}</div>
+        <div class="card">
+          <h3>Interested?</h3>
+          <p>Tell us what you need and we'll come back to you.</p>
+          <a class="btn btn-primary" href="/contact-us#quote">Request a quote</a>
+        </div>
+        {p.catalogues.length > 0 && (
+          <div class="card">
+            <h3>Catalogues</h3>
+            <ul style="margin:0">
+              {p.catalogues.map((c) => <li><a href={c.href} rel="noopener">{c.label}</a></li>)}
+            </ul>
+          </div>
+        )}
+      </aside>
+    </div>
+  </section>
+</Base>

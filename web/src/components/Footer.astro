@@ -1,0 +1,43 @@
+---
+import { Image } from 'astro:assets';
+import logoWhite from '../assets/hts-logo-white.png';
+import { site, nav } from '../data/site';
+const year = new Date().getFullYear();
+---
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="cols">
+      <div>
+        <Image src={logoWhite} alt="HTS International" width={110} height={110} widths={[110, 220]} sizes="110px" loading="lazy" />
+        <p>{site.tagline}</p>
+      </div>
+      <div>
+        <h3>Contact</h3>
+        <p>
+          {site.address.map((l) => <>{l}<br /></>)}
+        </p>
+        <p>
+          <a href={site.phoneHref}>{site.phone}</a><br />
+          <a href={`mailto:${site.email}`}>{site.email}</a>
+        </p>
+      </div>
+      <div>
+        <h3>Explore</h3>
+        <ul style="list-style:none;padding:0;margin:0">
+          {nav.map((n) => <li><a href={n.href}>{n.label}</a></li>)}
+          <li><a href="/privacy-policy">Privacy Policy</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Follow</h3>
+        <ul class="social">
+          {site.social.map((s) => <li><a href={s.href} rel="noopener" target="_blank">{s.label}</a></li>)}
+        </ul>
+      </div>
+    </div>
+    <div class="legal">
+      <span>© {year} {site.name}</span>
+      <span>9 Swift Way, Dandenong South VIC 3175</span>
+    </div>
+  </div>
+</footer>

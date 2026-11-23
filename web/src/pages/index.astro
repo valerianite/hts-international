@@ -1,0 +1,84 @@
+---
+import Base from '../layouts/Base.astro';
+import { products } from '../data/products';
+import { site } from '../data/site';
+---
+<Base
+  title="HTS International | Servicing the Plastics Industry"
+  description="HTS International supplies, services and upgrades plastic injection moulding machines and equipment across Australia. 40+ years of industry experience."
+>
+  <section class="hero">
+    <div class="wrap">
+      <p class="kicker" style="color:#ff8a8f">HTS International</p>
+      <h1>{site.tagline}</h1>
+      <p class="lede">With 40+ years of dedicated involvement in the Australian plastic injection moulding sector, HTS International has the experience and expertise to help you go further.</p>
+      <div class="btn-row">
+        <a class="btn btn-primary" href="/contact-us#quote">Request a quote</a>
+        <a class="btn btn-secondary" href="/products" style="background:transparent;border-color:#fff;color:#fff">View products</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap grid cols-2">
+      <div>
+        <p class="kicker">About us</p>
+        <h2>Experience you can run on</h2>
+      </div>
+      <div>
+        <p>We've worked with diverse industries, including manufacturing for automotive, medical, and food and beverage, plus many others.</p>
+        <p>At HTS International, we don't just deliver products and services. We offer solutions to help you set up shop and run your business. Our expertise lies in material handling, automation, and factory relocation and set-up.</p>
+        <p>Our track record is about being dependable, pushing industries forward, with a personal, hands-on touch.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section alt" id="products">
+    <div class="wrap">
+      <p class="kicker">Products</p>
+      <h2>Our products</h2>
+      <div class="grid cols-4" style="margin-top:24px">
+        {products.map((p) => (
+          <a class="tile" href={`/${p.slug}`}>
+            <span class="supplier">{p.supplier}</span>
+            <span class="what">{p.what}</span>
+            <span class="blurb">{p.blurb}</span>
+            <span class="more">View →</span>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="services">
+    <div class="wrap">
+      <p class="kicker">Services</p>
+      <h2>Services</h2>
+      <div class="grid cols-3" style="margin-top:24px">
+        <div class="card">
+          <h3>Service, repair &amp; spares</h3>
+          <p>Support for your equipment across diagnostics, repairs and spare parts, to keep your injection moulding and material handling equipment in peak condition.</p>
+        </div>
+        <div class="card">
+          <h3>Technology &amp; upgrades</h3>
+          <p>Upgrade your existing equipment to run more efficiently and use less energy. We specialise in enhancing your machinery's capabilities.</p>
+        </div>
+        <div class="card">
+          <h3>Material feeding systems</h3>
+          <p>Material feeding systems made to your specifications, from design to supply and installation.</p>
+        </div>
+      </div>
+      <div class="btn-row"><a class="btn btn-secondary" href="/services">All services</a></div>
+    </div>
+  </section>
+
+  <section class="section dark">
+    <div class="wrap grid cols-2" style="align-items:center">
+      <div>
+        <h2>Talk to the team</h2>
+        <p>Tell us what you need and we'll come back to you.</p>
+      </div>
+      <div class="btn-row" style="margin:0"><a class="btn btn-primary" href="/contact-us#quote">Request a quote</a><a class="btn btn-secondary" href={site.phoneHref}>{site.phone}</a></div>
+    </div>
+  </section>
+</Base>

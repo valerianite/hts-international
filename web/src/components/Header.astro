@@ -1,0 +1,19 @@
+---
+import { Image } from 'astro:assets';
+import logo from '../assets/hts-logo-color.png';
+import { nav, site } from '../data/site';
+const { current = '/' } = Astro.props;
+const active = (href: string) => current === href || current.startsWith(href + '/');
+---
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="/" aria-label={`${site.name} home`}>
+      <Image src={logo} alt="HTS International" width={96} height={96} widths={[96, 192]} sizes="96px" loading="eager" />
+    </a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
+    <nav class="nav" id="site-nav" aria-label="Main">
+      {nav.map((n) => <a href={n.href} aria-current={active(n.href) ? 'page' : undefined}>{n.label}</a>)}
+      <a class="btn btn-primary" href="/contact-us#quote">Request a quote</a>
+    </nav>
+  </div>
+</header>

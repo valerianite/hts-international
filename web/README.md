@@ -16,17 +16,23 @@ npm run preview   # serve the built site locally
 
 Requires Node 22+.
 
-## Cloudflare Pages settings (when ready)
+## Cloudflare deployment
+
+Deployed 2026-11-23 as a Cloudflare Workers project (static assets) built from this repo on every push to `main`. Settings used:
 
 | Setting | Value |
 |---|---|
-| Framework preset | Astro |
-| Root directory | `web` |
+| Root directory (Path) | `/web` |
 | Build command | `npm run build` |
-| Build output directory | `dist` |
-| Node version | 22 or later (set `NODE_VERSION`) |
+| Deploy command | `npx wrangler deploy` |
+| Preview command | `npx wrangler preview` |
+| Node | `web/.node-version` (24) |
 
-Build uses `build.format: 'file'` and `trailingSlash: 'never'`, so `/products` is served from `products.html` exactly like the live site's URLs.
+`wrangler.jsonc` serves `./dist` with `html_handling: drop-trailing-slash` and a `404.html`. Build uses `build.format: 'file'` and `trailingSlash: 'never'`, so `/products` is served from `products.html` exactly like the live site's URLs (and `/products/` redirects to `/products`).
+
+**Preview phase:** `public/_headers` sends `X-Robots-Tag: noindex, nofollow`. **Remove that line before pointing `www.hts.international` at this site.** The site is also public on its `workers.dev` address; enable Cloudflare Access if it should be private to invited reviewers.
+
+**Go-live checklist:** remove noindex, add custom domain in Cloudflare, add sitemap and robots.txt, connect the form, add analytics, confirm email/DNS (see below), then switch DNS.
 
 ## Structure
 

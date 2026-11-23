@@ -62,6 +62,16 @@ Known problems with the source images:
 
 Catalogue PDFs: only the Safety Mats catalogue (5.6 MB) is hosted on Wix. The other 15 are on the client's OneDrive/SharePoint behind `utm.guru` short links and need to be supplied by the client. Cloudflare's per-file limit is 25 MiB.
 
+## Catalogue PDFs
+
+Catalogues come from the client's private repo (`blakehlive/HTS-Catalogues`, never linked to publicly because it also holds price lists and legal documents). Approved files are copied into `public/catalogues/` under stable, URL-safe names (e.g. `/catalogues/borche-bu-series.pdf`) and described in `src/data/catalogues.json` (label, supplier, product page, source path in the client's repo, size, page count and SHA-256). The Catalogues page and each product page read that file.
+
+**LONE STANDING PRICE LISTS MUST NEVER BE PUBLISHED.** Price lists inside an existing catalogue are fine (the Linear Potentiometers catalogue has list-price pages). This is enforced by `scripts/check-catalogues.mjs`, which runs before every build (`npm run build`, so also on Cloudflare) and **fails the build** if any file in `public/catalogues` is not on the approved list, has a changed fingerprint, has a name like price/pricing/rrp/quote/hi-rez/topstar/archive/terms of sale, or is 25 MiB or larger (Cloudflare per-file limit).
+
+Decisions: Topstar catalogues stay off the site; Borche Hi-Rez duplicates are not hosted; the CRG 5.3 full catalogue (35 MB) is over the limit, so the CRG page links to the client's OneDrive file until a version under 25 MiB is supplied (`external` entry in `catalogues.json`, marked TEMPORARY).
+
+**Updating a hosted catalogue:** replace the file in `public/catalogues/` with the new version from the client's repo (keep the same file name so the URL doesn't change), update that entry's `sha256`, `bytes`, `pages` and `approvedOn` in `catalogues.json`, then `npm run build`. **Adding a new catalogue:** add an entry (and the file) only after confirming it is a catalogue and not a price list. Pushing is a separate step that needs an explicit instruction.
+
 ## Open items before launch
 
 **Content and decisions (client)**

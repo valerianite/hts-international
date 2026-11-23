@@ -2,11 +2,13 @@
 import Base from '../layouts/Base.astro';
 import Pic from '../components/Pic.astro';
 import { products, type Product } from '../data/products';
+import { catalogues, size } from '../lib/catalogues';
 
 export function getStaticPaths() {
   return products.map((p) => ({ params: { slug: p.slug }, props: { p } }));
 }
 const { p } = Astro.props as { p: Product };
+const cats = catalogues.filter((c) => c.product === p.slug);
 ---
 <Base title={p.title} description={p.description}>
   <div class="pagehead"><div class="wrap">
@@ -55,11 +57,16 @@ const { p } = Astro.props as { p: Product };
           <p>Tell us what you need and we'll come back to you.</p>
           <a class="btn btn-primary" href="/contact-us#quote">Request a quote</a>
         </div>
-        {p.catalogues.length > 0 && (
+        {cats.length > 0 && (
           <div class="card">
             <h3>Catalogues</h3>
             <ul style="margin:0">
-              {p.catalogues.map((c) => <li><a href={c.href} rel="noopener">{c.label}</a></li>)}
+              {cats.map((c) => c.comingSoon
+                ? <li>{c.label}: coming soon</li>
+                : <li>
+                    <a href={c.href} target="_blank" rel="noopener">{c.label}</a>
+                    <span class="small"> {c.external ? '(opens in a new tab)' : `(PDF, ${size(c.bytes)})`}</span>
+                  </li>)}
             </ul>
           </div>
         )}

@@ -26,7 +26,7 @@ export interface Product {
   description: string; // meta description, Australian spelling, no hype
   cover?: Pic; // used on tiles and in the product sidebar
   blocks: Block[];
-  catalogues: { label: string; href: string }[];
+  // Catalogue downloads are NOT listed here: they come from src/data/catalogues.json (approved files only).
   note?: string; // build note for the team, not shown on the site
 }
 
@@ -53,15 +53,6 @@ export const products: Product[] = [
         { file: 'borch-imm-01', alt: 'Borche BU series two-platen injection moulding machine', caption: 'BU Series' },
         { file: 'borch-imm-20230412-bi-m', alt: 'Borche Bi-M series injection moulding machine', caption: 'Bi-M Series' },
       ] },
-    ],
-    catalogues: [
-      { label: 'BU Series', href: 'https://utm.guru/HTSBorcheBU' },
-      { label: 'Bi Series', href: 'https://utm.guru/HTSBorcheBi' },
-      { label: 'BS Series', href: 'https://utm.guru/HTSBorcheBS' },
-      { label: 'BD Series', href: 'https://utm.guru/HTSBorcheBD' },
-      { label: 'Bi-M Series', href: 'https://utm.guru/HTSBorcheBi-M' },
-      { label: 'Bi-M-UPVC Series', href: 'https://utm.guru/HTSBorcheBi-M-UPVC' },
-      { label: 'A Screw PET', href: 'https://utm.guru/BorchePET' },
     ],
     note: 'Live page shows a photo per series. Needs supplier photos (BS-III, Bi, BM, BU, Bi-M). BM catalogue is "Coming soon" on the live site.',
   },
@@ -108,7 +99,6 @@ export const products: Product[] = [
       { type: 'h2', text: 'Product range' },
       { type: 'ul', items: ['Automation', 'Belt Conveyors', 'Chillers', 'Dosers, Mixers', 'Blenders', 'Dryers & Dehumidifiers', 'Granulators', 'Material Feeding', 'Temperature Controllers'] },
     ],
-    catalogues: [{ label: 'Wensui full catalogue', href: 'https://utm.guru/umuLD' }],
   },
   {
     slug: 'safety-mats',
@@ -208,7 +198,6 @@ export const products: Product[] = [
         ['Thickness', '13 mm'],
       ] },
     ],
-    catalogues: [{ label: 'Anhyup safety mats', href: 'https://utm.guru/HTS-SMats' }],
     note: 'Live page has product photos, custom-shape drawings and controller photos. Needs supplier images.',
   },
   {
@@ -230,7 +219,6 @@ export const products: Product[] = [
         { file: 'halspumps-01', alt: 'HALS coolant pumps', caption: 'Coolant Pump' },
       ] },
     ],
-    catalogues: [{ label: 'HALS grease pumps', href: 'https://utm.guru/HTS-HALS-GP' }],
     note: 'Live page is four product photos with labels only. Needs supplier photos and, ideally, short descriptions from the client.',
   },
   {
@@ -269,10 +257,6 @@ export const products: Product[] = [
       ] },
       { type: 'p', text: 'Also available: automatic tool changers, EOAT components and locators.' },
     ],
-    catalogues: [
-      { label: 'End-of-arm tooling, all', href: 'https://utm.guru/HTS-CRG-All' },
-      { label: 'Quick changer', href: 'https://utm.guru/HTS-CRG-QuickChanger' },
-    ],
   },
   {
     slug: 'macosystemretrofit',
@@ -308,7 +292,6 @@ export const products: Product[] = [
       { type: 'p', text: 'This cost-effective, compact programmable logic controller offers integrated, high-performance machine control. It is expandable to meet diverse application needs and connects to plant-wide systems through Ethernet communications.' },
       { type: 'p', text: 'Using DSP technology, it achieves rapid response times, making it a versatile choice for precision control.' },
     ],
-    catalogues: [{ label: 'MACO retrofits', href: 'https://utm.guru/HTS-MacoRF' }],
   },
   {
     slug: 'mouldcleaner',
@@ -334,7 +317,6 @@ export const products: Product[] = [
       { type: 'h3', text: 'Five in, five out mould cleaner' },
       { type: 'ul', items: ['80 L tank capacity', '8 kg pulse pressure', '3 kW water pump', 'Fast, medium and slow pulse function', 'Automatic blow drying', 'Automatic error alarm'] },
     ],
-    catalogues: [{ label: 'Mould cleaner', href: 'https://utm.guru/HTS-MC' }],
     note: 'Live page has before/after photos. Needs supplier images. Tile on live site used the HTS logo as a placeholder.',
   },
   {
@@ -367,7 +349,6 @@ export const products: Product[] = [
         'Real-time sensing: like other potentiometric sensors, these transducers provide real-time positional data.',
       ] },
     ],
-    catalogues: [{ label: 'Catalogue and price list', href: 'https://utm.guru/HTS-LP' }],
     note: 'DECISION NEEDED: the live page publishes a KTF Series part number and PRICE table (e.g. KTF-0050 $88.70 up to KTF-0360 $189.10, more rows below). It is omitted here until the client confirms whether prices should stay public. Also check the rest of the live page (lines 614-885 of live-site-copy.md) for further tables.',
   },
 ];

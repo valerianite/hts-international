@@ -1,11 +1,9 @@
 ---
 import Base from '../layouts/Base.astro';
-import { products } from '../data/products';
-// Catalogue links come from the live site. They currently go through utm.guru short links.
-// TODO: host the PDFs on this site (repo or Cloudflare R2) so downloads do not depend on a third-party redirector.
-const groups = products
-  .filter((p) => p.catalogues.length > 0)
-  .map((p) => ({ supplier: p.supplier, what: p.what, items: p.catalogues }));
+import { bySupplier, size } from '../lib/catalogues';
+// Catalogues come from src/data/catalogues.json (approved files only, checked at build time).
+// Hosted PDFs live in public/catalogues. Lone price lists are never published.
+const groups = bySupplier();
 ---
 <Base
   title="Catalogues | HTS International"
@@ -14,20 +12,28 @@ const groups = products
   <div class="pagehead"><div class="wrap">
     <p class="crumbs"><a href="/">Home</a> / Catalogues</p>
     <h1>Catalogues</h1>
-    <p>Download our range of catalogues.</p>
+    <p>Open or download our range of product catalogues.</p>
   </div></div>
   <section class="section">
     <div class="wrap grid cols-3">
       {groups.map((g) => (
         <div class="card">
           <h3>{g.supplier}</h3>
-          <p class="small" style="margin-bottom:10px">{g.what}</p>
-          <ul style="margin:0">
-            {g.items.map((c) => <li><a href={c.href} rel="noopener">{c.label}</a></li>)}
+          <ul class="cat-list">
+            {g.items.map((c) => c.comingSoon
+              ? <li><span>{c.label}</span> <span class="small">Coming soon</span></li>
+              : (
+                <li>
+                  <a href={c.href} target="_blank" rel="noopener">{c.label}</a>
+                  <span class="small">
+                    {c.external ? ' Opens in a new tab' : ` PDF, ${size(c.bytes)}${c.pages ? `, ${c.pages} pages` : ''}`}
+                  </span>
+                  {!c.external && <a class="small dl" href={c.href} download>Download</a>}
+                </li>
+              ))}
           </ul>
         </div>
       ))}
     </div>
-    <div class="wrap"><p class="small" style="margin-top:20px">Borche BM series catalogue: coming soon.</p></div>
   </section>
 </Base>

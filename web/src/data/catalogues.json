@@ -1,0 +1,204 @@
+{
+  "updated": "2026-11-23",
+  "hosted": [
+    {
+      "slug": "borche-bu-series",
+      "label": "BU Series",
+      "supplier": "Borche",
+      "product": "borch-imm",
+      "source": "Borch/HTS Borche BU-V Catalogue 2023-03-1.pdf",
+      "file": "/catalogues/borche-bu-series.pdf",
+      "bytes": 13593429,
+      "pages": 18,
+      "sha256": "62c9a814ed9c4b8aa5202c5e128331503073b9b591f461ff01b41bbc21bcb5f1",
+      "approvedOn": "2026-11-23"
+    },
+    {
+      "slug": "borche-bi-series",
+      "label": "Bi Series",
+      "supplier": "Borche",
+      "product": "borch-imm",
+      "source": "Borch/HTS Borche Bi Catalogue 2023-03-1.pdf",
+      "file": "/catalogues/borche-bi-series.pdf",
+      "bytes": 5741636,
+      "pages": 12,
+      "sha256": "b27c92bd61042eafd610db946bb71ec86a623148d8c8bd9016a9316133a96424",
+      "approvedOn": "2026-11-23"
+    },
+    {
+      "slug": "borche-bs-series",
+      "label": "BS Series",
+      "supplier": "Borche",
+      "product": "borch-imm",
+      "source": "Borch/HTS Borche BS-III Catalogue 2022-1.pdf",
+      "file": "/catalogues/borche-bs-series.pdf",
+      "bytes": 10230751,
+      "pages": 16,
+      "sha256": "b9bd70c96e47d4436b30a2281b637fd91bdd4cba5662728584d80700182f836a",
+      "approvedOn": "2026-11-23"
+    },
+    {
+      "slug": "borche-bd-series",
+      "label": "BD Series",
+      "supplier": "Borche",
+      "product": "borch-imm",
+      "source": "Borch/HTS Borche BD3 Catalogue 2023-03-1.pdf",
+      "file": "/catalogues/borche-bd-series.pdf",
+      "bytes": 7626925,
+      "pages": 16,
+      "sha256": "1d070cd54c6de8776a450498569ff40281b370e2dbee0647ce35a2408c16292e",
+      "approvedOn": "2026-11-23"
+    },
+    {
+      "slug": "borche-bi-m-series",
+      "label": "Bi-M Series",
+      "supplier": "Borche",
+      "product": "borch-imm",
+      "source": "Borch/HTS Borche Bi-M Catalogue 2023-03-1.pdf",
+      "file": "/catalogues/borche-bi-m-series.pdf",
+      "bytes": 4106279,
+      "pages": 10,
+      "sha256": "0253011f1197f7e3bcad4c4a9e7fecbc62ce3fbc05426af17747f011697b62ba",
+      "approvedOn": "2026-11-23"
+    },
+    {
+      "slug": "borche-bi-m-upvc",
+      "label": "Bi-M-UPVC Series",
+      "supplier": "Borche",
+      "product": "borch-imm",
+      "source": "Borch/HTS Borche BI-m-UPVC-2023-03.pdf",
+      "file": "/catalogues/borche-bi-m-upvc.pdf",
+      "bytes": 2439089,
+      "pages": 2,
+      "sha256": "80e91aa2bd5bf4287d338b2aff7cf6aff1c596e666391047c24f53db7d9eb3b8",
+      "approvedOn": "2026-11-23"
+    },
+    {
+      "slug": "borche-a-screw-pet",
+      "label": "A Screw PET",
+      "supplier": "Borche",
+      "product": "borch-imm",
+      "source": "Borch/HTS Borche A Screw PET Catalogue 2022-12-1.pdf",
+      "file": "/catalogues/borche-a-screw-pet.pdf",
+      "bytes": 5102075,
+      "pages": 10,
+      "sha256": "f09612efae841cb32c9f16107a6cdf47770200cba68ecfd46722eabab480f654",
+      "approvedOn": "2026-11-23"
+    },
+    {
+      "slug": "borche-pallet-lines",
+      "label": "Pallet lines",
+      "supplier": "Borche",
+      "product": "borch-imm",
+      "source": "Borch/Borche_Pallet_Lines.pdf",
+      "note": "New file (Nov 2026); no product page yet.",
+      "file": "/catalogues/borche-pallet-lines.pdf",
+      "bytes": 1468927,
+      "pages": 2,
+      "sha256": "3f422095ce11483f4ec82165ab4d50077dd47b8c4f2911825c7796de3e617923",
+      "approvedOn": "2026-11-23"
+    },
+    {
+      "slug": "wensui-catalogue",
+      "label": "Wensui catalogue",
+      "supplier": "Wensui",
+      "product": "wensui",
+      "source": "Wensui/HTS - Wensui Catalog 2025.pdf",
+      "file": "/catalogues/wensui-catalogue.pdf",
+      "bytes": 16287061,
+      "pages": 73,
+      "sha256": "e2b4a22e97a8d8e25a2074dbfc8b07a90917860e4a59ecbe0b9f2d3f5ebbd93b",
+      "approvedOn": "2026-11-23"
+    },
+    {
+      "slug": "crg-quick-changer",
+      "label": "Quick changer",
+      "supplier": "CRG",
+      "product": "crg-eoat",
+      "source": "CRG/HTS CRG Quick Changer.pdf",
+      "file": "/catalogues/crg-quick-changer.pdf",
+      "bytes": 8832742,
+      "pages": 26,
+      "sha256": "6e7a49d6a843e290a6d1c665f396167a7bb40519719af97eb2688d9b3587d306",
+      "approvedOn": "2026-11-23"
+    },
+    {
+      "slug": "anhyup-safety-mats",
+      "label": "Safety mats",
+      "supplier": "Anhyup",
+      "product": "safety-mats",
+      "source": "ANHYUP/HTS Safety Mat Catalogue - 20-09-23.pdf",
+      "file": "/catalogues/anhyup-safety-mats.pdf",
+      "bytes": 5863183,
+      "pages": 9,
+      "sha256": "eb8ec0b71d681263a7c557631b4cfe6dcc86922beb308ce0317a81845bbe6262",
+      "approvedOn": "2026-11-23"
+    },
+    {
+      "slug": "hals-grease-pumps",
+      "label": "Grease pumps",
+      "supplier": "HALS",
+      "product": "halspumps",
+      "source": "HALS/HTS - HALS Grease Pumps.pdf",
+      "file": "/catalogues/hals-grease-pumps.pdf",
+      "bytes": 2410008,
+      "pages": 14,
+      "sha256": "d5629bd34afbd97532092c62f7bec265a1ca80deaab106b6f8573d1c7b0c88fb",
+      "approvedOn": "2026-11-23"
+    },
+    {
+      "slug": "maco-retrofits",
+      "label": "MACO retrofits",
+      "supplier": "MACO",
+      "product": "macosystemretrofit",
+      "source": "Maco - Retrofits/HTS Maco Retrofit.pdf",
+      "file": "/catalogues/maco-retrofits.pdf",
+      "bytes": 1181505,
+      "pages": 3,
+      "sha256": "14d3764b2f7a636bcad5cd05cc2189167c0efa0b14485943119d3f1f9a47be76",
+      "approvedOn": "2026-11-23"
+    },
+    {
+      "slug": "hengfei-mould-cleaning",
+      "label": "Mould cleaner",
+      "supplier": "Hengfei",
+      "product": "mouldcleaner",
+      "source": "Hengfei/HTS - Mould Cleaning.pdf",
+      "file": "/catalogues/hengfei-mould-cleaning.pdf",
+      "bytes": 15199569,
+      "pages": 12,
+      "sha256": "8ba1916ff369de71b8ed3869620223adc36f062f0d3c62b974dfdb4a4a0c2213",
+      "approvedOn": "2026-11-23"
+    },
+    {
+      "slug": "linear-potentiometers",
+      "label": "Catalogue and price list",
+      "supplier": "Linear potentiometers",
+      "product": "linearpotentiometer",
+      "source": "Miran Tech/HTS - Linear Potentiometers.pdf",
+      "note": "Catalogue that includes list-price pages (pages 4 and 6): allowed (price list inside a catalogue). Same as the old site.",
+      "file": "/catalogues/linear-potentiometers.pdf",
+      "bytes": 953848,
+      "pages": 6,
+      "sha256": "a09c94e4b9cc7a36344a27cf071ab4c50a4dd516d6d4af77b650f441b77963e4",
+      "approvedOn": "2026-11-23"
+    }
+  ],
+  "external": [
+    {
+      "slug": "crg-full-catalogue",
+      "label": "End-of-arm tooling: full catalogue",
+      "supplier": "CRG",
+      "product": "crg-eoat",
+      "href": "https://utm.guru/HTS-CRG-All",
+      "note": "TEMPORARY: client OneDrive link. Replace with a hosted file when the client supplies a version under 25 MiB (current CRG 5.3 is 35 MB)."
+    },
+    {
+      "slug": "borche-bm-series",
+      "label": "BM Series",
+      "supplier": "Borche",
+      "product": "borch-imm",
+      "comingSoon": true
+    }
+  ]
+}

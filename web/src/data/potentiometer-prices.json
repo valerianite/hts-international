@@ -1,5 +1,5 @@
 {
-  "source": "Live hts.international page captured 2026-11-23; cross-checked against the catalogue PDF (Miran Tech / Linear Potentiometers, published 04-07-2024).",
+  "source": "Live hts.international page captured 2026-11-23, cross-checked against the catalogue PDF (Miran Tech / Linear Potentiometers, published 04-07-2024). KTC1-0225 follows the catalogue ($146.60), confirmed correct by the client on 2026-11-27.",
   "note": "Quoted prices are in AUD and exclusive of GST and local delivery charges.",
   "warranty": "2 year warranty as standard.",
   "shippingNote": "Additional shipping charges apply to the items marked ^. Please contact us for more information.",
@@ -323,7 +323,7 @@
         {
           "part": "KTC1-0225",
           "description": "Linear potentiometer, pull rod 225 mm",
-          "price": "146.20",
+          "price": "146.60",
           "shipping": false
         },
         {

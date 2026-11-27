@@ -432,7 +432,7 @@ export const products: Product[] = [
       { type: 'h3', text: 'Are our linear potentiometers compatible with European models?' },
       { type: 'p', text: 'Yes, our range of linear potentiometers is compatible with the European TLH and LWH series. They are designed to be plug and play, for easy integration with these European models.' },
     ],
-    note: 'Prices ARE published here (client confirmed 2026-11-23), copied from the live page and cross-checked against the catalogue PDF. DISCREPANCY to confirm with the client: KTC1-0225 is $146.20 on the old web page but $146.60 in the catalogue PDF; this site shows the web-page value. The 8 highest KTF rows (marked ^, extra shipping) appear on the web page but not in the PDF. Spec tables were transcribed from the two screenshots on the old page (originals only 364 px wide): ask the client to check them.',
+    note: 'Prices ARE published here (client confirmed 2026-11-23), copied from the live page and cross-checked against the catalogue PDF. KTC1-0225 is $146.60 (the catalogue is correct; the old web page said $146.20; confirmed by the client 2026-11-27). The 8 highest KTF rows (marked ^, extra shipping) appear on the web page but not in the PDF. Spec tables were transcribed from the two screenshots on the old page (originals only 364 px wide): ask the client to check them.',
   },
 ];
 

@@ -58,7 +58,7 @@ Known problems with the source images:
 - `home-03` (hero composite) is only 820 px wide and looks soft when stretched. Needs a better hero image.
 - The CRG tooling thumbnails are 300 x 200: thumbnail use only.
 - `linearpotentiometer-01` and `-screenshot-…` are screenshots of spec tables. Rebuild them as HTML tables.
-- Supplier logos and photos belong to the suppliers. Confirm usage permission before launch.
+- Supplier logos and photos belong to the suppliers; the client confirmed on 2026-11-27 that permission to use them is in place.
 
 Catalogue PDFs: only the Safety Mats catalogue (5.6 MB) is hosted on Wix. The other 15 are on the client's OneDrive/SharePoint behind `utm.guru` short links and need to be supplied by the client. Cloudflare's per-file limit is 25 MiB.
 
@@ -89,6 +89,10 @@ Catalogues come from the client's private repo (`blakehlive/HTS-Catalogues`, nev
 Decisions: Topstar catalogues stay off the site; Borche Hi-Rez duplicates are not hosted; the CRG 5.3 full catalogue (35 MB) is over the limit, so the CRG page links to the client's OneDrive file until a version under 25 MiB is supplied (`external` entry in `catalogues.json`, marked TEMPORARY).
 
 **Updating a hosted catalogue:** replace the file in `public/catalogues/` with the new version from the client's repo (keep the same file name so the URL doesn't change), update that entry's `sha256`, `bytes`, `pages` and `approvedOn` in `catalogues.json`, then `npm run build`. **Adding a new catalogue:** add an entry (and the file) only after confirming it is a catalogue and not a price list. Pushing is a separate step that needs an explicit instruction.
+
+## Launch
+
+See ../site/LAUNCH-CHECKLIST.md (DNS facts, cutover steps, rollback, post-launch). Sitemap (/sitemap-index.xml) and robots.txt are in place; the noindex header in public/_headers is removed on launch day. `node scripts/capture-screenshots.mjs <baseUrl> <outDir>` takes full-page desktop and mobile screenshots of every sitemap page (used for the before/after case study).
 
 ## Open items before launch
 

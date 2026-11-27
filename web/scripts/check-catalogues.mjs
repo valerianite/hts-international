@@ -5,7 +5,8 @@
 // Rules:
 //  - every PDF in public/catalogues must be listed in src/data/catalogues.json ("hosted")
 //  - its SHA-256 must match the approved entry (content changes go through the approval/update routine)
-//  - its filename and its source path must not look like a price list, Hi-Rez duplicate, Topstar, archive or terms of sale
+//  - its filename and its source path must not look like a price list, Hi-Rez duplicate, Topstar, archive, terms of sale or pallet lines (client rule: never show pallet lines)
+//  - no "coming soon" catalogue entries (client rule: leave them off until the file exists)
 //  - it must be under 25 MiB (Cloudflare Workers static assets per-file limit)
 //  - every hosted entry must have its file present
 import fs from 'node:fs';
@@ -16,9 +17,10 @@ const root = path.resolve(import.meta.dirname, '..');
 const dir = path.join(root, 'public', 'catalogues');
 const data = JSON.parse(fs.readFileSync(path.join(root, 'src/data/catalogues.json'), 'utf8'));
 const LIMIT = 25 * 1024 * 1024;
-const BLOCKED = /price|pricing|rrp|quote|hi-?rez|topstar|archive|terms[- ]of[- ]sale/i;
+const BLOCKED = /price|pricing|rrp|quote|hi-?rez|topstar|archive|terms[- ]of[- ]sale|pallet/i;
 
 const errors = [];
+for (const e of [...data.hosted, ...data.external]) if (e.comingSoon) errors.push(`${e.slug || e.label}: "coming soon" catalogues must be left off the site (client rule).`);
 const files = fs.existsSync(dir) ? fs.readdirSync(dir) : [];
 const byFile = new Map(data.hosted.map((e) => [path.basename(e.file), e]));
 

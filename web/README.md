@@ -70,6 +70,14 @@ Text was copied from the old pages with Australian spelling and the old "contact
 
 Two thin Borche pages (BE all-electric, BH high-speed) exist on the old site but are not linked from anywhere and have no catalogue in the client's repo; not ported.
 
+## Client content rules (enforced by the build)
+
+- Lone price lists are never published (see below). Price lists inside a catalogue are fine.
+- Pallet lines / pallet moulding are never shown as a product or catalogue (the machines themselves are fine). The catalogue guard rejects any file with "pallet" in its name, and the forbidden-terms check fails the build on pallet product wording.
+- "Coming soon" catalogues are left off the site until the file exists; the catalogue guard rejects "coming soon" entries and the forbidden-terms check fails on "coming soon" text.
+- No mention of the client's holding entity, and none of the removed supplier range.
+- When catalogues are updated, the client contact (blake@hts.international) is emailed a short note listing the updated catalogues. The Monday check does this automatically after it stages an update, never mentions held-back or excluded files, and never emails anyone else.
+
 ## Catalogue PDFs
 
 Catalogues come from the client's private repo (`blakehlive/HTS-Catalogues`, never linked to publicly because it also holds price lists and legal documents). Approved files are copied into `public/catalogues/` under stable, URL-safe names (e.g. `/catalogues/borche-bu-series.pdf`) and described in `src/data/catalogues.json` (label, supplier, product page, source path in the client's repo, size, page count and SHA-256). The Catalogues page and each product page read that file.

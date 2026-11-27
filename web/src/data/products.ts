@@ -50,7 +50,7 @@ export const products: Product[] = [
       { type: 'h2', text: 'Machine series' },
       { type: 'children' },
     ],
-    note: 'Live page shows a photo per series. Needs supplier photos (BS-III, Bi, BM, BU, Bi-M). BM catalogue is "Coming soon" on the live site.',
+    note: 'Live page shows a photo per series. Needs supplier photos (BS-III, Bi, BM, BU, Bi-M).',
   },
   {
     slug: 'wensui',

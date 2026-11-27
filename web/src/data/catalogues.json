@@ -86,19 +86,6 @@
       "approvedOn": "2026-11-23"
     },
     {
-      "slug": "borche-pallet-lines",
-      "label": "Pallet lines",
-      "supplier": "Borche",
-      "product": "borch-imm",
-      "source": "Borch/Borche_Pallet_Lines.pdf",
-      "note": "New file (Nov 2026); no product page yet.",
-      "file": "/catalogues/borche-pallet-lines.pdf",
-      "bytes": 1468927,
-      "pages": 2,
-      "sha256": "3f422095ce11483f4ec82165ab4d50077dd47b8c4f2911825c7796de3e617923",
-      "approvedOn": "2026-11-23"
-    },
-    {
       "slug": "wensui-catalogue",
       "label": "Wensui catalogue",
       "supplier": "Wensui",
@@ -192,13 +179,6 @@
       "product": "crg-eoat",
       "href": "https://utm.guru/HTS-CRG-All",
       "note": "TEMPORARY: client OneDrive link. Replace with a hosted file when the client supplies a version under 25 MiB (current CRG 5.3 is 35 MB)."
-    },
-    {
-      "slug": "borche-bm-series",
-      "label": "BM Series",
-      "supplier": "Borche",
-      "product": "borch-imm",
-      "comingSoon": true
     }
   ]
 }

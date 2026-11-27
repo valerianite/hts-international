@@ -20,17 +20,15 @@ const groups = bySupplier();
         <div class="card">
           <h3>{g.supplier}</h3>
           <ul class="cat-list">
-            {g.items.map((c) => c.comingSoon
-              ? <li><span>{c.label}</span> <span class="small">Coming soon</span></li>
-              : (
-                <li>
-                  <a href={c.href} target="_blank" rel="noopener">{c.label}</a>
-                  <span class="small">
-                    {c.external ? ' Opens in a new tab' : ` PDF, ${size(c.bytes)}${c.pages ? `, ${c.pages} pages` : ''}`}
-                  </span>
-                  {!c.external && <a class="small dl" href={c.href} download>Download</a>}
-                </li>
-              ))}
+            {g.items.map((c) => (
+              <li>
+                <a href={c.href} target="_blank" rel="noopener">{c.label}</a>
+                <span class="small">
+                  {c.external ? ' Opens in a new tab' : ` PDF, ${size(c.bytes)}${c.pages ? `, ${c.pages} pages` : ''}`}
+                </span>
+                {!c.external && <a class="small dl" href={c.href} download>Download</a>}
+              </li>
+            ))}
           </ul>
         </div>
       ))}

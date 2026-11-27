@@ -9,23 +9,24 @@ export interface Cat {
   product: string;
   href: string;
   external: boolean;
-  comingSoon: boolean;
   bytes?: number;
   pages?: number;
 }
 
 const hosted: Cat[] = data.hosted.map((h) => ({
   slug: h.slug, label: h.label, supplier: h.supplier, product: h.product,
-  href: h.file, external: false, comingSoon: false, bytes: h.bytes, pages: h.pages,
+  href: h.file, external: false, bytes: h.bytes, pages: h.pages,
 }));
 const external: Cat[] = data.external.map((e: any) => ({
   slug: e.slug, label: e.label, supplier: e.supplier, product: e.product,
-  href: e.href ?? '', external: !!e.href, comingSoon: !!e.comingSoon,
+  href: e.href ?? '', external: !!e.href,
 }));
 
 export const catalogues: Cat[] = [...hosted, ...external];
 
-export const forProduct = (product: string) => catalogues.filter((c) => c.product === product && !c.comingSoon);
+// Client rules: "coming soon" catalogues are never shown (leave them off until the file exists),
+// and pallet lines / pallet moulding must never be shown as a product or catalogue.
+export const forProduct = (product: string) => catalogues.filter((c) => c.product === product);
 
 export const supplierOrder = ['Borche', 'Wensui', 'CRG', 'Anhyup', 'HALS', 'MACO', 'Hengfei', 'Linear potentiometers'];
 export const bySupplier = () =>

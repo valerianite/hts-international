@@ -67,12 +67,12 @@ const cats = catalogues.filter((c) => c.product === view.parent);
           <div class="card">
             <h3>Catalogues</h3>
             <ul style="margin:0">
-              {cats.map((c) => c.comingSoon
-                ? <li>{c.label}: coming soon</li>
-                : <li>
-                    <a href={c.href} target="_blank" rel="noopener">{c.label}</a>
-                    <span class="small"> {c.external ? '(opens in a new tab)' : `(PDF, ${size(c.bytes)})`}</span>
-                  </li>)}
+              {cats.map((c) => (
+                <li>
+                  <a href={c.href} target="_blank" rel="noopener">{c.label}</a>
+                  <span class="small"> {c.external ? '(opens in a new tab)' : `(PDF, ${size(c.bytes)})`}</span>
+                </li>
+              ))}
             </ul>
           </div>
         )}
